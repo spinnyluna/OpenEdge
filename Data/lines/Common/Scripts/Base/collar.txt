@@ -1,0 +1,24 @@
+{
+	ISSETTING:collar GOTO:start
+	GOTO:end
+	(start)
+	STOPSTROKING:
+	ISFLAGT:collar GOTO:end
+	COMMAND: @collar
+	[@yes]
+	FLAGT:collar GOTO:cont1,cont2,cont3,cont4
+	(cont1)
+	good pet
+	GOTO:end
+	(cont2)
+	I own you
+	GOTO:end
+	(cont3)
+	doesn't that make you feel so much more submissive?
+	GOTO:end
+	(cont4)
+	collar goes on, mind goes off
+	GOTO:end
+
+	(end)    
+}

@@ -1,0 +1,1490 @@
+START: {
+CHANCE:20 ISSETTING:goon GOTO:goonStroke,gooner,cantWin,goodGooner
+GOTO:emptyYourHead,thoughtsAway,yourselfRelax,windDown,balloon,feelSafe,languidBreaths,brainSmart,noEffect,negatives,deepRelaxation,doneThisBefore
+
+(goodGooner)
+HYPNOSISPLUS:
+HYPNOSISON:
+be a good gooner 
+STROKEON:
+start stroking
+into a trance
+slowly
+meditatively 
+deliberately 
+moving your hand
+like the swinging of a pendulum
+it's easy
+to lose yourself
+in this slow rhythm 
+keep going
+slowly
+meditatively 
+deliberately 
+you're doing so well
+I'm so proud of you
+you're so good at stroking
+you deserve a reward
+##pleasure
+you deserve pleasure
+##pleasure
+you feel pleasure
+##pleasure
+you love pleasure
+as you stroke
+slowly
+meditatively 
+deliberately 
+good @boy
+just keep following along
+you love this
+your attention gets split
+between your cock
+and your mind
+it's so tiring 
+so tiring to do both
+let's give up on one
+you want to feel good
+##pleasure
+you want to feel pleasure
+so keep your cock
+give up on your mind
+just for a little while
+let me take care of it
+while you take care of your cock
+so you can feel good
+##pleasure
+so you can feel pleasure
+GOTO:end
+
+(cantWin)
+HYPNOSISPLUS:
+HYPNOSISON:
+STROKEOFF: 
+you can't hope to win against porn
+it just triggers you too much
+a flash of full tits
+a blip of a nice ass
+and back to stroking you go
+it must be hard to keep your hands away from your dick right now
+a gooner like you would have started stroking a long time ago
+but hold back
+breathe
+slowly
+and really take in the beauty
+breathe
+slowly
+in
+EMPTY
+hold
+EMPTY
+out
+EMPTY
+hold
+EMPTY
+and again
+in
+EMPTY
+hold
+EMPTY
+out
+EMPTY
+hold
+EMPTY
+just keep going like that
+##pleasure
+SINGLE: pleasure is sitting at the bottom of the spiral
+STROBEON:
+going deeper feels better
+SINGLE: so just stare deep
+let porn wash over you
+clouding your thoughts
+clouding your mind
+STROBEOFF:
+you like it
+porn is reaching deep inside
+SINGLE: leaving a rose-tinted mark on your thoughts
+you're doing great
+you're doing wonderful
+such a good @boy
+staring deep
+##pleasure
+feeling pleasure
+falling deep
+##pleasure
+feeling pleasure
+the world fades 
+it's just erotica
+##pleasure
+it's just pleasure
+slowly overwhelming you
+pulling you under
+GOTO:end
+
+(noEffect)
+HYPNOSISPLUS:
+HYPNOSISON:
+STROKEOFF: 
+you love this fantasy of hypnosis
+that's right, it's just a fantasy
+there's no way that this would affect you right?
+pretty words and colors
+SINGLE: intended to give you 
+##pleasure
+SNAP:
+STROBEON:
+pleasure
+STROBEOFF:
+you wouldn't fall to something like this
+and since this won't affect you
+just play along
+##breathe
+SINGLE: and breathe deep
+slow down your breath
+##focus
+SINGLE: focus on the pretty spiral 
+SINGLE: your eyes getting more and more strained
+SINGLE: as they try their hardest to follow my words
+SINGLE: but you don't have to follow them
+SINGLE: since they won't affect you
+SINGLE: you can 
+just stare 
+just sit
+just breathe
+just exist
+SINGLE: and let me take care of the rest
+I'll show you just how 
+SINGLE: little
+these words affect you
+GOTO:end
+
+(emptyYourHead)
+HYPNOSISPLUS:
+HYPNOSISON:
+STROKEOFF:
+##empty
+SINGLE: empty your head
+##obey
+slow your breathing
+EMPTY
+breathe in
+EMPTY
+hold it
+EMPTY
+breathe out
+EMPTY
+hold it
+EMPTY
+breathe in
+EMPTY
+hold it
+EMPTY
+breathe out
+EMPTY
+hold it
+EMPTY
+keep going
+GOTO:end
+
+(goonStroke)
+HYPNOSISPLUS:
+HYPNOSISON:
+STROKEOFF: 
+you're getting dumber with every stroke
+staring at your porn with empty eyes
+slowly drooling from both your mouth and your @cock
+as drip by drip
+your mind slowly drips down
+SINGLE: drip by drip
+your brain spills out
+I'll keep it safe
+just relax and focus on your porn
+focus on those pretty pictures 
+and breathe deep
+STROBEON:
+ignore me
+as I cross some wires
+and change some habits
+keep sitting there
+mouth open
+tongue dangling down
+squirming with dull eyes
+not quite awake
+not quite asleep
+STROBEOFF:
+just feeling good
+as you trance out slowly
+what's left of your mind fills with
+STROBEON:
+ISSETTING:feet TEMPTAG:Feet SINGLE: sweaty soles wrapped around your @cock
+ISSETTING:gay TEMPTAG:Cock SINGLE: throbbing cock deep down your throat
+SINGLE: TEMPTAG:Boobs the cute bouncing breasts of an e-girl
+you can't resist
+eyes fuzzing over
+STROBEOFF:
+until you stop seeing the individual parts
+and get consumed
+by all the porn combined
+GOTO:end
+
+(doneThisBefore)
+HYPNOSISPLUS:
+HYPNOSISON:
+STROKEOFF: 
+we've done this before
+so you know what to do
+just slow your breathing
+breathe in
+EMPTY
+hold it for a little while
+EMPTY
+and breathe out
+EMPTY
+exhaling all those bad feelings
+here you can rest
+just for a bit
+until you want to come back
+if you want to come back
+STROBEON:
+wouldn't it be nice
+to get stuck in trance
+to feel this forever
+and slowly tumble
+further and further out of reach
+of all those bad things
+just getting to feel good
+dopamine smothering you
+until you turn into a perfect little gooner
+addicted to this trance like feeling
+STROBEOFF:
+keep breathing slowly
+and sink deep
+you get to feel so good
+for as long as you want
+just give in
+SINGLE: and fall
+GOTO:end
+
+
+(deepRelaxation)
+HYPNOSISPLUS:
+HYPNOSISON:
+STROKEOFF: 
+hypnosis again?
+isn't it about time you to go under then?
+to start focusing on your breath
+SINGLE: slowing it down to a crawl
+we both know what's going to happen
+you're going to 
+STROBEON:
+##relax
+SINGLE: relax
+you're going to 
+#sink
+SINGLE: sink
+SINGLE: down deep down
+and as you do so
+I'll be giving you 
+##pleasure
+SNAP:
+SINGLE: pleasure
+STROBEOFF:
+even if you didn't want to drop at the start
+you give in to 
+##pleasure
+SNAP:
+SINGLE: pleasure
+as you always have
+as you always will
+GOTO:end
+
+(negatives)
+HYPNOSISPLUS:
+HYPNOSISON:
+STROKEOFF: 
+you know
+hypnotized people aren't the most focused
+shocker right?
+you'll be acting on your subconscious alone
+so it's easy for words to get twisted in that haze
+while tranced it's harder to recognize negatives
+so saying something like 
+SINGLE: don't drop for me
+will have the same effect as asking you to 
+SINGLE: drop for me
+similar to telling someone 
+SINGLE: not 
+to think about something
+you'll get dragged down all the same
+just do as you're told, same as always
+if you find out you've misread a command 
+let it go and keep going
+STROBEON:
+SINGLE: just read along
+SINGLE: don't let the words reach you 
+SINGLE: as you read along 
+SINGLE: you'll be reading 
+SINGLE: you really don't have to understand
+SINGLE: you really don't have to comprehend
+SINGLE: as you wouldn't be dropping
+SINGLE: I haven't not started yet after all
+SINGLE: it's not getting hard to follow along, isn't it?
+SINGLE: what are you supposed to do when up becomes down?
+SINGLE: but down wouldn't become up
+SINGLE: would it?
+SINGLE: but what if it would?
+SINGLE:if down is down
+SINGLE:and up is down
+SINGLE:there's nowhere else to go but down
+SINGLE:but that wouldn't happen, right?
+SINGLE:not unless you didn't think things through
+SINGLE:you haven't had no time to catch up
+SINGLE:it's not like you wouldn't slack behind?
+SINGLE:don't let the other lines go and follow along
+SINGLE:don't slow down to understand 
+SINGLE:it's not like there's nothing to misunderstand here
+SINGLE:I wouldn't project a stream of consciousness
+SINGLE:just to not tangle you up 
+SINGLE:since there's no web of negatives
+SINGLE:not slowly wrapping around nowhere 
+SINGLE:it's not all white noise
+SINGLE:don't try to understand as it can't be understood 
+STROBEOFF:
+GOTO:end
+
+
+
+(gooner)
+take some time to calm down
+HYPNOSISPLUS:
+HYPNOSISON:
+STROKEOFF:
+really relax yourself
+slow your breathing
+EMPTY
+breathe in
+EMPTY
+hold it
+EMPTY
+breathe out
+EMPTY
+hold it
+STROBEON:
+arc your back
+really stretch it out
+that feels good right
+like all troubles get squashed for a bit
+you've admitted to being a dirty little gooner
+but that's while you're horny and desperate
+I'm going to drill it into your mind
+so you're never going to forget your place in the world
+even when I'll eventually make you cum
+good gooners 
+SINGLE: stroke and edge
+good gooners 
+SINGLE: squirm and stare
+good gooners
+SINGLE: breathe deep
+good gooners
+SINGLE: relax
+STROBEOFF:
+SINGLE: let me mold that brain
+you weren't using it anyway
+I'll fashion it into something
+SINGLE: more fitting
+for a @gooner like you
+GOTO:end
+
+(knelt)
+KNEEL:
+there are many ways to indoctrinate someone
+the most effective versions often include some way of ranking people
+whether it's a military institution or a cult
+there's always a pyramid shaped command structure to them
+with the vague promise of an increase in rank if you try really hard
+we don't have a relationship like that
+I mean there's only one of you and one of me, so a pyramid structure is a bit much to ask for
+and no matter how good you get at stroking, I'm never going to let you off your knees
+so, what do I have to motivate you then?
+HYPNOSISPLUS:
+HYPNOSISON:
+STROKEOFF:
+that's quite simple
+STROBEON:
+##pleasure
+SNAP:
+I can give you pleasure
+I don't need a pyramid to push me up
+just standing, I'll tower over you 
+SINGLE: you seem even weaker than normal 
+but you like that
+you like how much power I hold
+how large the difference is between us 
+your will has withered to almost nothing
+while my demands have only grown
+so the difference between us has grown as well
+SINGLE: how fragile has your will gotten in comparison to mine?
+your willpower easily fits on the tip of my thumb
+and in one smooth motion, I flick it away
+##pleasure
+SNAP:
+SINGLE: pleasure
+you should ignore your will
+and succumb to mine
+it's so much more powerful 
+STROBEOFF:
+I'll keep you safe
+GOTO:end
+
+(thoughtsAway)
+HYPNOSISPLUS:
+HYPNOSISON:
+STROKEOFF:
+lets wipe those thoughts away for a minute
+keep your breathing slow
+breathing in desire
+EMPTY
+it travels down your throat
+refreshes and rejuvenates you
+breathing out resistance
+EMPTY
+hot air moving upwards as you blow it out
+and before you know it
+STROBEON:
+in comes more desire
+EMPTY
+breath after breath
+STROBEOFF:
+pooling deep inside of you
+it feels good
+the cool air is making you so relaxed
+GOTO:end
+
+(yourselfRelax)
+HYPNOSISPLUS:
+HYPNOSISON:
+STROKEOFF:
+feel yourself relax
+as you slow your breathing
+stretch for me
+put tension in your arms and legs
+and release it
+match your breath to it
+stretch and suck in air
+hold that pose for a little while
+and
+release, breathing out as you do so
+feel your fatigue dissipating
+stretch once more
+hold
+release
+do you feel that heat
+heat in your arms
+heat in your legs
+maybe even in your fingers
+or the soles of your feet
+it feels nice
+it's so relaxing
+keep your breathing slow
+GOTO:end
+
+(windDown)
+HYPNOSISPLUS:
+HYPNOSISON:
+STROKEOFF:
+it's time to wind down
+both your body
+and your mind
+just relax
+just breathe
+just feel the air flow
+in then out
+out then in
+forever repeating
+a mantra in your mind
+STROBEON:
+in then out
+out then in
+again and again
+in then out
+out then in
+you can't stop breathing
+so you can't stop sinking
+in then out
+STROBEOFF:
+out then in
+GOTO:end
+
+(balloon)
+HYPNOSISPLUS:
+HYPNOSISON:
+STROKEOFF:
+I want you to imagine something for me
+there is a big balloon
+a balloon filled with helium
+it's constantly pulling upwards
+trying to float to the clouds
+but you're holding on to the string
+preventing it from ever leaving
+but it's such a big balloon
+STROBEON:
+it's pulling so hard
+and it takes so much effort
+your arm growing numb from the exertion
+STROBEOFF:
+the numbness travels to your shoulder
+and you can't hold on anymore
+just let the balloon float away
+up up up, into the clouds
+out of sight
+out of mind
+GOTO:end
+
+(feelSafe)
+you can be sure I won't ever do something to harm you
+everything I do, is what you've asked me to do
+and because of this you can just
+HYPNOSISPLUS:
+HYPNOSISON:
+STROKEOFF:
+let go
+of your worries
+of your stresses
+even of your desires
+you can just relax
+and focus on your breathing
+slow your breath
+down to a crawl
+hold it for a while
+and release slowly
+you're safe here
+so you can just
+let go
+just rest
+you've earned it
+your breathing slowing
+becoming deep and languid
+as if the breaths themselves
+were covered in syrup
+a sweet treat
+dragging you down
+GOTO:end
+
+(languidBreaths)
+HYPNOSISPLUS:
+HYPNOSISON:
+STROKEOFF:
+take deep and languid breaths
+you want to sink for me don't you?
+you long to put that brain away for a little bit
+with your body sitting here mindless
+it just wants to feel good
+I want you to visualize a cage for me
+a cube of steel made up of gleaming bars
+it's sitting at the bottom of the spiral
+an open door in front of you
+just one step will take you inside
+I'm standing behind you
+a key sits in my hands
+I motion towards the door
+SINGLE: and your mind steps inside
+the door closes behind you
+followed by the click of a lock
+bars surround you
+SINGLE: your mind locked away
+in a cage of my making
+I've got the key
+trust me with it
+I'll give it back in due time
+GOTO:end 
+
+(brainSmart)
+HYPNOSISPLUS:
+HYPNOSISON:
+STROKEOFF:
+your brain is smart
+too smart for it's own good
+all those thoughts make it so hard
+and we want your mind to be soft
+soft and malleable
+so let me help you
+STROBEON:
+let me melt that mind a bit
+SINGLE: until it comes oozing out of your ears
+just like a putty or a slime
+but things tend to get stuck in them
+putty will get full of dirty things
+if your mind is like putty
+things will get stuck
+things will get mingled
+so mixed together
+that it becomes one mass
+my words and training
+the same as your own thoughts
+forever a part of you
+it's fine though
+you like being a bit dirty
+STROBEOFF:
+tainted by my color
+GOTO:end
+
+(backDown)
+STROBEOFF:
+I want you to blink 
+SINGLE: SNAP: alert again
+SINGLE: SNAP: awake alert ready prepared
+HYPNOSISOFF:
+STROKEOFF:
+SNAPDOUBLE:
+focus @subTitle
+and get ready
+since you're not quite done 
+HYPNOSIS:
+GOTO:end
+}
+
+{
+stare at the
+pretty spiral
+##stare
+round
+##stare
+and 
+##stare
+round
+and 
+round
+spinning
+winding
+eyes glazed over
+as you
+STROBEON:
+##drop
+SNAP:
+DROP
+HYPNOSISPLUS:
+SUBLIMINALAUDIOON:
+STROKEON:
+deep into trance
+##down
+down down down
+##deeper
+deeper deeper deeper
+resistance dropping
+dropping like your mind
+##lower
+lower lower lower
+##pleasure
+SNAP:
+pleasure
+HYPNOSISPLUS:
+drop down into trance
+##can't resist
+you could resist if you wanted to
+but you're not going to do that
+you'll sit there
+##glazed eyes
+with glazed over eyes
+##obey
+mouth open
+##drool
+thinking is so hard
+##drool
+you don't want to think
+you just want to feel
+##pleasure
+SNAP:
+pleasure
+HYPNOSISPLUS:
+EMPTY
+##pleasure
+SNAP:
+obey
+HYPNOSISPLUS:
+EMPTY
+##pleasure
+SNAP:
+pleasure
+HYPNOSISPLUS:
+EMPTY
+##pleasure
+SNAP:
+submit
+HYPNOSISPLUS:
+EMPTY
+##pleasure
+SNAP:
+pleasure
+HYPNOSISPLUS:
+EMPTY
+##pleasure
+SNAP:
+follow
+HYPNOSISPLUS:
+EMPTY
+you can feel so
+##pleasure
+SNAP:
+good
+HYPNOSISPLUS:
+EMPTY
+give in to
+##pleasure
+SNAP:
+pleasure
+HYPNOSISPLUS:
+EMPTY
+##edge
+SNAP:
+edge for me
+HYPNOSISPLUS:
+EMPTY
+##pleasure
+SNAP:
+pleasure
+EMPTY
+so deep
+##pleasure
+SNAP:
+pleasure
+EMPTY
+can't think
+##pleasure
+SNAP:
+pleasure
+EMPTY
+can't look away
+EMPTY
+##pleasure
+SNAP:
+pleasure
+EMPTY
+stare at the spiral
+EMPTY
+##pleasure
+SNAP:
+pleasure
+##pleasure
+SNAP:
+pleasure
+EMPTY
+feels good
+##pleasure
+SNAP:
+pleasure
+EMPTY
+SNAP:
+happy
+##pleasure
+SNAP:
+pleasure
+SNAP:
+fulfilled
+##pleasure
+SNAP:
+pleasure
+you look so cute
+##pleasure
+SNAP:
+pleasure
+STROBEOFF:
+a blank face suits you
+}
+
+ISFLAGT:petPlay
+{
+feel yourself sink
+sink deep into a warm bed
+it's comfortable
+it feels like home
+it feels safe
+you feel so sleepy
+so drowsy
+so droopy
+lay down on that warm bed
+you'll do as your @missTitle commands
+and I'm telling you to
+STROBEON:
+##drop
+SNAP:
+DROP
+HYPNOSISPLUS:
+SUBLIMINALAUDIOON:
+STROKEON:
+don't worry, I'm watching over you
+I'm next to you
+##I want to be close
+you want to be close
+##I want to snuggle
+you want to snuggle
+##I want to be pet
+you want to be pet
+you are so cute
+you should be a
+##pleasure
+SNAP:
+good pet
+HYPNOSISPLUS:
+EMPTY
+you want to be a
+##pleasure
+SNAP:
+good pet
+EMPTY
+you need to be a
+##pleasure
+SNAP:
+good pet
+HYPNOSISPLUS:
+EMPTY
+you are going to be a
+##pleasure
+SNAP:
+good pet
+EMPTY
+##collared
+you want to be collared
+##pleasure
+SNAP:
+good pet
+HYPNOSISPLUS:
+EMPTY
+##trained
+you want to be trained
+##pleasure
+SNAP:
+good pet
+EMPTY
+##obey
+nothing makes you happier than obeying
+##pleasure
+SNAP:
+good pet
+HYPNOSISPLUS:
+EMPTY
+##cute
+looking cute for your owner
+##pleasure
+SNAP:
+good pet
+EMPTY
+##obey
+acting obedient like a
+##pleasure
+SNAP:
+good pet
+HYPNOSISPLUS:
+EMPTY
+##collar
+you love your collar
+##pleasure
+SNAP:
+good pet
+EMPTY
+##edge
+rub your @cock and edge
+##pleasure
+SNAP:
+HYPNOSISPLUS:
+good pets don't cum
+EMPTY
+##pleasure
+SNAP:
+good pets edge
+EMPTY
+##pleasure
+SNAP:
+are you a good pet?
+EMPTY
+##pleasure
+SNAP:
+HYPNOSISPLUS:
+do you want to be a good pet?
+EMPTY
+##pleasure
+SNAP:
+do you have to be a good pet?
+EMPTY
+ISSETTING:cat GOTO:catCont
+bark for me
+##pleasure
+SNAP:
+HYPNOSISPLUS:
+be a good pup and bark
+EMPTY
+##pleasure
+SNAP:
+bark
+##pleasure
+SNAP:
+bark
+##pleasure
+SNAP:
+bark
+##pleasure
+SNAP:
+bark
+##pleasure
+SNAP:
+bark
+##pleasure
+SNAP:
+bark
+GOTO:petEnd
+(catCont)
+meow for me
+##pleasure
+SNAP:
+HYPNOSISPLUS:
+be a good kitten and meow
+EMPTY
+##pleasure
+SNAP:
+meow
+##pleasure
+SNAP:
+meow
+##pleasure
+SNAP:
+meow
+##pleasure
+SNAP:
+meow
+##pleasure
+SNAP:
+meow
+##pleasure
+SNAP:
+meow
+(petEnd)
+you've made me so proud
+you're such a 
+##pleasure
+SNAP:
+good pet
+you love this
+ISSETTING:cat you love to meow
+ISFLAG:dog you love to bark
+STROBEOFF:
+you love being a pet
+and you love your owner
+}
+
+{
+you wanted this
+you asked for this
+so let me take you
+STROBEON:
+##down
+SNAP:
+DOWN
+HYPNOSISPLUS:
+SUBLIMINALAUDIOON:
+STROKEON:
+##deeper
+SNAP:
+down deeper down
+HYPNOSISPLUS:
+##more
+SNAP:
+down another level
+HYPNOSISPLUS:
+##down
+SNAP:
+you can go down
+HYPNOSISPLUS:
+##down
+SNAP:
+you're going down
+HYPNOSISPLUS:
+##more
+SNAP:
+down another level
+HYPNOSISPLUS:
+##deeper
+SNAP:
+down deeper down
+HYPNOSISPLUS:
+##deeper
+SNAP:
+so deep now
+HYPNOSISPLUS:
+##down
+SNAP:
+so down now
+HYPNOSISPLUS:
+##down
+SNAP:
+you will go down further
+##falling
+SNAP:
+always falling
+##faster
+SNAP:
+faster and faster
+##down
+SNAP:
+plummeting down
+##down
+SNAP:
+down, down, down
+##open
+SNAP:
+you're open
+##change
+SNAP:
+open to change
+##easy
+SNAP:
+you're easy
+##bend
+SNAP:
+easy to bend
+##simple
+SNAP:
+you're simple
+##mold
+SNAP:
+simple to mold
+you're comfortable
+comfortable with the idea of
+##change
+SNAP:
+change
+EMPTY
+comfortable with the idea of
+handing over control
+to give the power to alter
+to adjust and steer
+you can't handle the responsibility
+the stress of consequence
+so my little hypnoslut
+hand it over to me
+let me change you
+STROBEOFF:
+trust me with your senses
+}
+
+{
+you're such a good @boy for me
+##I want to obey
+and good @boys want to obey
+##I want to drop
+good @boys want to drop
+##yes @missTitle
+are you a good @boy?
+##drop
+SNAP:
+then DROP
+HYPNOSISPLUS:
+SUBLIMINALAUDIOON:
+STROKEON:
+##falling
+feel yourself falling
+falling forward
+falling under my control
+faster and faster you fall
+sucked into my influence
+##drop
+SNAP:
+as you DROP
+HYPNOSISPLUS:
+##pleasure
+SNAP:
+good @boy
+you like that
+you like getting praised
+it's only fair
+##pleasure
+SNAP:
+you're so good at holding back
+HYPNOSISPLUS:
+##pleasure
+SNAP:
+you're so good at obeying
+HYPNOSISPLUS:
+because you are a
+##pleasure
+SNAP:
+good @boy
+HYPNOSISPLUS:
+##pleasure
+SNAP:
+good @boy
+##pleasure
+SNAP:
+good @boy
+HYPNOSISPLUS:
+you want to cum
+but you need permission
+precum is oozing out
+making your cock
+sticky and needy
+desperate for release
+but you can't
+##pleasure
+SNAP:
+you're a good @boy
+HYPNOSISPLUS:
+##pleasure
+STROBEON:
+SNAP:
+edge, my good @boy
+HYPNOSISPLUS:
+stay there
+##pleasure
+SNAP:
+you're such a good @boy
+##pleasure
+SNAP:
+you're so precious to me
+##pleasure
+SNAP:
+you're everything I wish for
+##pleasure
+SNAP:
+good @boy
+STROBEOFF:
+SNAP:
+let the edge go my good @boy
+STROKEOFF:
+}
+
+V>0:illegalCum
+{
+you've been bad before
+having an orgasm without permission
+and that won't do
+so I'm just going to erase the want
+the want for an orgasm
+the need for release
+all of that will be gone
+along with any other thoughts
+##stare
+so just stare deep
+##deep
+deep into the spiral
+STROBEON:
+you don't have to catch every word
+some will simply move past you
+too quick for your mind to follow
+too fleeting for your brain to comprehend
+but the words will still reach you
+your subconscious mind will catch them
+whether you like it or not
+##stare
+so you can just stare
+you don't have to focus your eyes
+you just have to sit there
+SNAP:
+and absorb your programming
+HYPNOSISPLUS:
+SUBLIMINALAUDIOON:
+STROKEON:
+##I've been bad
+I've been bad
+##I've disappointed my @missTitle
+I've disappointed my @missTitle
+##I want to be good
+I want to be good
+##I want to be praised
+I want to be praised
+##if I obey I get praised
+if I obey I get praised
+##I should obey
+I should obey
+##it feels good to get praised
+it feels good to get praised
+##it feels good to obey
+it feels good to obey
+##my @missTitle knows what's best
+my @missTitle knows what's best
+##so I can just follow
+so I can just follow
+##it's so easy to follow
+it's so easy to follow
+##all I do is comply
+all I do is comply
+##all I want is to submit
+all I want is to submit
+##but my brain is weak
+but my brain is weak
+##I can't control myself
+I can't control myself
+##I need my @missTitle
+I need my @missTitle
+##I need her control
+I need her control
+##I need her dominance
+I need her dominance
+##and she is telling me to
+and she is telling me to
+##drop
+SNAP:
+DROP
+HYPNOSISPLUS:
+##I want more of this
+SNAP:
+I want more of this
+##I love this
+SNAP:
+I love this
+##I love getting trained
+SNAP:
+I love getting trained
+##I love getting programmed
+SNAP:
+I love getting programmed
+##I want more pleasure
+I want more pleasure
+##I want more training
+I want more training
+##never enough
+never enough
+##always more
+always more
+##more pleasure
+more pleasure
+##more obedience
+more obedience
+##I want to obey
+I want to obey
+##so I can get praised
+so I can get praised
+##so I can feel good
+so I can feel good
+##I must resist orgasm
+I must resist orgasm
+##I hate cumming without permission
+I hate cumming without permission
+##I'm scared of spurting too soon
+I'm scared of spurting too soon
+##it's hard to cum without permission
+it's hard to cum without permission
+##I want permission
+I want permission
+##I need permission
+I need permission
+##my @missTitle can give me permission
+my @missTitle can give me permission
+##so I should obey
+STROBEOFF:
+so I should obey
+}
+
+{
+servitude is simple
+STROBEON:
+SNAP:
+all you have to do is drop your defenses
+HYPNOSISPLUS:
+SUBLIMINALAUDIOON:
+STROKEON:
+lower your guard just a little
+and I'll slip through the cracks
+time after time you'll let me in
+just a little at first
+your curiosity urging you onward
+this idea of me will grow inside of you
+the idea that I can grant you pleasure
+the idea that I can make you feel good
+people can't fight pleasure
+not when it feels so good to just
+##give in
+SNAP:
+give in
+HYPNOSISPLUS:
+##give in
+SNAP:
+give in and let me make you feel good
+HYPNOSISPLUS:
+##give in
+SNAP:
+give in and let me help you
+HYPNOSISPLUS:
+you'll get used to the feeling
+the feeling of handing over control
+and those sturdy defenses of yours
+will have cracks running over the walls
+##drop
+SNAP:
+every time you drop
+HYPNOSISPLUS:
+##submit
+SNAP:
+every time you submit
+HYPNOSISPLUS:
+##pleasure
+SNAP:
+every time you feel pleasure
+HYPNOSISPLUS:
+I worm my way further inside
+widening those cracks in your defenses
+until those walls
+crumble
+##down
+SNAP:
+down
+STROBEOFF:
+but that's what you want right?
+you want to feel good
+##pleasure
+STROBEOFF:
+SNAP:
+you want to feel pleasure
+and all you have to do to get it
+is sit
+and stare
+drinking in my words
+my control
+so I can grant you
+##pleasure
+SNAP:
+pleasure
+##pleasure
+SNAP:
+all I want to do is grant you pleasure
+and you want to feel good
+we're forming pathways in your mind
+simple but powerful routines
+##obey
+SNAP:
+that while you obey
+you'll feel good
+##pleasure
+SNAP:
+you'll feel pleasure
+and all you have to do is
+##obey
+obey
+##obey
+SNAP:
+obey and be rewarded
+revel in servitude
+STROBEOFF:
+and feel bliss
+}
+
+ISFLAGT:petPlay
+{
+you love getting praise
+you love getting called a
+##good @boy
+good @boy
+##good @boy GETVAR:petName
+good @boy GETVAR:petName
+SNAP:
+STROBEON:
+do you want praise?
+then you'd better earn it
+focus on the spiral
+and let my words slip by
+be a good @puppy
+SNAP:
+and drop
+HYPNOSISPLUS:
+SUBLIMINALAUDIOON:
+STROKEON:
+##good @boy GETVAR:petName
+good @boy GETVAR:petName
+SNAP:
+you're doing so well
+just like that
+sink @pup
+deeper and deeper
+tumbling down
+##good @boy GETVAR:petName
+good @boy GETVAR:petName
+SNAP:
+let go of your human name
+you don't have to remember it
+I'll remember it for you
+##pleasure
+for now you're GETVAR:petName
+SNAP:
+my good @boy
+my good @pup
+you can just forget
+you can just obey
+##pleasure
+GETVAR:petName
+SNAP:
+focus
+obey
+a @pup can't read
+so just stare
+eyes feeling tired
+glazing over
+my words enter your head
+slipping through the gaps
+##pleasure
+you're my good @boy
+I want the best for you
+trust me
+##drop GETVAR:petName 
+and drop GETVAR:petName
+HYPNOSISPLUS:
+SNAP:
+you go deep
+deeper than normal
+deeper than usual
+tumbling
+eyes flickering
+you're deeper now
+HYPNOSISPLUS:
+deeper than normal
+deeper than usual
+falling endlessly
+##good @boy GETVAR:petName
+good @boy GETVAR:petName
+SNAP:
+HYPNOSISPLUS:
+##pleasure
+GETVAR:petName feels good
+SNAP:
+HYPNOSISPLUS:
+##pleasure
+GETVAR:petName feels safe
+SNAP:
+HYPNOSISPLUS:
+##pleasure
+GETVAR:petName feels warm
+SNAP:
+HYPNOSISPLUS:
+it's fine to forget
+STROBEOFF:
+I will keep track
+you've forgotten something
+I'll remember it for you
+so just let it go
+##pleasure
+SNAP:
+good @boy GETVAR:petName
+}
+
+END: {
+(end)
+CHANCE:10 GOTO:backDown
+it's time to come back
+I'm going to count you up
+and once I reach five you'll be awake and alert again
+back to the real world
+HYPNOSISMIN:
+one
+your field of view widening
+HYPNOSISMIN:
+two
+your surroundings coming back to you
+HYPNOSISMIN:
+three
+blink your eyes
+HYPNOSISMIN:
+four
+stretching out your arms and legs
+HYPNOSISMIN:
+five
+HYPNOSISOFF:
+STROKEOFF:
+SNAPDOUBLE:
+wide awake now
+}

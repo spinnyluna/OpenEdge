@@ -1,0 +1,17 @@
+{
+	ISNOSETTING:gag GOTO:end
+	ISFLAGT:gag GOTO:end
+	STOPSTROKING:
+	COMMAND: @gag
+	[@yes]
+	FLAGT:gag GOTO:cont1,cont2
+	(cont1)
+	just let your drool flow freely
+	I know how dirty you are already
+	GOTO:end
+	(cont2)
+	your whole body will soon be covered in your own sticky syrup
+	GOTO:end
+	
+	(end)    
+	}

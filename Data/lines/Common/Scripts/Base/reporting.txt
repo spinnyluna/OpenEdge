@@ -1,0 +1,688 @@
+{
+@greetings
+ISOUTSIDERULEACTIVE:noPorn GOTO:noPorn
+ISOUTSIDERULEACTIVE:constantCei GOTO:constantCei
+ISOUTSIDERULEACTIVE:plugHour GOTO:plugHour
+ISOUTSIDERULEACTIVE:watchPorn GOTO:watchPorn
+ISOUTSIDERULEACTIVE:hypnoFiles GOTO:hypnoFiles
+(menu)
+ISFLAG:task GOTO:task
+ASK: do you have anything you wish to tell me, @subTitle?
+[I've been bad]
+GOTO:beenBad
+[I've got nothing to report]
+GOTO:end
+[I changed my mind]
+GOTO:changedMind
+[I got something you asked for]
+(startOfListItems)
+ASK: and what would that be?
+ISSETTINGDECLINED:vibrator [a vibrator]
+MOOD:3 good, then I won't have to release you to make you squirm
+DELFLAG:vibratorNo SETSETTING:vibrator,true
+GOTO:endOfListItems 
+ISSETTINGDECLINED:cage [a chastity cage]
+GOTO:chastityCageGot
+ISSETTINGDECLINED:plug [a plug]
+DELFLAG:plugNo SETSETTING:plug,true MOOD:3 so you finally got yourself a plug, interested in anal aren't you?
+GOTO:endOfListItems
+ISSETTINGDECLINED:dildo [a dildo]
+DELFLAG:dildoNo SETSETTING:dildo,true MOOD:3 oh? are you perhaps interested in serving someone on the future?
+ISSETTING:sph put it next to your little dicklet, it's even smaller in comparison isn't it?
+GOTO:endOfListItems
+ISSETTINGDECLINED:string [some string]
+DELFLAG:stringNo SETSETTING:string,true MOOD:3 honestly I'm shocked you didn't have this laying around
+GOTO:endOfListItems
+ISSETTINGDECLINED:waterLube [lube on a water basis]
+DELFLAG:waterLubeNo SETSETTING:waterLube,true MOOD:3 great, that should make everything nice and slick
+GOTO:endOfListItems
+ISSETTINGDECLINED:collar [a collar]
+DELFLAG:collarNo SETSETTING:collar,true MOOD:3 who's a good doggie? you are!
+GOTO:endOfListItems
+ISSETTINGDECLINED:treats [some treats]
+DELFLAG:treatsNo SETSETTING:treats,true MOOD:3 be honest, you just wanted a snack
+GOTO:endOfListItems
+ISSETTINGDECLINED:clothesPins [clothes pins]
+DELFLAG:clothesPinsNo SETSETTING:clothesPins,true MOOD:3 finally doing the laundry I see
+GOTO:endOfListItems
+[nothing, @missTitle]
+MOOD:-1 you really enjoy wasting my time don't you?
+(endOfListItems)
+GOTO:repeatMenu
+(chastityCageGot)
+MOOD:10 I've waited so long for this day 
+if this is your first cage make sure to lookup how to put it on properly 
+and I'm fine with you checking for marks whenever you think something is wrong
+I'm so glad that you're trying this out with me
+ASK:for now I want you to tell me what it's made of
+[it's made of steel]
+SETSETTINGVALUE:cageType,1
+GOTO:pastCageType
+[it's made of plastic/resin]
+SETSETTINGVALUE:cageType,2
+(pastCageType)
+DELFLAG:cageNo SETSETTING:cage,true
+GOTO:endOfListItems 
+(repeatMenu)
+ASK: is there anything else you'd like to tell me?
+[I've been bad]
+GOTO:beenBad
+[I changed my mind]
+GOTO:changedMind
+[no @missTitle]
+GOTO:end
+[I got my hands on something you asked for]
+GOTO:startOfListItems
+(beenBad)
+ASK: and what exactly did you mess up?
+....
+[I've had an orgasm]
+ILLEGALCUM:
+GOTO:repeatMenu
+ISSETTING:cockControl [I stroked without permission]
+GOTO:cockControl
+ISFLAG:note [I lost my note]
+GOTO:newNote
+ISSETTING:treats [I took some of my treats]
+GOTO:stoleTreats
+ISSETTING:wearingChastity [I took off my cage for something other than my safety]
+GOTO:tookOffCage
+[nothing, @missTitle]
+MOOD:-1 what do you mean nothing?
+GOTO:repeatMenu
+(newNote)
+MOOD:-10 what? did you lose it somewhere?
+then you'd best hope no-one finds it
+luckily there is a simple solution to your failings
+we'll just make another
+and this time please do pay attention to where you put it
+MAKENOTE: or you'll soon have twenty pages with your deepest desires scattered around the house
+GOTO:repeatMenu
+(cockControl)
+MOOD:-8 well that just won't do
+touching someone else's genitals without permission is sexual assault
+I really should hand you over to the police, but I'll make an exception for you
+no more touching today, since you've touched yourself without me
+you're going to listen to at least one hour of audio porn
+I don't care what form that takes, it could be ASMR, blacked out porn or hypnosis
+FLAG:task FLAG:audioPorn
+but remember no touching
+ENDSESSION
+(stoleTreats)
+MOOD:-6
+I must say that I'm disappointed in you
+I thought that you as a fully functioning adult could at least be trusted with food
+I mean, it's not even erotic
+it's not like you were so backed up that you had no choice
+you must really, REALLY suck at self-control to fuck this up
+but this may be my fault
+even now I'm still looking at you like you're a person
+it's obvious that you're just a @pup
+and a @pup is going to eat what hasn't been properly stored away
+but while you may be a @pup right now I want you to improve with time
+once your training is complete you should be able to resist such urges
+so, I'm going to train you
+tomorrow you're going to skip lunch
+and you won't eat anything between breakfast and dinner
+no quick snack to fill that aching hunger
+this is what happens when you overeat, pet
+FLAG:task FLAG:stoleSnacks
+GOTO:repeatMenu
+
+(tookOffCage)
+you did what?
+did you have too hard of a time without your precious erections?
+ASK:are you in chastity right now at least?
+[@yes]
+MOOD:-10
+I'm increasing your sentence ADDVAR:chastiyTime,1
+GOTO:isWearingChastityNow
+[@no]
+MOOD:-20
+you've got to be kidding me, I'm not keeping your key just for you to ignore my instructions
+do you really have that little self control?
+ASK:go get your cage and wear it
+[@yes]
+I'm increasing your sentence ADDVAR:chastiyTime,3
+GOTO:isWearingChastityNow
+(isWearingChastityNow)
+ASK:did you touch yourself as well?
+[@yes]
+you can't be serious right now 
+FLAGT:noRelease I'm not letting you out of your cage this session
+GOTO:repeatMenu
+[@no]
+why did you even unlock yourself then?
+do you just want to get punished?
+GOTO:repeatMenu
+
+(task)
+ISFLAG:hourSpentWatching I instructed you to spend an hour watching porn without stroking
+ISFLAG:audioPorn I instructed you to spend an hour listening to audio porn without stroking
+ISFLAG:plugWalk I instructed you to walk around your neighborhood plugged
+ISFLAG:stoleSnacks I instructed you to skip lunch today
+ASK: have you done as I asked?
+[@no]
+was I not clear enough?
+I won't see you again until you've done as you're told
+ENDSESSION
+[yes @missTitle]
+DELFLAG:task
+ISFLAG:hourSpentWatching DELFLAG:hourSpentWatching good @boy, then I'm sure your @cock must be crying by now
+ISFLAG:audioPorn DELFLAG:audioPorn good @boy, then I'm sure your @cock must be crying by now
+ISFLAG:plugWalk DELFLAG:plugWalk you're such a good slut for me
+ISFLAG:stoleSnacks DELFLAG:stoleSnacks then that hunger will help correct your behavior
+I'm still a bit annoyed about your earlier transgressions, but you've shown me that you're willing to suffer to make it up to me
+so I guess I can give you another chance
+GOTO:menu
+(changedMind)
+oh, did you now
+ASK: about what did you change your mind?
+[I changed my mind about changing my mind]
+MOOD:-6 you're really going to regret fucking with me
+GOTO:repeatMenu 
+ISSETTINGDECLINED:anal [I want to try out anal]
+DELFLAG:analNo MOOD:3 oh, you don't even know how happy this makes me!
+don't worry we'll take it nice and slow
+so just enjoy the ride
+GOTO:analStart
+ISSETTINGDECLINED:humiliation [please humiliate me]
+DELFLAG:humiliationNo SETSETTING:humiliation,true now this is something I've been looking forward to
+don't worry you're in safe hands with me
+GOTO:repeatMenu
+ISSETTINGDECLINED:sph [I've got a small dick]
+DELFLAG:sphNo SETSETTING:sph,true so you've finally realized it
+how did you find out? did someone tell you?
+or have you finally compared your little nub to the cocks you see in porn
+either way, I'm just glad that you're no longer deluding yourself
+GOTO:repeatMenu 
+ISSETTINGDECLINED:LOB [I would like to try that program you made]
+DELFLAG:LOBNo SETSETTING:LOB,true good, I want to see just how horny you can get
+GOTO:LOBOn 
+ISSETTING:LOB [please disable the program you've made for me]
+DELFLAG:LOB SETSETTING:LOB,false LOBNO: is it too much to handle?
+I've disabled it just for you, but remember that I can activate it whenever I want
+so you'd best stay in line
+GOTO:repeatMenu 
+ISSETTINGDECLINED:asmr [please tease my ears]
+DELFLAG:asmrNo SETSETTING:asmr,true oh, has the idea grown on you?
+GOTO:repeatMenu 
+ISSETTINGDECLINED:hypno [please hypnotize me]
+DELFLAG:hypnoNo SETSETTING:hypno,true I'll try my best, just remember to relax and slow your breathing
+just let me handle those hard thoughts from now on
+GOTO:repeatMenu 
+ISSETTINGDECLINED:petPlay [please turn me into your pet]
+DELFLAG:petPlayNo acting hard to get is a very cat like thing to do
+GOTO:petPlayStart 
+ISSETTINGDECLINED:cei [I want to taste myself]
+what? have you grown hungry in the meantime or something?
+I'm almost inclined to not let you taste yourself out of spite
+but don't worry, you'll get your treat before long
+DELFLAG:ceiNo SETSETTING:cei,true
+GOTO:repeatMenu 
+ISSETTINGDECLINED:censorship [I don't deserve to see my own porn]
+DELFLAG:censorshipNo SETSETTING:censorship,true I knew you'd agree! then you'd best keep me happy from now on
+or I'll make you stroke to a blacked out screen
+GOTO:repeatMenu 
+ISPETPLAYADVANCEDDECLINED [please fully turn me into a pet]
+DELFLAG:petPlayAdvancedNo you're not needy enough right now, I'll ask you again during our session
+GOTO:repeatMenu 
+ISSETTINGDECLINED:breathPlay [I'll hold my breath for you]
+DELFLAG:breathPlayNo SETSETTING:breathPlay,true I'll have you squirming in no time at all
+GOTO:breathPlayStart 
+ISSETTINGDECLINED:gay [I'd like to see the gay content after all]
+have you finally realized your true feelings?
+DELFLAG:gayNo SETSETTING:gay,true SETSETTING:gayHumiliation,false 
+GOTO:repeatMenu 
+ISSETTINGDECLINED:sissy [I'm a sissy after all]
+have you finally realized your true feelings?
+DELFLAG:sissyNo SETSETTING:sissy,true 
+GOTO:repeatMenu 
+ISSETTINGDECLINED:feet [I get aroused by feet]
+those toes are just too cute to resist aren't they?
+DELFLAG:feetNo SETSETTING:feet,true 
+GOTO:repeatMenu 
+ISSETTINGDECLINED:outsideSession [please give me rules to follow in my day-to-day life]
+that's it, hand over your freedom willingly
+I know what's best for you, so don't you worry your pretty little head
+DELFLAG:outsideSessionNo SETSETTING:outsideSession,true 
+GOTO:repeatMenu 
+ISSETTINGDECLINED:cuck [please cuck me]
+ASK: are you sure? this is quite something to change your mind about
+[no please stay with me]
+don't worry I'll stay by your side
+GOTO:repeatMenu
+[yes I'm sure, please cuck me @missTitle]
+DELFLAG:cuckNo SETSETTING:cuck,true
+GOTO:cuckStart
+(LOBOn)
+there are some things you should know
+if you want the program shut down until a reboot hit the F8 key
+remember it @subTitle F8
+let's fill out that schedule as well
+ASK:what's the EARLIEST that you'd like for the program to activate?
+[1 AM]
+SETSETTINGVALUE:earlyLOB,1
+GOTO:endOfEarly
+[2 AM]
+SETSETTINGVALUE:earlyLOB,2
+GOTO:endOfEarly
+[3 AM]
+SETSETTINGVALUE:earlyLOB,3
+GOTO:endOfEarly
+[4 AM]
+SETSETTINGVALUE:earlyLOB,4
+GOTO:endOfEarly
+[5 AM]
+SETSETTINGVALUE:earlyLOB,5
+GOTO:endOfEarly
+[6 AM]
+SETSETTINGVALUE:earlyLOB,6
+GOTO:endOfEarly
+[7 AM]
+SETSETTINGVALUE:earlyLOB,7
+GOTO:endOfEarly
+[8 AM]
+SETSETTINGVALUE:earlyLOB,8
+GOTO:endOfEarly
+[9 AM]
+SETSETTINGVALUE:earlyLOB,9
+GOTO:endOfEarly
+[10 AM]
+SETSETTINGVALUE:earlyLOB,10
+GOTO:endOfEarly
+[11 AM]
+SETSETTINGVALUE:earlyLOB,11
+GOTO:endOfEarly
+[12 PM]
+SETSETTINGVALUE:earlyLOB,12
+GOTO:endOfEarly
+[1 PM]
+SETSETTINGVALUE:earlyLOB,13
+GOTO:endOfEarly
+[2 PM]
+SETSETTINGVALUE:earlyLOB,14
+GOTO:endOfEarly
+[3 PM]
+SETSETTINGVALUE:earlyLOB,15
+GOTO:endOfEarly
+[4 PM]
+SETSETTINGVALUE:earlyLOB,16
+GOTO:endOfEarly
+[5 PM]
+SETSETTINGVALUE:earlyLOB,17
+GOTO:endOfEarly
+[6 PM]
+SETSETTINGVALUE:earlyLOB,18
+GOTO:endOfEarly
+[7 PM]
+SETSETTINGVALUE:earlyLOB,19
+GOTO:endOfEarly
+[8 PM]
+SETSETTINGVALUE:earlyLOB,20
+GOTO:endOfEarly
+[9 PM]
+SETSETTINGVALUE:earlyLOB,21
+GOTO:endOfEarly
+[10 PM]
+SETSETTINGVALUE:earlyLOB,22
+GOTO:endOfEarly
+[11 PM]
+SETSETTINGVALUE:earlyLOB,23
+GOTO:endOfEarly
+[12 AM]
+SETSETTINGVALUE:earlyLOB,24
+GOTO:endOfEarly
+(endOfEarly)
+ASK:and what's the LATEST it can still activate?
+[1 AM]
+SETSETTINGVALUE:lateLOB,1
+GOTO:endOfLate
+[2 AM]
+SETSETTINGVALUE:lateLOB,2
+GOTO:endOfLate
+[3 AM]
+SETSETTINGVALUE:lateLOB,3
+GOTO:endOfLate
+[4 AM]
+SETSETTINGVALUE:lateLOB,4
+GOTO:endOfLate
+[5 AM]
+SETSETTINGVALUE:lateLOB,5
+GOTO:endOfLate
+[6 AM]
+SETSETTINGVALUE:lateLOB,6
+GOTO:endOfLate
+[7 AM]
+SETSETTINGVALUE:lateLOB,7
+GOTO:endOfLate
+[8 AM]
+SETSETTINGVALUE:lateLOB,8
+GOTO:endOfLate
+[9 AM]
+SETSETTINGVALUE:lateLOB,9
+GOTO:endOfLate
+[10 AM]
+SETSETTINGVALUE:lateLOB,10
+GOTO:endOfLate
+[11 AM]
+SETSETTINGVALUE:lateLOB,11
+GOTO:endOfLate
+[12 PM]
+SETSETTINGVALUE:lateLOB,12
+GOTO:endOfLate
+[1 PM]
+SETSETTINGVALUE:lateLOB,13
+GOTO:endOfLate
+[2 PM]
+SETSETTINGVALUE:lateLOB,14
+GOTO:endOfLate
+[3 PM]
+SETSETTINGVALUE:lateLOB,15
+GOTO:endOfLate
+[4 PM]
+SETSETTINGVALUE:lateLOB,16
+GOTO:endOfLate
+[5 PM]
+SETSETTINGVALUE:lateLOB,17
+GOTO:endOfLate
+[6 PM]
+SETSETTINGVALUE:lateLOB,18
+GOTO:endOfLate
+[7 PM]
+SETSETTINGVALUE:lateLOB,19
+GOTO:endOfLate
+[8 PM]
+SETSETTINGVALUE:lateLOB,20
+GOTO:endOfLate
+[9 PM]
+SETSETTINGVALUE:lateLOB,21
+GOTO:endOfLate
+[10 PM]
+SETSETTINGVALUE:lateLOB,22
+GOTO:endOfLate
+[11 PM]
+SETSETTINGVALUE:lateLOB,23
+GOTO:endOfLate
+[12 AM]
+SETSETTINGVALUE:lateLOB,24
+GOTO:endOfLate
+(endOfLate)
+and with that the configuration is complete
+remember that F8 key we talked about?
+sometimes you don't need to shut the whole program down and would much rather suspend it for a bit
+if you need five minutes of peace and quiet just hit F6
+so it's F6 for a 5 minute stop and F8 for a shutdown
+remember to hit the F6 or F8 key if you need it
+I promise I won't punish you too harshly
+you'll have to re-boot your pc to get it running the first time   
+SETSETTING:LOB,true LOB:
+GOTO:repeatMenu
+(analStart)
+ASK: are you experienced with anal or is this the first time you're going to try this?
+[I'm experienced]
+then we can skip most of the basics
+SETANALSTAGE:Experienced
+GOTO:q0
+[I'm a beginner]
+I'll take you through it slowly
+you have to let your body get used to the sensation
+so please prepare yourself for anal next session
+this mainly means going to the bathroom before and cleaning up
+shaving your behind is also recommended but I'll leave that up to you
+try to get your hands on some lube, either water or silicone based
+you can't use silicone based lube with toys, so if you're getting new lube pick something water based
+spit works as well but for a comfortable experience I would recommend lube
+but all this is for next time, I'm really happy you're trusting me to guide you through this
+SETANALSTAGE:Beginner
+(q0)
+ASK: do you own water based lube?
+[yes @missTitle]
+that's great, it should leave everything nice and slippery
+SETSETTING:waterLube,true
+GOTO:q1
+[no @missTitle]
+make sure to buy some, it'll make the whole experience way more comfortable
+SETSETTING:waterLube,false
+(q1)
+do you own a dildo or a plug?
+ASK: to be clear, I'm talking about one you are currently able to use, not something that's too big to insert
+[I own a dildo]
+so, you got yourself some equipment
+ISSETTING:sph and let me guess it's way bigger than that nub between your legs
+SETSETTING:plug,false
+SETSETTING:dildo,true
+GOTO:endAnal
+[I own a plug]
+so, you got yourself some equipment
+ISSETTING:sph and let me guess it's way bigger than that nub between your legs
+SETSETTING:dildo,false
+SETSETTING:plug,true
+GOTO:endAnal
+[I've got both]
+so, you got yourself some equipment
+SETSETTING:plug,true
+SETSETTING:dildo,true
+GOTO:endAnal
+[neither]
+you don't have to, but get yourself a plug training kit if you can
+don't buy anything too big or expensive, it's important that we increase the size in small increments
+ANALSTAGE:Experienced since you've been using your fingers for some time it may be fine to skip a size or two
+for the first couple of sessions it's fine to be using your fingers
+but I'd like to move on from that some time in the future
+SETSETTING:dildo,false
+SETSETTING:plug,false
+GOTO:endAnal
+(endAnal)
+SETSETTING:anal,true
+FLAGT:anal
+GOTO:repeatMenu
+(breathPlayStart)
+since the whole point of breath play is getting lightheaded, it's important that the holds are just barely possible
+so I'm going to ask you to hold your breath as long as possible in a bit
+make sure to take in a deep breath beforehand and keep still, don't hyperventilate though
+ASK: just tell me when you start holding your breath
+[I'm starting now]
+FLAG:fullBreathHold
+ASK: the timer starts now!
+[please let me breathe]
+not yet, just a bit more
+you're almost there, keep going
+SETSETTINGVALUE:breathTime,GETTIME:fullBreathHold
+you may breathe again, good job
+you lasted for GETVAR:breathTime seconds and I'll adjust our breath play to match it
+this also means that you have no excuse about being unable to last as long as I ask
+you'll find out just how difficult holding the edge is when your whole body is screaming for air
+SETSETTING:breathPlay,true
+GOTO:repeatMenu
+(petPlayStart)
+even before you met me, you've fantasized about living the life of a pet
+fed and pampered, loved and adored by all
+who wouldn't want that?
+however, I'm not like most pet owners
+since you've only just become my adorable little pet you're comparable to a young puppy
+if I want to raise you into a proper bitch, I'll have to put you through training
+and for that you're going to get some things for me
+there are two things you'll need
+a collar and treats
+the treats should be small but powerful in flavor
+some examples that come to mind are nougat or chocolate
+even sweet fruits will suffice if you're health conscious
+the main point behind the small size is the wish for more
+so if you're satisfied at the end reduce the size of your treats
+the collar is a different matter entirely
+if you've got a collar of your own use that, if you don't use a thick rope
+look up online how to tie the knot for a collar so you don't accidentally strangle yourself
+we'll only start your training once you've got these two items ready
+so remember, treats and a collar
+SETSETTING:collar,false
+SETSETTING:treats,false
+SETSETTING:petPlay,true
+GOTO:repeatMenu
+(cuckStart)
+oh, this will be great
+for me more so than for you, but still
+and don't worry about our relationship deteriorating because of it
+I'll make sure to report in extraordinary detail how it felt to be held down by strong arms
+maybe I'll make you imitate me or something
+one thing is certain, that humiliation fetish of yours will only grow stronger
+and so will my influence over you
+SETSETTING:cuck,true
+GOTO:repeatMenu
+(noPorn)
+DECREMENT:noPorn
+BIGGERTHAN:1,GETVAR:noPorn GOTO:noLongerNoPorn
+soon you'll be allowed to watch porn outside of sessions again
+GOTO:menu
+(noLongerNoPorn)
+SETOUTSIDERULE:noPorn,0 you've been so good for me, so I'll let you watch porn again outside of sessions
+GOTO:menu
+(constantCei)
+DECREMENT:constantCei
+BIGGERTHAN:1,GETVAR:constantCei GOTO:noLongerConstantCei
+just a bit more and I won't force you to taste yourself again and again
+GOTO:menu
+(noLongerConstantCei)
+SETOUTSIDERULE:constantCei,0 you no longer have to lick up any precum that leaks out, not that I mind if you continue
+GOTO:menu
+(plugHour)
+DECREMENT:plugHour
+BIGGERTHAN:1,GETVAR:plugHour GOTO:noLongerPlugHour
+I'm sure your ass is having a hard time with the extra hour plugged up
+GOTO:menu
+(noLongerPlugHour)
+SETOUTSIDERULE:plugHour,0 you don't have to plug up your ass outside of the sessions anymore, good @boy
+GOTO:menu
+(watchPorn)
+DECREMENT:watchPorn
+BIGGERTHAN:1,GETVAR:watchPorn GOTO:noLongerWatchPorn
+are you getting enough rest? it's almost like you had a hard time getting to sleep
+GOTO:menu
+(noLongerWatchPorn)
+SETOUTSIDERULE:watchPorn,0 I'm sure that your sleep schedule will thank me for this, you don't have to watch porn before bed anymore
+GOTO:menu
+(hypnoFiles)
+DECREMENT:hypnoFiles
+BIGGERTHAN:1,GETVAR:hypnoFiles GOTO:noLongerHypnoFiles
+SNAPDOUBLE: how are those triggers feeling in your head?
+GOTO:menu
+(noLongerHypnoFiles)
+SETOUTSIDERULE:hypnoFiles,0 you no longer have to reprogram yourself every night
+GOTO:menu
+(end)
+ASK: do you want to start our session now?
+[@yes]
+GOTO:beginningOfSession
+[I'd like to request something]
+GOTO:request
+(request)
+ASK: what do you have in mind?
+ISSETTING:taskScreen [may I address you by name?]
+ISFLAG:guessName you already have permission to do so GOTO:end
+ISSETTING:askedForName SHOWFAVOR: GOTO:setNameRepeat
+GOTO:setName
+[may I change your title?]
+GOTO:changeTitleDomme
+[please shorten this session]
+GOTO:shortenSession
+ISSETTING:taskScreen [please extend this session]
+GOTO:sessionExtend
+(setNameRepeat)
+do you think you know what it is then?
+let's see if you'll get the permission you were begging for
+GOTO:guess
+(setName)
+so you want to address me by name
+do you really think that you've earned the right to do so?
+I don't think so
+but it's rather easy to prove me wrong
+just tell me what my name is and you'll be allowed to use it
+simple right?
+ah, but I don't think I've ever told it to you, have I?
+then you'll just have to guess won't you
+SHOWFAVOR: SETSETTING:askedForName,true and just so you know, for every incorrect guess I'm taking a favor
+maybe you've even convinced yourself that you know the answer already
+ASK: that somehow my name's been known to you from the very beginning
+[I don't want to guess]
+HIDEFAVOR: that's what I thought
+GOTO:end
+[please let me guess]
+I honestly doubt it, but I'll let you take a shot
+(guess)
+TEXTFIELD:guessName so, what's my name @subTitle?
+wow, you actually got it, are you an esper or something?
+to be honest I never expected you to get this far
+and on your first try too
+just how lucky are you?
+though I'm sure you knew you were lucky already
+you met me after all
+HIDEFAVOR: I'll keep my word, from now on you may use my name
+GOTO:beginningOfSession
+(changeTitleDomme)
+TEXTFIELD:newDomTitle and what would that something else be?
+GETVAR:newDomTitle huh...
+yeah, I like that
+but even if I like it, that doesn't mean I'll let you change what you call me for free
+since you seem to need a creative outlet we should use that shouldn't we?
+and what's more creative than making art
+ASK: so you're going to be making a collage for me that embodies my new GETVAR:newDomTitle title
+[yes GETVAR:newDomTitle]
+SETSETTINGVALUE:domTitle,GETVAR:newDomTitle
+now that's a good @subTitle serving your GETVAR:domTitle so well
+make sure that it fits your screen as a background
+since you'll have to keep it selected for at least a week
+GOTO:beginningOfSession
+[I don't want to do so]
+then I guess I'll stay your GETVAR:domTitle a little while longer
+GOTO:end
+(shortenSession)
+I can do that
+but I planned this whole session out already
+so if you're busy I don't mind cutting this session off earlier
+but you'll be catching up on that time next session
+so, just how short do you want this session to be?
+ASK: rather, just how long of a session can you take next time
+[shorten by a quarter]
+SESSIONTIMERELATIVE:0.75 I think that was a smart decision, you'll thank yourself in the long run, even if it's hard now
+GOTO:beginningOfSession
+[shorten by half]
+SESSIONTIMERELATIVE:0.5 you may just come to regret that decision
+GOTO:beginningOfSession
+[shorten by three quarters]
+SESSIONTIMERELATIVE:0.25 I hope you're aware of just how rough this is going to be next time
+GOTO:beginningOfSession
+[don't change the duration]
+GOTO:end
+(sessionExtend)
+do you want to stroke that much?
+I hope you realize that planning out these sessions is no small task
+of course I can whip something up during the session itself so it's doable
+but it's still a rather large amount of effort on my part
+so I'll give you a task of your own to compensate
+the longer you extend the session the longer your task will be as well
+ASK: just how long were you thinking of anyway?
+[don't change the duration]
+GOTO:end
+[10 minutes]
+	ISNOSETTING:taskScreen then that's how long you'll have to look at porn without touching yourself
+	ISNOSETTING:taskScreen oh, don't look so troubled, a rate of one second stroking to one second watching is pretty good actually
+	ISNOSETTING:taskScreen just spend 10 minutes sometime today looking at that porn you love so much
+	ISSETTING:taskScreen TASK:2,1 alright I've given you your task, don't forget to actually complete it
+SESSIONTIME:10
+GOTO:beginningOfSession
+[20 minutes]
+ISNOSETTING:taskScreen then that's how long you'll have to look at porn without touching yourself
+	ISNOSETTING:taskScreen oh, don't look so troubled, a rate of one second stroking to one second watching is pretty good actually
+	ISNOSETTING:taskScreen just spend 10 minutes sometime today looking at that porn you love so much
+	ISSETTING:taskScreen TASK:2,2 alright I've given you your task, don't forget to actually complete it
+SESSIONTIME:20
+GOTO:beginningOfSession
+[30 minutes]
+ISNOSETTING:taskScreen then that's how long you'll have to look at porn without touching yourself
+	ISNOSETTING:taskScreen oh, don't look so troubled, a rate of one second stroking to one second watching is pretty good actually
+	ISNOSETTING:taskScreen just spend 10 minutes sometime today looking at that porn you love so much
+	ISSETTING:taskScreen TASK:2,3 alright I've given you your task, don't forget to actually complete it
+SESSIONTIME:30
+GOTO:beginningOfSession
+(beginningOfSession)
+}

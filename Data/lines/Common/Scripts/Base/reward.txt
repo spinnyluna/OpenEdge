@@ -1,0 +1,211 @@
+ISSETTING:wearingChastity ISNOFLAGT:changedChastityState ISNOSETTING:lostKey ISSETTING:chastity ISFLAGT:chastityDate
+{
+	STOPSTROKING:
+	CHASTITYOFF:
+}
+ISFLAGT:collar ISSETTING:collar
+{
+you've been such a good @boy for me
+STOPSTROKING:
+ASK:you may take off your collar if you would like to
+[yes, I would like to take off my collar]
+GOTO:collarOff
+[no, I would rather keep wearing it]
+MOOD:1
+it does suit you well, let's keep going then
+GOTO:end
+(collarOff)
+ASK:then take it off
+[I'm done]
+DELFLAGT:collar
+GOTO:end
+(end)
+}
+ISNOFLAGT:collar ISSETTING:collar
+{
+you've been such a good @boy for me
+STOPSTROKING:
+ASK:you may wear your collar if you would like to
+[yes, I would like to wear my collar]
+GOTO:collarOn
+[no, I don't feel like wearing it]
+that's fine as well, you've been acting meek and obedient even without it
+GOTO:end
+(collarOn)
+MOOD:1
+ASK:then snap it shut around your cute neck
+[I'm done]
+a collar suits you, my cute @subTitle
+FLAGT:collar
+GOTO:end
+(end)
+}
+ISNOFLAGT:plug ISSETTING:plug
+{
+you've been such a good @boy for me
+STOPSTROKING:
+ASK:you may insert your plug if you would like to
+[yes, I would like to get plugged]
+GOTO:plugOn
+[no, I'd rather not]
+no worries, taking it slow with anal is important
+GOTO:end
+(plugOn)
+ASK:then push it deep inside of you
+[I'm done]
+you've become dependent on anal stimulation haven't you? that's so cute
+FLAGT:plug
+GOTO:end
+(end)
+}
+ISFLAGT:plug ISSETTING:plug
+{
+you've been such a good @boy for me
+STOPSTROKING:
+ASK:you may remove your plug if you want to
+[yes, I would like that]
+GOTO:plugOff
+[no, I'm enjoying the plug]
+you've become dependent on anal stimulation haven't you? that's so cute
+GOTO:end
+(plugOff)
+then I'll allow you to take it out of your cute little hole
+ASK: just tell me when you've cleaned up
+[I'm done]
+does your ass feel looser yet?
+DELFLAGT:plug
+GOTO:end
+(end)
+}
+ISNOFLAGT:ona ISFLAGT:bluetoothOna
+{
+you've been such a good @boy for me
+STOPSTROKING:
+ASK:we can use your @onahole if you'd like to
+[please let me use it]
+GOTO:onaOn
+[no, I'd rather not]
+too afraid that you'd edge too soon?
+GOTO:end
+(onaOn)
+ONAON:
+GOTO:end
+(end)
+}
+ISFLAG:censor
+{
+you've been such a good @boy for me today
+and such behavior aught to be rewarded
+so if you'd like for me to do so I could remove any chance for censors for the rest of this session
+or, and I'm not saying this lightly, I could increase them
+however, that choice would be permanent
+your censors would get worse forever
+and I'll let you pick this option multiple times
+but you wouldn't want that right?
+if you pick the increased censors option here you'll have to deal wih that forever
+you may find the idea of further denial erotic now but it will really fuck you over long term
+STOPSTROKING:
+ASK:so be smart and pick the option for no more censors this session, okay?
+[remove censors from the remainder of this session]
+GOTO:censorsOff
+[make the censors more intense PERMANENTLY]
+GOTO:permanentIncrease
+(censorsOff)
+it seems you've still got a functioning brain left
+you won't see any censors for the rest of the session, aren't you happy?
+FLAGT:noCensors
+GOTO:end
+(permanentIncrease)
+MOOD:5
+you're joking right?
+I've always considered the censors rather rough
+but it seems that I've perhaps underestimated your degeneracy
+well have it your way then
+oh, and maybe it's a good idea to unmute the videos, then you'll still have something to enjoy
+at least until I start blocking the audio as well
+ADDVAR:censorIncrease,1
+(end)
+}
+ISSETTING:petPlay ISSETTING:treats ISNOFLAGT:treats
+{
+you've been so good today that you've earned a treat
+take one and eat it
+SNAP: @petPlayPraise
+FLAGT:treats
+}
+{
+you've been such a good @subTitle for me over the last couple of days
+and I believe you deserve a bit of a reward
+something to make it worth all the effort
+ASK:so, do you have anything you would like to request of me?
+[I'd like the sessions to be longer]
+GOTO:longerSessions
+[I'd like the sessions to be shorter]
+GOTO:shorterSessions
+[please let me cum more often]
+GOTO:cumOften
+[please let me cum less often]
+GOTO:cumRarely
+[I would like to see more videos]
+GOTO:moreVideos
+[I would like to see less videos]
+GOTO:lessVideos
+[no @missTitle, do as you please]
+I don't mind you picking out a reward for all your hard work
+there's a certain disrespect in refusing a gift as well
+so next time be sure to pick something you like
+GOTO:end
+(longerSessions)
+oh, are the sessions too short for your liking?
+then from the next session onwards the sessions will run a bit longer
+of course I still expect you to finish them fully
+ADDVAR:sessionLengthMod,1
+GOTO:end
+(shorterSessions)
+are these sessions a bit too time intensive for you?
+no worries, I'll make sure to torture you harder to compromise
+ADDVAR:sessionLengthMod,-1
+GOTO:end
+(cumOften)
+now I know I said that I'd reward you, but this seems a bit too easy
+I'm not going to go back on my word but you've disappointed me
+ADDVAR:scoreMod,-1 MOOD:-80
+GOTO:end
+(cumRarely)
+oh you're such a good @boy for me aren't you?
+I'll do just what you asked don't you worry
+and you'll both love and hate me for it
+ADDVAR:scoreMod,1 MOOD:20
+GOTO:end
+(moreVideos)
+so you'd like to see some more videos then?
+just make sure you don't get bored of them
+ADDVAR:videoMod,1
+GOTO:end
+(lessVideos)
+are you bored with your videos already?
+or do you feel like you're not worthy?
+it doesn't matter, not to me at least
+I'm more than happy with images alone
+ADDVAR:videoMod,-1
+GOTO:end
+(end)
+}
+ISSETTING:taskScreen ISNOSETTINGDECLINED:findom
+{
+SHOWFAVOR:
+you've been so obedient that I feel like you've earned this
+TRIBUTE:-1
+don't spend it all in one place
+}
+ISSETTING:taskScreen ISNOSETTINGDECLINED:findom
+{
+since you've been good I'll give you a task for free if you want it
+ASK: do you want a task?
+[yes, please give me a task]
+TASK:1,2
+GOTO:end
+[no, I don't want a task]
+that's fine by me, just don't come crying for more favor
+(end)
+}

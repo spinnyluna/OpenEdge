@@ -1,0 +1,20 @@
+﻿ISNOFLAGT:ona{ 
+	quickly start @jerkingOff
+	quickly start stroking that @cock
+	quickly begin stroking
+	start stroking that @cock of yours quickly 
+}
+ISFLAG:quickshot ISNOFLAGT:ona
+{  
+	I would make you stroke even faster but I'm not sure you can handle it 
+}
+ISFLAGT:kneeling ISNOFLAGT:ona{
+	stay on your knees and stroke like your life depends on it 
+}
+ISFLAGT:ona{
+	remember, you're not allowed to edge even if I were the one that pushed you to it
+	I feel like making life a little more difficult for you
+}
+ISFLAG:quickshot{
+	this will be difficult for you, but don't you dare cum
+}

@@ -1,0 +1,199 @@
+EXTENDS:tease 
+{ 
+	keep going
+	keep @jerkingOff
+	stay away from the edge
+	lets build up that need
+	the strokes may feel pretty good now but soon you'll hate this
+	every stroke deepens your obedience to me
+	these strokes are the price for my attention
+	when you get close to the edge slow down your strokes, but keep your hand on that @cock
+	show me the limits of what your @cock can handle
+	lets fill those balls to the brim
+	show me your obedience
+	these strokes are more for my pleasure than yours
+	lets thicken that load some more
+	this horniness is what is keeping you obedient, so lets build it up some more
+	I'll push you over the edge of insanity before I'll let you cum 
+	@jerkingOff suits a @subTitle like you
+	I know you must want to spurt out your little load but hold back for me
+	just keep @jerkingOff like that and I'll make you forget about all your problems
+	all the pleasure you feel is given by me, stay good or I'll take it away again 
+	you can't fight against this corrupting pleasure
+	the only cum I want to see is precum, @subTitle
+	you'll tell me when you're edging right? I don't want any "accidents"
+	it must be so hard to hold back, but this is what I'm expecting of you so don't you dare break on me
+	just remember that this is as easy as it's going to get
+	I may order you to edge soon, or it may take a while, what matters is that you obey
+	push yourself, I'm expecting you to improve with practice
+	you're relatively safe as long as you're being made to stroke 
+	jerking off by yourself won't give you the same oppressive pleasure as my commands grant you
+	keep working that @cock
+	I'm going to break you, one stroke at a time
+	just keep pumping that @cock @subTitle
+}
+ISFLAG:goon{
+	that's it gooner, get even more addicted to porn
+	keep making precum for me gooner
+	fuck up your brain and keep stroking gooner
+	I'll keep edging you until your dick is oozing with pre
+}
+ISFLAG:quickshot
+{
+	hold that orgasm back 
+	just view this as practice for your quickshot dick
+	just keep @jerkingOff, try not to think about your premature ejaculation problem
+	don't cum unless I say so, minute @man 
+	I know just how easily even the slightest touch can make you cum 
+	I don't know if all these strokes are helping your quickshot behavior 
+}
+ISFLAGT:kneeling 
+{
+	on your knees, @jerkingOff for your @missTitle, it doesn't get any better than this, does it 
+	don't you feel pathetic jerking off on your knees like that?
+	a @subTitle @jerkingOff on their knees is such a beautiful sight
+	I should just have you kneeling constantly 
+ }
+ISSETTING:sph
+{
+	even a tiny dicklet needs to get stroked from time to time
+	it looks so strange to see you stroke that tiny nub
+	I bet you can barely feel that @cock in your hand
+	I should just deny you, no one will notice the tent in your pants anyway
+	your @cock is so tiny you barely have to move you hand to stroke it
+	guys with small cocks don't deserve pussy, they just get to jerk off
+}
+ISFLAG:degrading
+{
+	if only you weren't such a loser, maybe you wouldn't be here @jerkingOff
+	keep @jerkingOff, that's the only use I have for you
+ }
+ 
+ISFLAGT:orgasmDenied 
+{
+	just remember, you're getting denied
+	you're not going to cum today, however much precum may ooze out of your dick 
+	how does it feel to keep stroking with a guaranteed denial coming up
+	how painful are these strokes when you know there is zero chance of orgasm?
+	you're going to hate this
+}
+ 
+V<40:bpm
+{ 
+	you must want to speed up but show some patience 
+	I'm making you stroke as fast as I think you can handle right now 
+	soon I'll let you edge again
+	how long do you think it'll be before you can cum from just this?
+	I don't have to worry about you reaching the edge with this speed
+	stroking this slowly is almost meditative isn't it? 
+	slowly stroke yourself into a trance
+	it must be frustrating to stroke this slow, no speeding up though
+	it's weirdly painful to stroke this slow isn't it?
+	are you going mad from these slow strokes already?
+ }
+V>90:bpm 
+{ 
+	I don't care how hard it is, you're going to keep the cum in your @balls
+	I haven't told you to edge, so you won't, simple as that
+	you know a punishment is waiting for you if you edge early so do your best
+	I wonder how long you'll last like this
+	you'd better fight against that edge
+	don't edge @subTitle 
+	don't you dare edge 
+	keep holding back 
+	I may let you slow down in a minute, or I may keep you here forever, you'll find out soon enough 
+	show me your obedience and keep away from the edge 
+	relax your ass and slow your breathing 
+}
+
+V>80:mood
+{
+	you're such an obedient little stroke-slut aren't you?
+	keep obediently stroking like this and I may just have to reward you
+	you're so good at stroking for me
+}
+V<30:mood{
+	I'm glad I'm not the one giving you a handjob, you seem to be perfectly capable by yourself
+}
+ISFLAGT:censor 
+{ 
+	you can't even see the porn anymore, but still you'll stroke as commanded
+	your regular stroking is already a sad display but this, this takes the cake 
+}
+V>3:denied 
+{ 
+	it's been a while since you came, but I'm sure you can handle this much
+	can you take this after not cumming for a while?
+	I know it's been a while since your last orgasm, but if you edge from this I won't let you cum for a while longer
+}
+ISFLAG:virgin{
+	jerking off and edging is better than sex for someone like you
+	this is the best way to keep you from harassing girls
+}
+V<3:denied 
+{ 
+	you should be able to handle this with ease, after all you came not too long ago
+	there is no way you can't handle these strokes after having an orgasm just before this
+	that stone that you can feel in your stomach is caused by the knowledge that it's only getting worse from now on
+}
+V=1:sub
+{
+	keep tugging on those @balls like a good @boy
+	I'm sure that you can be a bit rougher with those @balls
+	don't forget that I want you to abuse those balls as you stroke
+	really squeeze down hard on those @balls for a second
+}
+V=2:sub 
+{ 
+	your nipples can bring you both pleasure and pain
+	keep rolling your nipples in between your fingers
+	you can be a bit rougher with those nipples of yours
+	bully your nipples just a bit harder
+	I love seeing you tease your nipples like this
+	you're going to get addicted to playing with your nipples 
+	don't slack on the teasing of your nipples
+	don't forget to play with those cute nips of yours as you stroke
+}
+V=1:main
+{ 
+	keep twisting that hand
+	twist that hand more
+	it feels way better to twist your hand as you stroke, but can you handle it
+	even if the twists make it more difficult, don't edge without permission
+	twist that hand some more @subTitle
+	really put some torque on that @cock 
+}
+V=2:main
+{ 
+	I'm not sure you can handle more than two fingers right now
+	you should be glad I let you touch your @cock at all, even if it's just with two fingers
+	if you're only using two fingers I can at least see your @cock as you stroke, just barely though
+	stroking with just two fingers suits someone of your "proportions"
+ }
+V=3:main 
+{ 
+	I'll turn your world upside down just like that hand of yours
+	it feels completely different, stroking with your hand upside down
+	make sure your palm drags over the head as you stroke
+}
+V=4:main 
+{ 
+	is that cock-head of yours already screaming out?
+	I get it, you want to stroke the rest of your dick as well, too bad, just do as you're told
+ }
+V=5:main
+{ 
+	do you want to go back to full strokes? too bad
+	if I let you do full strokes you're just going to cry about being on the edge again
+	don't you dare brush past the head
+	you better make sure you don't touch the head at all 
+	it looks like that head of yours is crying with all that pre coming out
+}
+V=6:main
+{ 
+	do you see that precum pooling at the tip?
+	make that ring tighter
+	squeeze down harder @subTitle
+	how does it feel to milk yourself? 
+}
+

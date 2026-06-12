@@ -1,0 +1,163 @@
+EXTENDS:noTouch
+{
+	your @cock must be straining so much
+	ache feels different when it's locked behind bars doesn't it?
+	since the horniness can't gather in your @cock it spreads out more 
+	your thighs growing hot in place of your @cock
+	but there's no reason for it to stop there
+	that heat will keep spreading, the longer that I'm keeping you locked
+	until your whole body grows hot when you get aroused
+	and I'll make sure you're aroused all the time
+}
+ISSETTING:sph
+{
+	when you're walking around with that cage on there's a bit of a bulge in your pants
+	a bulge that your little member can't make on its own
+	girls will think that you're packing
+	they may even become a bit more susceptible to your vague attempts at flirting
+	the shock of seeing a locked up clitty instead of a huge dick will probably drive them away again
+	their horny faces twisting into disgust as they realize just how much of a loser you really are
+	it would make your little dicklet strain so hard in it's cage that you couldn't even chase after them to explain yourself
+	what is there even to explain in the first place?
+	if anything, they'll understand you better after seeing your @cock
+}
+TAG:Horny,!Chastity,!T&D 
+{
+	TAG:Horny
+	look at those eyes, do you think they'd be able to hold back?
+	I don't think so, they're going to cum one way or the other
+	and they're going to feel so good doing so
+	curling their toes and arcing their backs
+	you don't get to feel like that
+	your @cock is denied the right to grow hard
+	it doesn't get to feel good anymore
+	TAG:
+}
+{
+	now that I've locked away your main source of pleasure you'll get even more needy than before
+	but you shouldn't underestimate your own body, it can be rather "creative" 
+	your body will start to find new ways to feel pleasure now that your @cock has been locked away
+	your nipples will grow more sensitive with each passing day
+	until just your shirt brushing over them can make you feel so good
+	it'll never lead to orgasm of course
+	no, it'll just constantly, endlessly drip pleasure into your system
+	you'll get hooked on this slow buildup of pleasure
+	so much so that you may not ever want to be released again
+}
+{
+	I love chastity
+	at the start it's just a symbolic gesture
+	I mean you know where the key is after all
+	but quickly it becomes more than that
+	as you start to focus more on how long you've been in your cage already
+	if you open the lock without permission on the third day you're wearing it 
+	then the two days before that would feel like such a waste
+	so you're keeping yourself locked, longer and longer
+	the sunken-cost fallacy pushing you onward
+	and that feeling of wasted time will only grow stronger over time
+	it may be just a little bit longer so don't get any ideas
+}
+{
+	do you remember what it sounded like to close the lock?
+	that distinct snap as the lock closed around your @cock
+	it'll sound different when I'll let you open it back up again
+	not that you're ever going to find out
+}
+ISSETTING:plug ISFLAGT:plug
+{
+	STOPSTROKING:
+	take your plug from your ass and re-insert it
+	keep fucking your tight little hole like that
+	push it in deep and then pull it out
+	again and again
+	do you feel your ass getting looser?
+	soon you'll be able to take bigger and bigger plugs
+	stop fucking your hole
+	ASK:re-apply the lube on your plug if necessary and get ready to stroke again
+	[I'm ready @missTitle]    
+}
+{
+	lets keep that lock shut for now
+	even if you're having a hard time right now
+	I know that you love this feeling
+	deep down being caged feels good
+	since you know that while your @cock is all locked up
+	you'll have to obey even more fanatically than you normally do
+}
+ISSETTING:virgin
+{
+	imagine if a cute girl came up to you while you while you were wearing your cage
+	she'd beg for you to take her, to use her like the slut she is
+	but you'd be unable to
+	ISSETTING:sph I mean with the size of your member she was going to be disappointed anyway but still
+	you'd have to refuse your one shot at getting your cherry popped 
+	all because of me
+	all because you want to be a good @boy
+}
+ISSETTING:virgin
+{
+	you know that you're a virgin yet you still let me lock up your cock
+	have you truly given up on ever having sex?
+	are you just going to stay a virgin forever?
+	ASK:aren't you ashamed about that?
+	[@yes]
+	just how much would you give up if I asked you to?
+	your one shot at sex 
+	probably the only chance you'll get
+	and you give it up just like that
+	GOTO:end
+	[@no]
+	there isn't really any reason for shame if you truly believe that this is your place in the world 
+	and I don't think you're wrong to believe that
+	I just hadn't expected you to realize what everyone else can see
+	(end)
+}
+{
+	maybe you'll get less addicted to porn if we keep this up
+	it can also make you focus even more on what you can't have 
+	that would just make your addiction stronger
+	but that's a risk I'm willing to take
+	so just bow your head and follow along
+}
+{
+	you're not getting hard are you?
+	surely you realize that your little erection is powerless in that cage
+	getting hard is only going to make everything more difficult
+	so do your best to not get hard @subTitle
+}
+ISSETTING:toldAboutNecklace ISNOSETTING:lostKey
+{
+	do you remember that my colleagues asked about the key that I was wearing
+	what I haven't told you yet is that I actually gave them an answer
+	and nothing with a double meaning either
+	I just told them straight up
+	" this is the key to the cage of my sub "
+	I had expected them to back off with that
+	and most did, but not all of them
+	a couple of my colleagues got this hungry look in their eyes
+	I don't even know who they were jealous of
+	maybe they wanted a sub of their own
+	or maybe they wanted to be owned as well
+	you don't have to worry about them taking me away from you though 
+	I don't mix work and pleasure
+	though taking care of your libido is a pretty big job as well
+}
+{
+	is that cage sitting nice and snug?
+	maybe you don't even notice it anymore while you're going about your day
+	however the very second you turn in for bed nothing occupies your mind but that cage
+	so aware of the inability to touch that the need to do so feels overwhelming
+	until at long last you get exhausted enough to fall into a slumber
+	only to get woken up by your morning erection straining in it's cage
+	it really is such a cruel little device
+}
+{
+	did you know just how hard it was going to be when you decided to let me hold your key?
+	[@yes]
+	and you still decided to go through with it?
+	you're being such a good @boy for me
+	[@no]
+	unless I allow you to, handing over your key is not something you can just take back
+	and I haven't had enough fun just yet
+}
+

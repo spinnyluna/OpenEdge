@@ -1,0 +1,32 @@
+{
+	KNEEL
+	you are going to slap your @balls for me
+	COMMAND:now get ready, slap them with your flat palm
+	CBTSTART:
+	REPEAT @cbtBalls
+	now, where were we
+}
+{
+	grab your @balls, squeeze every beat
+	CBTSTART:
+	REPEAT @cbtBalls
+	lets get back to it
+}
+{
+	take your @balls into your hand, pull on them and squeeze on every beat
+	CBTSTART:
+	REPEAT @cbtBalls
+	lets get back to it
+}
+{
+	I want you to ball up your hand and get ready to hit your @balls for me
+	CBTSTART:
+	REPEAT @cbtBalls
+	lets get back to it
+}
+{
+	flick those testicles on every beat
+	CBTSTART:
+	REPEAT @cbtBalls
+	lets get back to it
+}

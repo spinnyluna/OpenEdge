@@ -1,0 +1,15 @@
+{
+	ISFLAGT:ona GOTO:start
+	GOTO:end
+	(start)
+	STOPSTROKING:
+	COMMAND: @onaNo
+	[@yes]
+	CHANCE:96 GOTO:end
+	(cont1)
+	good @boy, I almost expected you to go against me there
+	with how infatuated you are with that thing
+	ISSETTING:virgin well anybody would be infatuated with their girlfriends so maybe it's natural that you care this much
+	DELFLAGT:plug
+	(end)
+}

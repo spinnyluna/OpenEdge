@@ -1,0 +1,273 @@
+V=0:cuckNum
+{
+STOPSTROKING:
+I went out for drinks yesterday
+there is this really cozy place in the city
+and the barman there is just the cutest little thing
+so, I'm just sitting there imagining all the things I would do to him
+and I guess he noticed, because at the end of the evening I got his number
+ASK:so, my little cuck, should I call him?
+[yes @missTitle]
+you really are pathetic you know
+ISSETTING:virgin I'm the only woman who ever wanted to have anything to do with you
+ISSETTING:virgin and you're just giving me away
+I would be hurt if this wasn't exactly what I expected from you cucky
+you've long given up on thinking about the consequences
+you just do what makes your @cock feel good
+I'll give the guy a call, what happens afterwards is not in your control anymore
+GOTO:end
+[no @missTitle]
+oh, are you getting cold feet now?
+I'm pretty sure you were fine with being my little cuckold just a second ago
+and you back out as soon as something interesting happens?
+don't think you're getting out of this that easy
+think of this as an exit-tax of sorts
+EDGEHOLD:30000
+DELFLAG:cuck
+SETSETTING:cuck,false
+(end)
+FLAGT:cuck
+SETCUCKSTAGE:1
+}
+V=1:cuckNum
+{
+STOPSTROKING:
+do you remember that call I made the other night?
+well, there's been some progress
+his name is James and he's so funny I could die
+we've even made plans for a date tomorrow
+I've been pulling my hair out picking an outfit
+I've got this red wraparound dress but it may be a bit too much
+to be honest I'm probably more comfortable in booty shorts and a sweater
+so what do you think? should I go for the more casual or the more formal look?
+what's the problem? is this suddenly becoming a bit too real for you?
+to be honest I know which one I would pick, but that's not important right now
+I want you to pick my outfit before I go on a date with someone else
+ASK: so what do you think I would look better in?
+[the red wraparound dress]
+[booty shorts and a sweater]
+I was thinking the same thing!
+ASK: how does this feel? picking out a cute outfit for someone else to enjoy
+[it feels bad]
+that feeling, so deeply wrong and hurtful is the only thing you'll feel from now on
+but in that agony there is something mixed in, something addictive
+GOTO:endFeeling
+
+[it feels good]
+if all you're feeling from this is pleasure then you don't even mind losing me
+that's actually kind of hurtful
+luckily I've just found a shoulder to cry on
+GOTO:endFeeling
+
+[I don't know]
+it's gotten too complex hasn't it
+pleasure and pain, arousal and denial
+how are you supposed to know how you feel?
+but don't worry, I'll tell you how to feel most of the time
+so you can just follow behind
+GOTO:endFeeling
+(endFeeling)
+SETCUCKSTAGE:2
+}
+V=2:cuckNum
+{
+STOPSTROKING:
+so my date with James went really well
+and there is some good news and some bad news
+the good news is that he agreed to being our bull
+I even told him about our little sessions for the sake of transparency
+and do you know what he did?
+he just laughed
+it seems I was being an idiot for even thinking of it as an issue
+I had thought that he would feel threatened by your presence
+but let's be real here, you aren't threatening anyone
+now, as for the bad news
+James had a condition for helping the two of us out
+but it's not that big a deal really
+it's just that I'm not allowed to speak to you about what he does to me on Fridays
+see, that isn't so bad, I can tell you whatever you want to hear on six out of seven days
+how big of a difference is one day going to make
+I'm sure you won't be missing much
+not that you'll know exactly how much you're missing
+(end)
+SETCUCKSTAGE:3
+}
+V=3:cuckNum
+{
+STOPSTROKING:
+you know I've got this weird desire to send some nudes
+not to you of course
+I'm trying to keep that cum in those balls after all
+and I'm sure even a glimpse of skin would send you over the edge
+no, I want to send them to James
+I'm sure he'll enjoy them
+so I'll let you pick again
+what pose should I be in?
+I can lay on my side, with my hands just barely covering myself
+or I can snap a quick photo of my panties, as I'm wearing them of course
+ASK: and don't even try to prevent this from happening
+[lay on your side]
+GOTO:sideShot
+[send a quick panty shot]
+GOTO:pantyShot
+[please don't send James nudes]
+you agreed to this
+and the jump off point has long passed by now
+so you will be a good little cuck and tell me how I should offer myself to others
+ASK: is that understood?
+[yes @missTitle]
+that's right my good little cuck, just let it happen
+GOTO:poseStart
+[no I'm serious, this has gone too far]
+I understand, so I'll let you in on a little secret
+there is no James, I've just been riling you up
+so don't worry, I'm never actually going to leave you
+I'm just putting on an act to keep that cock of yours happy
+not that I'm not having any fun with this fantasy myself, but it'll never turn into reality
+so do you want to cut the roleplay off here or do you want to keep going?
+ASK: just do what you feel comfortable with
+[I want to keep going]
+then you'd better pick a pose for me to lay in
+GOTO:poseStart
+[this is a bit too much for me after all]
+that's fine as well, we'll stop the cuckold roleplay here then
+DELFLAG:cuck
+SETSETTING:cuck,false
+GOTO:end
+(poseStart)
+ASK: so, what pose should I be in?
+[lay on your side]
+(sideShot)
+I really like those types of shots as well
+there is something so classy about it, though it may just be because of the Titanic reference
+luckily I don't need to have an artist to send some nudes
+I just need a recipient, and James is more than willing to fill in that roll
+GOTO:poseEnd
+[send a quick panty shot]
+(pantyShot)
+there is a bit of a wet spot, that tends to happen when we have these sessions
+but I'm sure James won't mind
+GOTO:poseEnd
+(poseEnd)
+there, I've sent it
+and now we wait
+for what you ask?
+well I'm kind of hoping to receive a \package\
+but while I wait for that you can get back to stroking for now
+(end)
+SETCUCKSTAGE:4
+
+}
+V=4:cuckNum
+{
+STOPSTROKING:
+you must wonder if I got that package in the end
+and don't you worry, I got what I hoped for
+lets just say, James isn't lacking in that area
+ISSETTING:sph especially compared to someone else I know
+ISSETTING:sph I had almost forgotten what a real dick looks like after watching you stroke that tiny nub for so long
+ISSETTING:sph luckily it seems like I'll be reminded of just how subpar that @cock of yours is daily
+I felt weak in the legs when I first saw it
+almost like my body was telling me to kneel
+that must be how you feel constantly
+(end)
+SETCUCKSTAGE:5
+}
+V=5:cuckNum
+{
+STOPSTROKING:
+James and I have decided to meet up once again
+it's still a bit away, this Friday in fact
+do you remember how I wasn't allowed to talk about what happens on Fridays?
+but after all this, I'm sure you can guess
+he may just bring me to his house
+and maybe he'll tear off my dress
+rip through my stockings
+and take me then and there
+or the two of us will just grab a cup of coffee
+you just don't know
+but after all this, I'm sure you can guess
+but there is something I must ask of you for this
+STROKESLOW:
+I want your explicit permission
+I want you to encourage me as I go to another
+STROKENORMAL:
+and I want you to look happy while doing so
+so push back those tears and smile
+STROKEFAST:
+I'm doing this for you
+you wanted this
+and so you'll have to deal with the consequences
+EDGE:
+hey it's okay right?
+EDGE:
+I can go behind your back right?
+EDGE:
+you get so horny from me cucking you
+EDGE:
+but it hasn't happened yet
+EDGE:
+you can still stop this
+EDGE:
+you can still keep me by your side
+EDGE:
+ASK: so my cuck, what are you going to do
+[please cuck me @missTitle]
+oh, you're such a pathetic little slut
+that cock makes you pick the wrong side every time
+we really should get it locked up to protect you from yourself
+GOTO:end
+[please stay by my side]
+it's a bit late for that
+I've already made plans with James
+to be honest you're just too late at this point
+so if you won't give me your blessing you should just suffer in silence
+(end)
+SETCUCKFRIDAY:true
+SETCUCKSTAGE:6
+}
+
+V=6:cuckNum
+{
+STOPSTROKING:
+it really sucks that I'm not allowed to tell you what I've been up to
+I'm sure you're curious as well
+it really is too bad
+but if it's what James wants, I'll do as I'm told
+ISSETTING:virgin and I'm sure a virgin wouldn't even understand what I'm telling them
+but there's some good news as well, James wanted to meet again soon
+see, it's not all bad, you'll even get to hear what happened at the end
+SETCUCKSTAGE:7
+}
+V=7:cuckNum
+{
+I went out with James again yesterday
+he took me back to his place
+and bent me over his bed
+my pussy still feels kind of sore after that pounding
+though it may be because of all the times I masturbated afterwards
+but that simply isn't enough
+it doesn't have the same fervent energy behind it
+just two mammals fucking in heat
+SETCUCKSTAGE:8
+}
+V=8:cuckNum
+{
+I took James back home with me yesterday, he seemed a bit shocked by the size of my apartment
+that meekness didn't last very long when I started to strip though
+he ripped of his shirt and sat me down on the couch
+he commanded me to spread my legs and started to lick me
+there was this gentleness to his actions that I normally don't see
+I could feel this need boiling deep inside of me
+telling me that I needed to be fucked
+no oral was going to put out the fire inside of me
+but James just kept licking and licking and licking
+after a while I couldn't keep my legs from shaking
+I was panting and sweating but he didn't give me a moments respite
+that gentleness I felt before turned out to be something else, something closer to possessiveness
+at that point James wanted nothing more than to claim me
+to turn me into his bitch, unable to refuse his commands
+so my pathetic cucky, do you think he succeeded?
+I'm sure you'll find out in time
+SETCUCKSTAGE:9
+}

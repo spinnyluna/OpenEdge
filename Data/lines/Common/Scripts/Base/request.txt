@@ -1,0 +1,771 @@
+START:{
+	ADDVAR:request,1 MOOD:-1 ISFLAGT:gag GOTO:noAsk
+	BIGGERTHAN:GETVAR:request,GETVAR:mood GOTO:noAsk
+	TIME:10 
+	ASK: what is it @subTitle?
+	MOOD:-1
+	GOTO:pleaseWhat1,pleaseWhat2,pleaseWhat3,pleaseWhat4
+(pleaseWhat1)
+	please what?
+GOTO:end
+(pleaseWhat2)
+	next time make sure you actually know what you're going to ask for
+	GOTO:end
+(pleaseWhat3)
+	I'm not going to sit here and wait as you bumble out a question
+	GOTO:end
+(pleaseWhat4)
+	stop rambling 
+	GOTO:end
+(noAsk)
+	@requestDenied
+	GOTO:end
+
+	[...ignore I said anything]
+	GOTO:ignore
+
+	[...extend this session]
+	GOTO:extendSession
+	[...shorten this session]
+	GOTO:shortenSession
+	[...I'm ready for something more]
+	GOTO:extraAsk
+	ISFLAGT:bluetoothOna [...use my stroker]
+	GOTO:btOna
+	ISFLAGT:bluetoothPlug [...use my plug]
+	GOTO:btPlug
+
+}
+
+//module
+V=-1:state
+{
+(ignore)
+	GOTO:end
+(extendSession)
+	ADDVAR:request,8
+	GOTO:extendSession1,extendSession3,extendSession4
+(shortenSession)
+	ADDVAR:request,7
+	GOTO:shortenSession1,shortenSession2,shortenSession3,shortenSession4,shortenSession5,shortenSession6
+
+}
+//stroke
+V=0:state
+{
+	[...let me speed up]
+	GOTO:speedUp
+	[...let me slow down]
+	GOTO:slowDown
+	[...let me take a break]
+	GOTO:break
+	[...let me cum]
+	ISFLAGT:orgasmDenied GOTO:cumDenied
+	ISFLAG:wearingCage GOTO:cage
+	GOTO:cum
+
+(speedUp)
+	ADDVAR:request,3
+	GOTO:speedUp1,speedUp2,speedUp3,speedUp4
+(slowDown)
+	ADDVAR:request,4
+	GOTO:slowDown1,slowDown2,slowDown3,slowDown4,slowDown5,slowDown6
+
+(break)
+	ADDVAR:request,5
+	GOTO:break1,break2,break3,break4,break5,break6
+
+(cum)
+	ADDVAR:request,6
+	GOTO:cum1,cum2,cum3,cum4,cum5,cum6
+
+
+(cumDenied)
+	ADDVAR:request,6
+	GOTO:cumDenied1,cumDenied2,cumDenied3
+
+(cage)
+	ADDVAR:request,6
+	GOTO:cage1,cage2,cage3
+
+(extendSession)
+	ADDVAR:request,8
+	GOTO:extendSession1,extendSession2,extendSession3,extendSession4,extendSession5,extendSession6
+(shortenSession)
+	ADDVAR:request,7
+	GOTO:shortenSession1,shortenSession2,shortenSession3,shortenSession4,shortenSession5,shortenSession6
+(btPlug)
+	ADDVAR:request,5
+	GOTO:btPlug1,btPlug2,btPlug3,btPlug4
+(btOna)
+	ADDVAR:request,5
+	GOTO:btOna1,btOna2,btOna3,btOna4
+(ignore)
+	GOTO:end
+
+}
+//cbt
+V=1:state
+{
+[...have mercy]
+	GOTO:haveMercy
+(haveMercy)
+	ADDVAR:request,3
+	GOTO:haveMercy1,haveMercy2,haveMercy3,haveMercy4,haveMercy5
+(ignore)
+	GOTO:end
+(extendSession)
+	ADDVAR:request,8
+	GOTO:extendSession1,extendSession3,extendSession4
+(shortenSession)
+	ADDVAR:request,7
+	GOTO:shortenSession1,shortenSession2,shortenSession3,shortenSession4,shortenSession5,shortenSession6
+
+}
+//anal
+V=2:state
+{
+[...let me stop]
+	ADDVAR:request,3
+	GOTO:analStop
+(analStop)
+	GOTO:analStop1,analStop2,analStop3,analStop4
+(ignore)
+	GOTO:end
+(extendSession)
+	ADDVAR:request,8
+	GOTO:extendSession1,extendSession3,extendSession4
+(shortenSession)
+	ADDVAR:request,7
+	GOTO:shortenSession1,shortenSession2,shortenSession3,shortenSession4,shortenSession5,shortenSession6
+
+}
+//vibe
+V=3:state
+{
+[...let me cum]
+	ISFLAGT:orgasmDenied GOTO:cumDenied
+	GOTO:cage
+ISSETTING:wearingChastity [...let me take off my cage]
+	(cageOff)
+	ADDVAR:request,8
+	GOTO:cageOff1,cageOff2,cageOff3,cageOff4
+(ignore)
+	GOTO:end
+(btPlug)
+	ADDVAR:request,5
+	GOTO:btPlug1,btPlug2,btPlug3,btPlug4
+(extendSession)
+	ADDVAR:request,8
+	GOTO:extendSession1,extendSession3,extendSession4
+(shortenSession)
+	ADDVAR:request,7
+	GOTO:shortenSession1,shortenSession2,shortenSession3,shortenSession4,shortenSession5,shortenSession6
+(cage)
+	ADDVAR:request,6
+	GOTO:cage1,cage2,cage3
+(cumDenied)
+	ADDVAR:request,6
+	GOTO:cumDenied1,cumDenied3
+}
+
+END:
+{
+(extraAsk)
+	ADDVAR:request,2
+	alright
+	then let's see what else you might be ready for
+	EXTRAASK:
+	GOTO:end
+(cageOff1)
+	we both know that isn't going to happen
+	not for a long while if you keep going like this
+	GOTO:end
+(cageOff2)
+	if you're having such a hard time, you must have not grown used to your situation yet
+	sometimes the only thing that can fix feelings like that is time
+	and I plan to give you plenty
+	GOTO:end
+(cageOff3)
+	ASK: what would you do to take it off right now?
+	[anything you want @missTitle]
+	I want you to wait
+	that's easy right?
+	you don't even have to actively do anything
+	GOTO:end
+	ISSETTING:findom [I'll pay you for it]
+	SHOWFAVOR: oh will you now
+	you seem to have misunderstood something
+	I decide when you get to pay tribute
+	not the other way around
+	and while the key to your little @cage isn't for sale
+	I'll be sure to let you know once it is
+	HIDEFAVOR: you'll be spending longer regaining that favor than the cage would have ever locked you up
+	GOTO:end
+(cageOff4)
+	KNEEL:
+	ASK:I want you to get your key
+	[@yes]
+	ASK: insert the key in the lock, do not turn it
+	[@yes]
+	you are so close @subTitle, so close to getting out of your prison
+	but there is something else that you're close to
+	do you even realize how dangerous this is for you?
+	with a single command I could make you snap your key inside of the lock
+	trapping you forever with no way out
+	locked behind bars for the rest of your life
+	forced to only leak out your loads instead of a real orgasm
+	you love that idea don't you?
+	with the haze from your horniness clouding your mind it sounds amazing
+	forever stuck
+	ASK:take the key out of the lock, take care to not break it "accidentally"
+	[@yes]
+	just look at that @cock strain in its cage
+	GOTO:end
+
+(analStop1)
+	no, not yet
+	GOTO:end
+(analStop2)
+	SPEEDDOWN: 
+	keep going slowly
+	GOTO:end
+(analStop3)
+	it seems you need more training
+	SPEEDUP:
+	GOTO:end
+(analStop4)
+	STROKEOFF:
+	shove it in as far as possible and leave it there
+	arc your back for me
+	do you feel that pressure on your prostate?
+	a slow building heat rising up from inside your body
+	you must not want to stop this feeling
+	too bad @subTitle, stop arching your back and get ready to pound yourself again 
+	STROKEON: oh, and do keep hitting that pleasure button of yours 	
+	GOTO:end
+
+(haveMercy1)
+	don't act like I'm being cruel here
+	if you would just act like the perfect little plaything I wouldn't have to do this
+	but no, you just have to resist your rightful place
+	GOTO:end
+(haveMercy2)
+	I used to think that you could be trained through words alone 
+	but that seems to have been a bit too optimistic
+	and after words have failed me
+	I'm definitely not going to let them save you
+	GOTO:end
+(haveMercy3)
+	I want to see actions, not words
+	and those actions involve you hurting yourself for my entertainment
+	GOTO:end
+(haveMercy4)
+	god you whine a lot
+	well fine then, stop hurting yourself SILENTSTOP:
+	you must be glad, getting out of a punishment by just asking for it nicely
+	though I'm punishing you for speaking out of line
+	STROKEON: so back to hurting yourself you go
+	GOTO:end
+(haveMercy5)
+	you don't actually expect this to do anything do you?
+	KNEEL:
+	GOTO:end
+(haveMercy6)
+	you know you're to blame right?
+	that's why you're feeling this pain in the first place
+	and now you'd try to worm your way out of it using pretty words
+	needless to say that it isn't going to work
+	GOTO:end
+
+
+(speedUp1)
+	so you want to suffer even more?
+	just make sure you don't come to regret this
+	SPEEDUP:
+	GOTO:end
+(speedUp2)
+	you really love this torment don't you?
+	I'll increase the speed then, just for you
+	permanently
+	maybe that'll teach you that you should take whatever break you can get
+	ADDVAR:strokeMod,1
+	SPEEDUP:
+	GOTO:end
+(speedUp3)
+	you think you can handle more than this don't you?
+	that's the difference between the two of us
+	I'm making sure you break sometime in the future
+	while you just think about the here and now
+	I don't mind though
+	it'll just make you break that much sooner 
+	SPEEDUP:
+	GOTO:end
+(speedUp4)
+	so the little @subTitle has a wish or two as well?
+	SPEEDUP:
+	then we'll do just what you wanted
+	SPEEDUP:
+	what's with the worried face?
+	SPEEDUP:
+	I'm just doing as you told me to
+	SPEEDUP:
+	so suffer through the consequences of speaking up
+	GOTO:end
+(slowDown1)
+	awww, is it starting to hurt too much?
+	I'll let you go just a little slower then 
+	so don't come whining to me about being cruel for keeping you on the edge right after this
+	SPEEDDOWN:
+	GOTO:end
+(slowDown2)
+	you're looking at this all wrong
+	this is little more than practice for the edging that's about to come
+	still, I guess I can give you some leeway for now
+	I'll just have to make those future edges more difficult to compensate
+	SPEEDDOWN:
+	GOTO:end
+(slowDown3)
+	is this speed really too much for you?
+	ASK:you really are weak aren't you?
+	[@yes]
+	I thought as much
+	still, I don't want you to break on me just yet, so I guess it's fine
+	SPEEDDOWN:
+	GOTO:end
+	[@no]
+	you're joking right?
+	how can you even act like you're anything other than pathetic right now
+	having to beg to not accidentally edge
+	just so you don't accidentally cum
+	I think you need a bit of a wake up call
+	SPEEDUP:
+	make sure you keep away from the edge now @subTitle
+	GOTO:end
+(slowDown4)
+	you're just joking right?
+	of course you can take this much
+	even if your stamina is slowly crumbling, it can't have gotten that bad
+	still, just in case you've actually gotten pathetic enough to need this
+	SPEEDDOWN:
+	GOTO:end
+(slowDown5)
+	is it too difficult for you?
+	to be honest, I've been holding back quite a bit
+	I'll let you stroke a bit slower in a second
+	first I want you to edge
+	EDGE:
+	so you really were that close huh
+	don't worry, I'm not laughing at your stamina
+	if anything, I've got a satisfied smile on my face
+	a face that signals a job well done
+	since I'm the one that got you this low
+	SPEEDDOWN:
+	do you think you can handle this speed for a bit @subTitle?
+	try your hardest for me!
+	GOTO:end
+(slowDown6)
+	I'm in control here @subTitle
+	ASK:do you get that
+	[@yes]
+	do you really? 
+	you're making all these demands
+	SHOWFAVOR: and you actually expect me to go along with them
+	TRIBUTE:5 I'll let you slow down, for a price
+	SPEEDDOWN:
+	HIDEFAVOR:
+	[@no]
+	then I'll just have to prove how little control you've got
+	KNEEL:
+	EDGE:
+	you're mine to do with as I please
+	and I don't plan on ever letting you go
+	so give up on those free thoughts already
+	SPEEDDOWN:
+	GOTO:end
+(break1)
+	are you serious?
+	STOPSTROKING:
+	well, you'd best make the most of this little break
+	I'm not going to hold back just because your @cock can't handle it
+	use some willpower or something and hold back
+	GOTO:end
+(break2)
+	STOPSTROKING:
+	I'm so incredibly kind for giving you that break right?
+	still, that I'm letting you stop now means I'll have to thoroughly edge you later
+	but don't think about that for now
+	since thinking of that will make your @cock twitch
+	and this break won't do you any good if you're only getting more excited during it
+	just focus on the pictures on the screen instead of all the edges that are coming 
+	ah, that'll also make your cock twitch won't it?
+	GOTO:end
+(break3)
+	then we'll take it slow for now
+	STROKESLOW:
+	what? you wanted to actually stop for a bit?
+	well that's too bad @subTitle
+	since I don't feel like it
+	and how I feel is the most important aspect of your life
+	GOTO:end
+(break4)
+	I've been trying to build up a nice edge
+	needless to say a break is not happening
+	I guess I'll let you stroke just a little bit slower
+	SPEEDDOWN:
+	GOTO:end
+(break5)
+	so you think you need a break already?
+	there's no shot of that happening just yet
+	not until you edge at least
+	EDGE:
+	have fun with that break
+	STOPSTROKING:
+	do keep in mind I never said it was going to be a long one though
+	I'll have you stroking again soon enough 
+	GOTO:end
+(break6)
+	no, I don't think you've earned it 
+	SHOWFAVOR: but that doesn't mean you can't earn a bit of a break
+	STOPSTROKING:
+	TRIBUTE:6 it's just going to cost you
+	you didn't expect that you would get a choice did you?
+	you wouldn't be begging for a break if there was any other way
+	so I've just made your choice for you
+	aren't I so kind for taking that unnecessary work off your shoulders?
+	GOTO:end
+(cum1)
+	yeah yeah, you want to cum, what else is new
+	GOTO:end
+(cum2)
+	I may just let you, not for a while though
+	GOTO:end
+
+(cum3)
+	SHOWFAVOR: well I could do that
+	but it's going to cost you
+	80 favor to be exact
+	aww, don't give me that look
+	I'm not even forcing you to pay 
+	this price is nothing more than the result of supply and demand
+	you're totally free to not buy your way out of this torture
+	do keep in mind though that with every stroke your demand is rising
+	and the price increases along with it
+	soon you'll be regretting not paying "just" 80 favor
+	since I'll have appraised the value of an orgasm to well over double that
+	so my little @subTitle, what's it going to be
+	I'm giving you the special offer of 80 favor for an orgasm
+	ASK: are you going to take me up on that?
+	[@yes]
+	GOTO:saidYesToPaiment
+	[@no]
+	then you really have no reason to beg just yet
+	you can still think things through after all
+	GOTO:end
+	(saidYesToPaiment)
+	STROKEON: SPEED:420
+	ASK:get yourself to the edge for me and hold it
+	[I'm edging]
+	your mind has really turned to mush hasn't it?
+	you'll be spending roughly 6 hours just getting the favor back
+	oh and do keep in mind, I never claimed that I wouldn't ruin it
+	I may or I may not
+	you can buy protection though
+	it's only a little bit more favor, 40 to be exact
+	just 40 favor for an uninterrupted orgasm
+	just 40 favor to not feel this ache anymore
+	or you could let me ruin it 
+	but that would keep you just as horny as you were before
+	don't you just want to feel good?
+	and don't worry about the debt you're getting yourself into
+	that's for future you to think about
+	you just want to feel good
+	you just want to feel bliss
+	and luckily for you, I'm selling it
+	keep holding that edge
+	it's your choice really
+	get even closer to the edge for me
+	ASK:do you want to feel good?
+	[@yes]
+	[@no]
+	closer @subTitle
+	ASK:do you want to pay to not ruin your little load?
+	[@yes]
+	TRIBUTE:10 now that's a good @boy
+	just let me take from you
+	TRIBUTE:10 get closer @subTitle
+	me taking from you should make it pretty difficult to not cum 
+	TRIBUTE:10 you were trained to love this feeling after all
+	is it sinking in yet just how much work it's going to be to get all of this back?
+	TRIBUTE:10 and you'd better do so quickly, I don't feel like waiting a bunch of days just because you're in debt
+	just work harder
+	(paidForOrgasm)
+	I want you on the brink
+	TRIBUTE:20 CUM:
+	TRIBUTE:20 keep stroking as I drain you
+	TRIBUTE:20 this will turn into an addiction
+	TRIBUTE:20 one that I will keep feeding forever
+	and you'll keep paying
+	until your wallet is as empty as your brain
+	STROKEOFF:
+	sleep tight @subTitle
+	make sure you get enough rest
+	since you've got a lot of work to do tomorrow
+	ENDSESSION:
+	
+	[@no]
+	is being in debt that scary to you?
+	CHANCE:60 GOTO:paidForOrgasm
+	still it's fine, in a way this is the best outcome for me
+	since the demand for an orgasm won't drop, the price will stay just as high
+	you're going to ruin that orgasm
+	in a bit I want you to push yourself over the edge 
+	and as soon as you think that you've tipped over I want you to make a tight ring with your fingers at the base of your @cock
+	and when I say tight, I truly mean tight
+	don't let that ring slack at all for at least thirty seconds
+	I don't want you to feel even the slightest bit of pleasure
+	RUIN:
+	you could have felt so good, but no
+	you had to be a cheapskate
+	TRIBUTE:80 well, cheapskate just stare at your favor as it drains away
+	if you want to avoid this fate, you'll let me drain more next time
+	ENDSESSION:
+(cum4)
+	oh, please
+	as if this truly is all you can take
+	GOTO:end
+(cum5)
+	we both know that's not going to happen
+	GOTO:end
+(cum6)
+	I'm not going to let you cum even a second sooner than planned
+	GOTO:end
+(btPlug1)
+	not right now
+	GOTO:end
+(btPlug2)
+	I'll consider it
+	EDGE:
+	CHANCE:50 PLUGASS:
+	GOTO:end
+(btPlug3)
+	just don't regret this when you edge too soon
+	PLUGASS:
+	
+	GOTO:end
+(btPlug4)
+	I'm not even going to entertain the thought that you get to pick and choose what you want to do
+	PUNISHMENT:
+	GOTO:end
+(btOna1)
+	are you sure about that?
+	ASK: I'm not so sure that you can handle a @onahole right now
+	[I can handle it @missTitle]
+	can you?
+	STROKEON:
+	SPEED:400
+	show me that amazing stamina then
+	EDGEHOLD:
+	you can take at least this much right?	
+	EDGEHOLD:
+	otherwise there's no shot of you not edging too soon with a @onahole
+	EDGEHOLD:
+	EDGEHOLD:
+	CHANCE:50 GOTO:btOna1Cont
+	it's too bad @subTitle but you don't get to use your beloved @onahole
+	[you're right, I can't handle it]
+	I thought as much
+	GOTO:end
+(btOna1Cont)
+	ONAON: 
+	GOTO:end
+(btOna2)
+	don't make me regret this
+	ONAON:
+	if you start complaining about it being too hard after this I'm going to lose my temper
+	GOTO:end
+(btOna3)
+	you may think that you want to use your precious @onahole but you don't 
+	because I don't want to use it just yet
+	and you want nothing more than to please me
+	GOTO:end
+(btOna4)
+	it seems you've forgotten how our dynamic works 
+	why are you begging me to use that @onahole when I've decided that a hand suits you?
+	PUNISHMENT:
+	GOTO:end
+(extendSession1)
+	you want to be tortured even longer then?
+	I can do that
+	SHOWFAVOR:
+	but I'm getting paid for my time
+	TRIBUTE:5 SESSIONTIME:5
+	there, 5 favor for 5 minutes
+	and don't go calling that expensive
+	I'm just in that high demand
+	GOTO:end
+(extendSession2)
+	KNEEL:
+	STROKEON: 
+	so you want even more torture
+	even more ache
+	in a bit I want you to press your forehead to the floor 
+	and you're not to look up until you've edged 
+	once you're done with the edge you can look up, but stay knelt
+	SPEED:420 TIME:30 oh and you'd better edge quickly
+	ASK: press your forehead on the floor and edge for me
+	GOTO:timeSkip
+	[I've edged]
+	STOPSTROKING:
+	if you can still edge without any visual stimulation then we're good to keep going even longer
+	SESSIONTIME:10
+	GOTO:end
+(timeSkip)
+	ASK:press your forehead on the floor and edge for me
+	[I've edged]
+	STOPSTROKING:
+	I'm sorry to say that you're taking too long
+	I'm getting bored of you 
+	not forever, just today
+	SESSIONTIMERELATIVE:0.2 so I'm shortening the remaining time a bit
+	I've got some other stuff to take care of
+	and the fire seems to have left your eyes a while ago
+	GOTO:end
+(extendSession3)
+	I've been having fun up till now
+	but that's also because you kept your little mouth shut
+	I may have extended the session myself if you had stayed obedient and waited
+	but no, you just had to come and whine to me about your little addiction
+	this whole thing has taken me out of it
+	I'm ending the session sooner SESSIONTIME:-5
+	maybe that'll teach you to act as instructed without your little opinions getting in the way
+	GOTO:end
+(extendSession4)
+	you know what, I think that's okay
+	we'll have some more fun together and afterwards I'll deny you 
+	yeah that's fair I think
+	a couple minutes of my time for your orgasm
+	ORGASMDENIED: SESSIONTIME:10
+	honestly, it's a pretty good deal 
+	ISSETTING:humiliation I mean we both know that your worthless seed wouldn't have achieved anything
+	ISSETTING:humiliation but just a couple minutes of my life is enough to break losers like you 
+	GOTO:end
+(extendSession5)
+	can you actually take that?
+	I may have been taking it a bit too easy on you then
+	don't worry
+	I'll make sure you'll get back on track
+	EDGEHOLD:60
+	oh and you're getting that extra time as well
+	SESSIONTIME:5 aren't you happy?
+	GOTO:end
+(extendSession6)
+	you know I was planning on letting you cum today
+	but I'll let you trade your orgasm for some extra time stroking
+	ah, and don't worry about the effort of clicking a button
+	in my infinite kindness I've even taken the deal on your behalf
+	TIME:8
+	ASK: so thank me @subTitle
+	you took just a little bit too long thanking me
+	I'm done being as kind as I've been in the past
+	CBTBALLS:
+	oh but don't worry that extra time is still coming your way
+	I've even doubled it
+	SESSIONTIMERELATIVE:2 since you obviously need more training
+	GOTO:end
+	[thank you @missTitle for trading my orgasm away]
+	that's a good @boy
+	GOTO:end
+(shortenSession1)
+	you know I'm doing this for you right?
+	I'm taking time out of my busy schedule to teach you your place
+	SESSIONTIMERELATIVE:0.9 still, if you can't take it anymore I'll let you leave just a bit earlier
+	GOTO:end
+(shortenSession2)
+	well, I'm not sure about that one
+	if anything, you wanting to leave just means you need more training
+	since your addiction hasn't become so overpowering that you'd rather give up on sleep than disappoint me	
+	SESSIONTIMERELATIVE:1.3
+	GOTO:end
+(shortenSession3)
+	you know, I'm feeling a bit tired as well so I don't mind
+	but don't think that I'm letting you off the hook with just that
+	
+	ISSETTING:taskScreen TASK:2,4 SESSIONTIMERELATIVE:0.6 since I'm giving you a task to make up for the time skipped here
+	ISNOSETTING:taskScreen I want you to spend at least 10 minutes looking at porn once we're done here
+	ISNOSETTING:taskScreen it doesn't have to be directly after this, just make sure you do so sometime today
+	GOTO:end
+(shortenSession4)
+	like mother Theresa herself I'm giving you opportunities to be with a girl like myself 
+	and you'd squander that just because it became a little difficult?
+	you're kidding right?
+	I'm not going anywhere
+	and neither are you
+	SESSIONTIME:15
+	GOTO:end
+(shortenSession5)
+	there's no shot of me letting you cum if this is your attitude towards our sessions
+	ISFLAGT:orgasmDenied not that I was going to let you cum anyhow
+	ORGASMDENIED: you can have your shorter session, just remember that the ache you'll feel tonight is your own fault
+	SESSIONTIMERELATIVE:0.7
+	GOTO:end
+(shortenSession6)
+	you know, that would be pretty convenient for me today as well
+	I'll shorten our session a bit
+	SESSIONTIMERELATIVE:0.8
+	GOTO:end
+(cumDenied1)
+	you already know that you're getting denied right?
+	you don't actually think that my will is as weak as yours right?
+	if I say I'm going to do something I'm dong it
+	whether that's denying you
+	or breaking you
+	CBTBALLS:
+	GOTO:end
+(cumDenied2)
+	KNEEL:
+	you need to understand something
+	my word is law
+	so you even suggesting that I should break it is a punishable offense
+	I really should have you court-martialed for going against a superior
+	but I can let it slide
+	as long as you give me an edge or two
+	EDGE:2
+	that seemed a bit light of a punishment, maybe four edges in total will help get the message across
+	EDGE:2
+	oh, five's a much rounder number if we're going up to four anyway
+	EDGE:
+	that should be fine yeah
+	unless...
+	ah, I can't be bothered
+	just do ten and then we can be sure it's enough
+	EDGE:5
+	those knees must be hurting by now 
+	GOTO:end
+(cumDenied3)
+	can you take this seriously please, I've told you I'm going to deny you before
+	you aren't actually stupid enough to think that this would work 
+	not unless you can give me something of equal value
+	and it would take too long to edge that many times
+	GOTO:end
+(cage1)
+	you do realize that you're still locked up right?
+	if I were to make you cum now it wouldn't be the type of orgasm you're used to
+	your cum would trickle down your @cock
+	slowly and without pleasure
+	ISSETTING:cei it really wouldn't achieve much more than making a treat for my hungry @subTitle
+	no, I don't think you're ready to cum just yet
+	GOTO:end
+(cage2)
+	there are bars surrounding your @cock
+	how do you even expect that to work?
+	GOTO:end
+(cage3)
+	why would I let you?
+	I've got you right where I want you
+	with your key hanging around my neck 
+	and your mind in the palm of my hand
+	GOTO:end
+(end)
+
+}

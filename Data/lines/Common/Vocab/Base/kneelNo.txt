@@ -1,0 +1,16 @@
+﻿{
+ get off your knees 
+sit down again 
+you may get up now 
+take a seat 
+stop kneeling 
+I'll allow you to stop kneeling 
+}
+ISFLAG:degrading
+{ 
+get off your knees @subTitle
+ sit down again @subTitle
+ you may get up now @subTitle
+ take a seat @subTitle
+ stop kneeling @subTitle 
+ }

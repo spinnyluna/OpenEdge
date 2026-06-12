@@ -1,0 +1,76 @@
+{ 
+I'll serve
+ I'll obey
+ I'll submit
+ my mind is empty
+ I'm relaxed
+ I'm limp
+ I'm hot
+ I'm horny 
+ }
+ISSETTING:humiliation
+{ 
+I'm a toy 
+I'm a plaything 
+I get hard when I get humiliated 
+}
+ISSETTING:cuck{ 
+I'm a cuck 
+I should just watch 
+}
+ISFLAG:sissy
+{
+ I feel cute
+ I love pink
+ I should swallow
+ cum is my reward
+ I love the smell of cum
+ my thoughts go pop pop pop
+ I love makeup
+ high heels and cute dresses
+ }
+ISSETTING:petPlay 
+{
+ I love my owner 
+ I need to be collared 
+ I need an owner 
+ I'm the cutest little @pup
+ I want to be praised
+ getting praised feels good
+ I get hard when I get praised
+ I have to be a good @boy 
+ }
+ISFLAG:virgin
+{ 
+I'm a virgin 
+I'll stay pussyfree 
+}
+ISSETTING:sph
+{
+ my penis is laughable
+ my dick is small 
+ }
+ISFLAG:cei
+{ 
+I love tasting myself 
+}
+ISFLAG:degrading
+{ 
+@missTitle knows what is best 
+I should just obey 
+I love to feel needed 
+I want to be useful 
+}
+ISFLAGT:kneeling 
+{
+ I love kneeling 
+ @boys should kneel 
+ I belong on my knees 
+ I belong on the floor 
+ }
+ISFLAG:findom
+{ 
+paying for pleasure
+ pleasure is bought
+ send and simp
+ }

@@ -1,0 +1,143 @@
+{
+	FLAGT:changedChastityState
+	ASK:go get your key, no unlocking your cage yet though
+	[@yes]
+	GOTO:taunt1,taunt2,taunt3,taunt4,taunt5,taunt6,taunt7
+	(taunt1)
+	you've been so obedient the last couple of days
+	GOTO:endTaunt
+	(taunt1)
+	you've done great, even with your @cock locked away
+	GOTO:endTaunt
+	(taunt2)
+	to be honest, I don't want to let you go just yet
+	GOTO:endTaunt
+	(taunt3)
+	spread your legs for me, let me burn this image into my mind
+	GOTO:endTaunt
+	(taunt4)
+	doesn't that key look much more interesting now than a couple of days ago?
+	GOTO:endTaunt
+	(taunt5)
+	by now that key must look so pretty to you
+	GOTO:endTaunt
+	(taunt6)
+	I can keep you locked for however long I want
+	GOTO:endTaunt
+	(taunt7)
+	I think it's about time for you to lose that cage of yours
+	GOTO:endTaunt
+	(endTaunt)
+	ASK:put the key into the lock, but don't turn it
+	[@yes]
+	GOTO:keyInLock1,keyInLock2,keyInLock3,keyInLock4,keyInLock5,keyInLock6
+	
+	(keyInLock1)
+	your freedom is just a single turn of a key away
+	you can almost taste it
+	GOTO:endKeyInLock
+	
+	(keyInLock2)
+	I'm sure that @cock is fighting hard against it's restraints
+	but by now it's clear that your @cock isn't ever going to win
+	that seems to be the trend with that dick of yours
+	GOTO:endKeyInLock
+	
+	(keyInLock3)
+	what would your face look like if I kept you locked after all?
+	GOTO:endKeyInLock
+	
+	(keyInLock4)
+	you look so needy right now 
+	is there something you want?
+	GOTO:endKeyInLock
+	
+	(keyInLock5)
+	this is the release you've waited so long for
+	are your hands shaking?
+	GOTO:endKeyInLock
+	
+	(keyInLock6)
+	just be patient, I wouldn't keep you like this for long
+	right?
+	GOTO:endKeyInLock
+	
+	(endKeyInLock)
+	BIGGERTHAN:GETVAR:mood,80 CHANCE:30 GOTO:preTurn
+	BIGGERTHAN:GETVAR:mood,60 CHANCE:40 GOTO:preTurn
+	BIGGERTHAN:GETVAR:mood,40 CHANCE:50 GOTO:preTurn
+	BIGGERTHAN:GETVAR:mood,30 CHANCE:60 GOTO:preTurn
+	GOTO:noTurnKey
+	(preTurn)
+	GOTO:turnKey1
+	
+	(turnKey1)
+	you may turn the key and unlock your cage
+	take off the cage and remove the ring
+	I'll give you a bit of time to clean up
+	ASK: tell me when you're ready to start stroking again
+	[I'm ready]
+	GOTO:release
+	
+	(noTurnKey)
+	GOTO:noTurnKey1,noTurnKey2
+	(noTurnKey1)
+	you know what
+	I changed my mind
+	take the key out of the lock for me
+	I'll keep you locked a little while longer
+	ASK: put the key away again
+	[@yes]
+	GOTO:end
+	(noTurnKey2)
+	so about that whole unlocking thing
+	I'm not really feeling it right now
+	just take the key from the lock 
+	I promise I'll unlock you soon 
+	though soon is totally subjective
+	ASK: I want you to put the key away again
+	[@yes]
+	GOTO:end
+	
+	(release)
+	DELFLAG:chastityDate
+	DELFLAG:chastityTime
+	DELFLAG:wearingChastity
+	GOTO:release1,release2,release3,release4,release5
+	(release1)
+	does the open air feel weird on your @cock?
+	it's amazing how fast the body adapts
+	if I had kept you in that cage a little while longer
+	you wouldn't even want to get out anymore
+	GOTO:end
+	(release2)
+	get your @cock fully erect if it isn't already
+	it doesn't look as cute as a caged cock
+	but I should reward you for all your hard work
+	so you've earned this freedom
+	well, rather than freedom it's more like parole
+	since as soon as you do anything that mildly inconveniences me
+	I'm throwing you behind bars once again
+	GOTO:end
+	(release3)
+	how good must that feel, finally free from all those sleepless nights
+	just know that even if your cage isn't keeping you up at night
+	I'll find some other way to make sure you're not sleeping soundly
+	GOTO:end
+	(release4)
+	you've been cleaning that cage thoroughly right?
+	so why is there still such a strong odor coming off of it
+	just how needy have you become for just a day or two of need to smell this strong
+	did you have a constant stream of precum flowing out of your @cock or something?
+	well make sure to clean your cage properly once we're done here
+	since you'll be wearing it again soon
+	GOTO:end
+	(release5)
+	you're probably pretty happy to get out of that tight cage
+	don't forget that you're still not allowed to cum until I give to go-ahead
+	I'm keeping you locked for a very long time if you get too excited and cum without permission 
+	do try to control yourself @subTitle
+	or I'll take control by force
+	(end)
+
+}

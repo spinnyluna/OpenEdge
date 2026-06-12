@@ -1,0 +1,62 @@
+{
+keep stroking and finally empty those balls
+SPEED:300
+ISSETTING:sph if your dick was a bit larger this may even look sexy
+all that ache and suffering has lead up to this
+SPEED:200
+those sleepless nights where you could only rub your legs together in need
+SPEED:100
+aren't I just the kindest @missTitle for granting you such relief
+SPEED:30
+you may stop stroking
+SILENTSTOP:
+now get out of here, I've got better things to do
+}
+{
+I've granted you a full orgasm so you'd better not be slowing those strokes down
+SPEED:300
+does it hurt? is it uncomfortable?
+SPEED:200
+I truly couldn't care less, keep stroking your @cock
+SPEED:100
+this is the release you've worked so hard for, so I'm not going to let you ruin it for yourself
+SPEED:30
+you can stop those strokes now
+SILENTSTOP:
+I'll see you when I see you, rest well
+}
+{
+keep stroking for me
+SPEED:300
+wring out every drop
+SPEED:100
+SPEED:30
+rest in the afterglow
+STOPSTROKING:
+you've done well to obey me all this time
+I'm proud of how far you've come @subTitle
+we should quickly build up that need once again, but I'll grant you a night of peace
+till next time @subTitle
+}
+{
+SPEED:300
+let this pleasure sear into your brain
+SPEED:200
+this is how it feels to obey
+SPEED:100
+this is how it feels to submit
+SPEED:30
+all that denial was for this moment
+STOPSTROKING:
+I hope it was worth the wait
+because from tomorrow onward we'll be back to our regular program of denial and ache
+}
+END:
+{
+ISSETTING:outsideSession CHANCE:30 COMMANDMENTS:
+and that concludes our session for today, see you soon!
+ISFLAGT:taskAdded don't forget about that task I gave you
+and remember, no touching!
+FLAG:fullOrgasm
+ENDSESSION
+}

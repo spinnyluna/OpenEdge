@@ -1,0 +1,413 @@
+EXTENDS:tagTease
+{ 
+	if you had better control of your lust it wouldn't have come to this
+	slowly I'm twisting you into what I want you to be
+	drool for me 
+	do you think people don't notice how horny you are in your day to day?
+	keep suffering
+	stare at the pretty pictures and fall even deeper
+	worship me
+	you can take more of this right?
+	show me just how devoted you are
+	everything should be nice and slippery
+	I control how much trouble you'll have getting to sleep tonight so you'd better behave
+	the roots of my control have settled too deep within you for you to escape my grasp
+	this has turned into more than just play and make-believe
+	give your balls a love-tap for me
+	show me the depths of your depravity
+	I want you shuddering with need
+	controlling you is so easy, I just put some nice images on the screen and you can't help being enamored
+	I want your @cock covered in spit
+	as long as you keep doing as you're told I won't be too cruel, to my standards at least
+	many people would give a limb to serve me, many more would give a limb to leave
+	now that I've got you, I'm never going to let you leave
+	I tend to get rather possessive of my toys
+	you're thinking way too hard, just let me mold you
+	I'm sure that you'll both hate and love this at the same time
+	it may not have fully sunken in yet just how binding my words are to you now, don't worry, I'll show you
+	it really was a one in a thousand that we would meet, you don't know if that was good or bad luck
+	when we have these sessions I expect you to be nude
+	I'll remind you of your place as many times as I deem necessary
+	normally I like to think that I'm kind to the people around me, but with you I don't feel that need at all
+	I can finally show off my more sadistic desires when I'm with you
+	when we're together you can finally let go of how you're expected to behave in society
+	show me all of you
+	I want to see you in your most shameful form
+	I love how much power I hold over you
+	at some point you won't even be able to differentiate between pleasure and pain
+	I can break you whenever I want, that I don't is only because I'm such a kind @missTitle
+	in some far-off corner of your mind you're still trying to resist, don't worry, I'll stamp that feeling out in no time
+	do your best to ignore the ache
+	isn't it just the natural order of things that you ended up beneath my heel?
+	while you only have to show up once every three days I don't mind if you show up more often than that
+	it takes a lot of confidence to come out as a sub, way more than it takes to be a dom
+	your secret of being a submissive little pervert is safe with me, although you probably can't hide it very well
+	we both need each other to do our part, so I'll be as strict as I can and you should suffer in silence
+	while some dommes won't let you speak unless specifically commanded to, I quite enjoy hearing my effect on you
+	maybe if you beg hard enough I'll make it easier
+	don't hold your voice back, I want to hear you moan
+	moan for me
+	let me hear what I do to you
+	let me hear your voice
+	moan louder @subTitle
+	what will you sound like a week from now, I can't wait to find out
+	it's so much fun to watch you slowly break apart as you realize how fucked you are
+	you're so adorably pathetic
+	I'm only breaking you down to build you back up so stop resisting
+	@men like you need an owner
+	you should obey, not that you've got any choice in the first place
+	I want you to drill into your mind that I'm in control here
+	just follow along if you want to feel good
+	is it scary how horny you feel? don't worry, I'll make sure that you get used to it  
+	I love making @boys like you squirm
+	those balls must be getting so heavy with ache, it's too bad that release is still so far away
+	I want you so incredibly horny that all thoughts leave you
+	you're going to wish you never met me once I'm done with you, but by then it'll be too late to leave
+	let me see how weak I make you
+	don't worry I'm not going anywhere, even if you want me to
+	I wonder how long that sense of self is going to last under my torture
+
+}
+
+
+ISFLAG:wearingChastity{
+	I don't want you to wear anything apart from your cage
+}
+ISFLAG:sissy{
+	I'm going to feminize you slowly
+	you should dress up before you show yourself to me
+	make sure you're properly groomed before meeting with me
+	hang your tongue out of your slutty mouth and drool for me
+}
+ISFLAG:degrading
+{
+	I deserve to be worshiped, just as you deserve to suffer 
+	your love for humiliation isn't natural, it is something that's been trained and nurtured 
+	you are nothing without me 
+	if you had me, you probably wouldn't even know what to do with me
+	there will be a moment where you realize just how fucked you are 
+	it's not about what you want anymore
+	you will do as I say
+	obey, @subTitle 
+	I love this feeling of superiority 
+	you're such a pathetic little @subTitle for me, aren't you?
+	show me your true self, with all of it's pathetic little flaws
+	isn't the outside world so scary? having to think for yourself and all that
+	you're doing good @subTitle, that you're still conscious proves it
+	I know how to break you if I have to, stay obedient @subTitle 
+	you're so weak for me aren't you?
+ }
+ISSETTING:sph{
+	it's a miracle you can even find that dicklet
+	thank god for masturbation, right? you're not going to get laid with a cock that small
+	sex is off-limits for cocks like yours, unless you're on the receiving end of course
+	when I first saw you I instantly knew that your dick was tiny, us girls are sensitive to that sort of stuff
+	I'm glad that you have a small dick, it's something extra to ridicule you with
+	aren't you glad to have a small dick? you get hard from me ridiculing it after all 
+	I don't think I'm ever going to get over the size of your @cock 
+	did you ever think you had a real chance with me, packing a cock like that 
+}
+ISFLAG:quickshot ISNOFLAG:wearingChastity
+{  
+	you won't be able to pleasure anyone if you can't last in bed 
+	don't cum unless I say so! I know that's difficult for you
+	don't cum early like you do so often 
+}
+ISFLAG:quickshot
+{ 
+	make sure you don't shoot your load too soon, I know how hard that is for you 
+	you're just a pathetic quickshot
+	premature ejaculation is a real problem, but I'm sure you'll learn to deal with it 
+ }
+ISFLAG:virgin
+{ 
+	you'll never be disrespectful to a woman again once I'm done with you
+	it doesn't surprise me that you're a virgin
+	you'll never touch a woman 
+	it makes sense to me that you've never touched a woman
+	why would you even admit to being a virgin?
+	I'll make sure to ridicule you, with every embarrassing truth you admit to
+	so you're a virgin, I never would have guessed such a truly shocking development
+	I love that you trust me enough to tell me you're a virgin, most people take things like that to their grave
+ }
+ISSETTING:cuck
+{
+	you being a cuck is just the natural order of things
+	I could really use a good fuck... it's too bad you're pretty much useless in that department
+	if you get too deep into cuckolding, you'll come to hate your own fetishes 
+ }
+ISSETTING:petPlay 
+{ 
+	as long as you're a pet, you can do no wrong
+	being my little @pup is safe and comforting
+	as my @pup you won't have any worries, you'll just get to feel good 
+}
+ISSETTING:humiliation ISNOFLAG:wearingChastity
+{
+	watching a @man masturbate can be really sexy, but this is just pathetic 
+	this is the only way you can get off, isn't it? that's so pathetic 
+	you're lucky I even let you touch that disgusting @cock 
+	someday I'm going to throw a party and make you do this in front of all my friends
+}
+ISSETTING:humiliation
+{ 
+	it's so weird that you need to get ridiculed for your @cock to leak out its little load
+	you really can't get off without someone degrading you anymore can you?
+	your pathetic little display is turning me on as well, keep going @subTitle
+	I can't even imagine what it's like to need someone to tell me how to masturbate
+	it's almost sad how easy it is to control you
+	as long as I'm mean to you, you'll do whatever I want
+	I'm certain that you'll obey, sometimes you just need a bit of a push
+	do you truly believe you're worthy of my attention?
+	you ought to thank me for even gracing you with my presence
+	god you disgust me 
+	if only you weren't such a loser, maybe you wouldn't be here 
+	you're such a pervert 
+	don't expect your sex life to ever get better than this, loser
+	this is it isn't it? this is your sex life now... 
+	I would love to humiliate you in a public place
+	you'll never be good enough for someone like me and you know it
+	you're such a loser
+	does it hurt yet? no? let's fix that 
+ }
+ISNOFLAG:wearingChastity ISFLAG:cei
+{ 
+	keep going my little cum slut 
+	let's make a big creamy load, you might just have to eat it
+	maybe I'll let you cum just to see you eat it, don't get your hopes up though
+	let's fill up those balls with lots of cum, I might make you swallow it 
+}
+ISFLAG:cei
+{ 
+	I can't wait to make you eat your own cum again
+	I bet you can almost taste that cum already, disgusting
+	are you getting used to the taste of cum yet?
+	go ahead, have a taste of that sweet sticky precum
+	scoop up any precum and rub it on your lips, don't lick it off
+	smear some precum right under your nose
+	good @boys eat their cum
+	if you are leaking precum, lick it for me
+
+ }
+
+
+ISSETTING:anal
+{
+	
+	you're going to submit in more ways than one
+	only a failure of a @man would allow me access to their little hole
+}
+
+
+ISFLAG:sissy
+{
+	you're such a cute sissy for me
+	I really should make you walk around in panties like a good sissy
+	you're such a pathetic little sissy
+	I really want to make you dress up
+	cute little sissy's belong in cute little dresses
+	I want you to apply makeup, just so I can see it run down your cheeks 
+ }
+ISFLAGT:kneeling {
+	are your knees starting to hurt yet?
+	you belong on your knees, ready to serve
+	knees together @subTitle
+	keep your back straight @subTitle
+	this is a proper pose for a @man like you 
+ }
+V>3:denied {
+	you've given yourself so many orgasms, it's only fair that I take a couple 
+	that prostate of yours must be getting all swollen by now, I'll tease some of that pressure out of you soon
+	when I'll finally let you cum it'll feel amazing
+	only when I allow you to cum will you feel normal again, there is no telling when that will be though
+	your dick is almost like a broken faucet, it just keeps dripping precum
+	it's cute how desperate for release you are
+	we've almost reached your limit haven't we?
+	that look in your eyes is almost primal, like there is a hunger deep inside you
+	denial after denial, there are cracks forming in the mask you're wearing
+	how much more can you take before it all becomes overwhelming
+	every stroke and every edge is pushing you further down a hole that you can't crawl out of
+	a humanitarian aid group would help you if you told them about our little sessions
+	what started out as innocent make-believe has turned into a chain around your neck
+ }
+V<3:denied 
+{
+	you came just a little while ago, why do you already look this pathetic?
+	you can hold it back a little longer for me right?
+	I don't believe you've got much of a shot for reaching orgasm today
+	you've got a long road ahead of you if you're acting like this after just a little bit of denial 
+ }
+
+ISFLAGT:censor 
+{ 
+	you're getting denied even the porn you love
+	blurs and bars are good for you
+	act like a good sub and you'll be rewarded with less intense censors
+	can you believe some subs get off to censors?
+	you're going to associate pleasure with the censors if we keep this up
+	I wonder how long it will take for the censors to become more appealing than the porn it's hiding
+	you really are a freak for letting me do this to you
+	god you're pathetic for being into this shit
+	you probably thought that the denial of your cock would be the end of it
+	you don't deserve to see nudity
+	maybe I should keep this up permanently
+	I'm sure you're not missing much, I mean, you've seen those pictures before
+	why do you look hornier now than before the images got censored?
+	do you really believe that you deserve the uncensored versions?
+	if you were a better sub I wouldn't have to bully you like this
+	the censors will get worse if you don't do exactly as I say
+	I think this may be your lowest point so far, you can barely even see anything and you're getting hotter and hotter
+	you may just forget what your favorite porn looks like if we keep this up
+	if you don't act like the perfect plaything, I'll take even more of your sight 
+ }
+V<30:mood
+{
+	do you even want to cum?
+	you wouldn't go against me if you actually wanted to have an orgasm 
+	this shouldn't be fun for you, you need to suffer
+	you've been misbehaving a lot lately, at least we're almost done for today
+	you're going to have a terrible time if you don't act as I'm expecting you to 
+	you really should be trying harder, I'm not even making you do anything difficult
+	I'm starting to get annoyed, @subTitle
+	you're really going to want to keep me happy or you'll suffer the consequences
+	if you keep pushing my buttons like this, you're going to regret it
+	do you even want to cum at some point in the future?
+	keep going as you are now and I'll drag you into hell
+	you don't want to disappoint me anymore than you already have right?
+	obedience doesn't come easy to you does it? don't worry, I'll beat it into you
+	many others can take your place, so you'd better start behaving
+	some people like to act like brats, some people enjoy breaking those brats
+	you're going to hate this if you don't start putting my needs before your own
+	how clear do I have to be, you exist to serve, @subTitle 
+ }
+
+V>80:mood
+{
+	nothing gives me as much pleasure as the knowledge that you can't go against me anymore
+	you're doing good @subTitle
+	you can't go against me anymore can you?
+	you're acting so docile and submissive for me
+	you look amazing like this
+	I should just order you to go around the house naked
+	I love your cute ass
+	suffer more for your @missTitle
+	if you keep acting this obedient, I may just have to reward you 
+	I'm loving this
+	it's so much fun to experiment with your @cock
+ }
+ISFLAGT:plug 
+{ 
+	we both know that you're getting more and more used to anal so we may have to increase the size of that plug soon
+	squeeze down on your plug for me
+	make your tight little hole clamp around your plug
+	I really should just have you wearing a plug non-stop
+	your ass belongs to me, and that plug is there to remind you
+	I love training your ass like this
+	we should increase the size of that plug of yours
+	you love being plugged up don't you?
+	is that plug making everything so much harder on you?
+	it's amazing how much damage a plug can do to your stamina
+	
+}
+ISFLAGT:ballsBound 
+{ 
+	your balls must feel extra full now that they're tied up like that
+	give those bound balls a little tug
+	binding your balls makes everything so much more sensitive
+}
+ISFLAGT:clamp 
+{ 
+	are your nipples starting to hurt yet?
+	I love how sensitive your nipples are
+	you look gorgeous with those clamps on your nipples
+	is the pressure of the clamps becoming too much for you? does it help that I'm reminding you of them?
+	give those clamps a little twist for me
+}
+ISFLAG:findom
+{ 
+	it's only fair that I take from you, you're so weak after all 
+}
+ISFLAGT:collar 
+{ 
+	you look beautiful with my collar around your neck
+	I love how submissive you look with that collar on
+	that collar serves as a reminder that you belong to me
+	it's so soothing to feel that collar around your neck, isn't it 
+ }
+ISFLAG:virgin ISFLAG:wearingChastity
+{
+	if you're letting me lock you up you must agree with me that there's little to no chance of you losing that virginity of yours 
+}
+ISFLAGT:plug ISFLAGT:bluetoothPlug{
+	just ignore the rumbling in your ass
+	just ignore the buzzing of your plug as I play with it
+	make sure you don't spill your load from my teasing
+}
+ISFLAG:wearingChastity
+{
+	I may not be keeping you locked up that much longer, at least that's what you should hope for
+	just a bit more and I'll let you stroke, I promise
+	we both know that it's only going to make your ache worse if I actually let your dick out
+	have you felt this much of a need to touch before?
+	isn't it wonderful that I'm keeping your key for you? 
+	just remember, my word is the law as long as I've got your key 
+	your key is safe with me, I won't give it up to anyone, that includes you of course
+	just the smallest bit of metal or plastic can turn a @man into a pet
+}
+
+V>3:sessions{
+	we both know that you're not here by choice anymore
+	you're going to regret handing over control, even if it's to a @missTitle like me
+	it must be a dream come true to have me handling that orgasm of yours
+	just surrender that cheap imitation of a free will to me
+	you're such a disgusting pervert, I don't mind though, I made you like that after all
+
+}
+ISNOFLAGT:orgasmDenied
+{
+	there's no way for you to go against me while I can just deny you
+}
+ISFLAG:wearingChastity ISFLAG:illegalCum
+{
+ 	if only you were strong enough to resist your urges, then I wouldn't have had to lock you up
+	always remember that I've locked you up because I couldn't trust you to resist your urges
+	if you want to say goodbye to that cage make me trust you again 
+}
+
+ISFLAGT:orgasmDenied
+{
+	you know I'm not going to let you cum today right?
+	it's nice to not have to think about if you get to cum, for me at least
+	I'm glad we already got the question of your orgasm out of the way
+    I may just forget that I promised denial, keep your hopes up!
+}
+V<30:mood ISSETTING:chastity ISFLAG:cage ISNOFLAG:wearingChastity
+{
+	don't make me get your cage @subTitle
+	you'd better start behaving or I'm getting your cage
+}
+ISFLAG:wearingChastity
+{
+	if you want to have any hope at remaining my @subTitle you should be able to handle that @cage
+	even if I never unlock you again it's not like I can't make you cum some other way
+	a locked cock is a good cock 
+	do you remember when you owned your @cock, me neither 
+	don't you regret letting me control the key to your cage? 
+	you'd better obey, I own you now 
+	control the dick and you control the @man 
+	you're such an idiot to give up your key all on your own
+}
+ISFLAG:analTrainingNo
+{
+	I'd like for you to become more comfortable with anal
+	you're so scared of a part of your own body, it's exactly the sort of weakness I've come to expect
+	anal isn't all that scary you know
+}
+ISSETTING:cuck{
+	I wonder who I should get to fuck me tonight
+	I need to get fucked hard tonight, it's too bad you can't watch me getting dicked down
+	I'm going to find myself a real @man to spend time with once we're done here 
+	you're the only @man I know who would let me do this to them 
+	one day I'm going to make you stroke your @cock while I'm getting getting fucked
+	I don't think you've quite grasped the difference between my fuck buddies and you
+}

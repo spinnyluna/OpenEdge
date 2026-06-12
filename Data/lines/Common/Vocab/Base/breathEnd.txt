@@ -1,0 +1,16 @@
+﻿V>80:mood
+{
+good @boy, you may breathe again
+you're such a good @boy for me, breathe
+}
+{ 
+that's enough
+breathe @subTitle
+ you may breathe again, good job
+ good job for making it through that
+ }
+V<30:mood
+{
+I guess you may breathe again
+you'd best start behaving or I may increase the duration of the holds even further
+}

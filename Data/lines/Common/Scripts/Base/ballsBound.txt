@@ -1,0 +1,37 @@
+{
+	ISFLAGT:ballsBound GOTO:end
+	@bindBalls
+	GOTO:simpleLoop,splitBalls,eightShape
+	(simpleLoop)
+	COMMAND: take your string, find the halfway point and place it under your @balls, then circle around your @balls, finally bind it off at the bottom
+	[@yes]
+	GOTO:startEnd
+	(splitBalls)
+	COMMAND: take your string, find the halfway point and place it under your balls, then circle around your @balls once, try to get as much nutsack in there as possible, take the left side and circle your left ball and vice versa, bind it off at the bottom
+	[@yes]
+	GOTO:startEnd
+	(eightShape)
+	COMMAND: take your string, find the halfway point and place it under your @balls, you're going to make a figure-8 with that rope between your @cock and @balls, finally bind it off at the bottom
+	[@yes]
+	(startEnd)
+	GOTO:end1,end2,end3,end4,end5
+
+	(end1)
+	see, doesn't that just look so much better?
+	GOTO:end
+	(end2)
+	this will make you more sensitive
+	GOTO:end
+	(end3)
+	you're really going to hate that string
+	GOTO:end
+	(end4)
+	doesn't this make everything so much more sensitive?
+	GOTO:end
+	(end5)
+	good @subTitle
+	GOTO:end
+	(end)
+	FLAGT:ballsBound
+
+}

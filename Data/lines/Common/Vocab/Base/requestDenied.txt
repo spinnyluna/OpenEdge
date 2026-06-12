@@ -1,0 +1,52 @@
+{
+	shut your mouth and do as you're told
+	shut your mouth or I will shut it for you
+	shut up and keep doing as you're told
+	you don't seem to understand that you're here to obey
+	I've had quite enough of those little requests of yours
+	stop acting like a spoiled child and do as you're told
+	I don't care about your begging 
+	is our dynamic too complicated for you? just do as you're told @subTitle
+	
+}
+ISFLAGT:gag{
+	is the gag not a clear enough signal that you've requested enough?
+	how clear do I have to be, shut your fucking mouth @subTitle
+}
+ISFLAG:gag ISNOFLAGT:gag{
+	alright that's it GAG:
+	you really can't shut up can you GAG:
+	I had expected you to at least be able to keep quiet if it's to save your own skin GAG:
+}
+V>50:request{
+	you've requested enough @subTitle
+	you're getting me quite annoyed with all these requests
+	I think you've requested enough for now @subTitle
+
+}
+V<40:mood{
+	I'm in no mood to listen to you complain right now
+	I really don't feel like giving you even the slightest bit of support at the moment
+	first you piss me off and then you expect me to have mercy?
+}
+ISSETTING:sph {
+	maybe I'd listen if your @cock was just a little bit bigger, but no 
+}
+//stroke
+V=0:state {
+	SILENTSTOP: maybe a bit of a beating will teach you to just do as you're told CBTBALLS:
+	keep complaining and I'll give you something to actually whine about 
+	SILENTSTOP: alright that's it, you're getting a beating CBTBALLS: 
+}
+//cbt
+V=1:state {
+	I don't think you can say anything to make me stop right now
+	no matter what you say, I want you to hurt yourself for me
+}
+//anal
+V=2:state{
+
+}
+//vibe
+V=3:state{
+}

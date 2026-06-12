@@ -1,0 +1,11 @@
+{
+                
+	ISFLAGT:gag GOTO:start
+	GOTO:end
+	(start)
+	STOPSTROKING:
+	COMMAND: @gagNo
+	[@yes]
+	DELFLAGT:gag
+	(end)    
+}

@@ -1,0 +1,53 @@
+
+V>80:mood{
+	you look wonderful when you're this close
+	you're getting me so wet with how much you're struggling
+	I'm feeling so hot, and it's all because of you
+
+
+ }
+{ 
+	you're going to remember this edge tonight
+	that cock better be ready to burst at the end of this
+	you need to suffer so much more
+	you belong on the edge @subTitle
+	can you feel the cum churning in your balls?
+	your dick needs to cum, too bad it doesn't get to decide anymore
+	push yourself a bit closer to the edge for me
+	I'm sure you can take more right?
+	don't let yourself go past the point of no return
+	get close enough for a gust of air to cause orgasm
+	I want your toes curled and your back arced in pleasure without pause
+	keep trying your hardest for me @subTitle
+	try to push yourself a little bit closer
+	show me what I do to you 
+
+ }
+ISFLAG:degrading
+{ 
+edging is the only way you stay useful to me
+ edging is your only purpose from now on
+ this is what every @cock as useless as yours should feel
+ no woman would ever want to see your @cock cum
+ your knees better be shaking after this edge
+ just stay there and suffer
+ your dick belongs to me now, and I'm telling you to hold that edge 
+ }
+ISSETTING:humiliation
+{ 
+imagine of you were here fucking me instead of edging like a loser 
+}
+V<30:mood
+{ 
+you call that edging? push yourself or lose my interest @subTitle 
+this is just pathetic, closer @subTitle
+ I'm about to fall asleep over here 
+ }
+ISFLAGT:orgasmDenied 
+{ 
+you know your getting denied right? 
+}
+ISFLAG:findom
+{ 
+closer now, or I'm taking tribute
+}

@@ -1,0 +1,8 @@
+﻿
+{ 
+well done @subTitle
+ good @subTitle
+ I'm proud of you @subTitle
+ you're doing well @subTitle
+ your training is coming along nicely 
+ }

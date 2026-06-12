@@ -1,0 +1,13 @@
+﻿{ 
+slow down 
+slow down a bit 
+}
+ISFLAG:quickshot{ 
+you can't last long enough for a pace like this, slow down
+ just a bit more and you would cum already, too bad though
+ that @cock can't handle this slow down 
+ }
+ISFLAG:degrading{ 
+slow down @subTitle 
+slow down a bit @subTitle 
+}

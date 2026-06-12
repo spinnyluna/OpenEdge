@@ -1,0 +1,11 @@
+{
+	ISFLAGT:vibe GOTO:start
+	GOTO:end
+	(start)
+	STOPSTROKING:
+	COMMAND: @vibeNo
+	[@yes]
+	DELFLAGT:vibe
+	GOTO:end
+	(end)
+}

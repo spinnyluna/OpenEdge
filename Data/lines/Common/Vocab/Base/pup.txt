@@ -1,0 +1,14 @@
+ISSETTING:petPlay { 
+pet 
+}
+ISFLAG:cat 
+{ 
+kitty 
+kitten 
+}
+ISFLAG:pup
+{
+puppy 
+pup 
+doggie 
+}

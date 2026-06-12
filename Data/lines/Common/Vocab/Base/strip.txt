@@ -1,0 +1,26 @@
+
+{ 
+strip down for me 
+take off your clothes 
+strip down 
+get naked 
+get nude 
+show me your nude body 
+I want you naked 
+show me all of you 
+}
+ISSETTING:sph{ 
+show me that pathetic little cock of yours
+ undress, don't hide that small thing
+ I guess I'll have you strip, although there is nothing to see 
+ }
+ISFLAG:degrading
+{ 
+undress right now @subTitle
+ you'd better rip those clothes off @subTitle 
+ }
+ISSETTING:petPlay 
+{
+ I don't think it's right for pets to wear clothes, strip for me 
+ puppies don't wear clothes, strip down 
+ }

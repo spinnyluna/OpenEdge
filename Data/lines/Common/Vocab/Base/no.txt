@@ -1,0 +1,2 @@
+﻿ISFLAGT:petPlay { *shake your head* }
+ISNOFLAGT:petPlay { no @missTitle }

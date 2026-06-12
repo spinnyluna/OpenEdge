@@ -1,0 +1,35 @@
+EXTENDS:tease
+{
+	not even being allowed to stroke anymore must have damaged your pride a bit
+	
+}
+ISFLAG:sissy{
+	now you're even masturbating like a proper sissy should
+	do you even want to go back to stroking normally? this suits you
+	somehow this looks more natural than having you jerk off normally
+}
+ISSETTING:sph{
+	a clit like yours is perfect for a vibe
+}
+V=0:vibeStrength
+{ 
+	do you want your vibrator back on your @cock? too bad @subTitle
+}
+V=1:vibeStrength
+{ 
+	I'm sure your greedy @cock wants more stimulation, that isn't up to you though
+	do you think you can handle more? I'm not so sure
+	slowly getting milked by a vibe has it's own special flavor of patheticness
+}
+V=2:vibeStrength
+{ 
+	keep your breathing steady, you can do this
+}
+V=3:vibeStrength 
+{
+	just look at that @cock bob up and down
+}
+ISFLAG:wearingChastity V>0:vibeStrength
+{ 
+just hear that lock jingle with the vibrations
+}

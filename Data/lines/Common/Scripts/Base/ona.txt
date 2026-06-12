@@ -1,0 +1,21 @@
+{
+	ISFLAGT:ona GOTO:end
+	STOPSTROKING:
+	COMMAND: @ona
+	[@yes]
+	FLAGT:ona
+	GOTO:cont1,cont2,cont3,cont4
+	(cont1)
+	you really don't deserve to be jerked off by me, don't make me reconsider by edging too soon
+	GOTO:end
+	(cont2)
+	try your best to last or I'll stop jerking you off myself
+	GOTO:end
+	(cont3)
+	you should consider that stroker of yours as a reward
+	GOTO:end
+	(cont4)
+	you're not going to act like you deserve to use your stroker every time right?
+	GOTO:end
+	(end)
+}

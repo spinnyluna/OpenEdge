@@ -1,0 +1,14 @@
+﻿V>80:mood
+{
+you've been good, but take the collar off for now @pup
+ take off the collar my cute @pup 
+ }
+{
+ too bad @pup, lose the collar
+ take your collar off
+ you don't get to wear the collar anymore 
+ }
+V<30:mood
+{
+ you've been bad, so you don't get to wear that cute collar anymore 
+ }

@@ -1,0 +1,4 @@
+﻿
+V=0:pronoun { boys }
+V=1:pronoun { girls }
+V=2:pronoun{ subs }

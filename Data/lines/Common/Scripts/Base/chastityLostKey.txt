@@ -1,0 +1,26 @@
+
+ISSETTING:toldAboutNecklace ISNOSETTING:lostKey
+{
+FLAGT:changedChastityState
+do you remember that key I told you about?
+that symbolic connection between my key and your cage
+well I may have some bad news
+I seem to have misplaced the thing
+I've been searching high and low for it at home but I can't find it
+don't look so worried, it may just be at work
+and since I'm the kindest @missTitle to ever grace this earth
+I'll even let you unlock yourself to clean your cage
+it's just stroking that's off the table for now 
+SETSETTING:lostKey,true
+}
+ISSETTING:toldAboutNecklace ISNOSETTING:lostKey
+{
+FLAGT:changedChastityState
+I really should be more careful with my belongings
+I'm not going to let you out of your cage for a bit
+this totally doesn't have anything to do with me losing your key
+I just want you locked for now 
+I'll still let you open up your cage every two days to clean it
+god where did I place it again?
+SETSETTING:lostKey,true
+}

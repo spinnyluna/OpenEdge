@@ -1,0 +1,28 @@
+﻿V>80:mood
+{
+show me how good you are at holding it
+ be a good @subTitle and hold it 
+ }
+{ 
+hold it 
+stay there 
+keep your @cock on the edge
+ don't you dare back off 
+ stay on the edge 
+ }
+ISFLAG:degrading
+{
+ stay on the edge @subTitle 
+ stay on the edge and entertain me
+ ride it for my enjoyment 
+ }
+V<30:mood
+{
+ try your hardest not to disappoint me any further, hold it @subTitle 
+ don't mess this up, hold it 
+ }
+ISFLAG:quickshot
+{ 
+struggle to hold your orgasm back for me and hold that edge
+ hold it quickshot, I know just how hard that is for you 
+ }

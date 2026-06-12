@@ -1,0 +1,13 @@
+{
+ISFLAGT:vibe GOTO:end
+STOPSTROKING:
+ISFLAGT:bluetoothVibe I can see that you've connected a bluetooth vibe
+COMMAND: @vibe
+[@yes]
+that's a good @boy, just keep it there for now
+FLAGT:vibe
+(end)
+(vibeTaunt)
+@vibeTaunt
+CHANCE:95 GOTO:vibeTaunt
+}

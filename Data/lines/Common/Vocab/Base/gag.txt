@@ -1,0 +1,16 @@
+﻿{ 
+	put your gag in your mouth
+	I want to see you drool, put in your gag
+	turn into a drooling mess for me, wear your gag 
+}
+ISFLAGT:petPlay{
+	@pup's don't need words now do they, wear your gag @petName
+	a cute pet like you doesn't need words to get their meaning across, wear your gag
+	be a good @boy and wear your gag for your @missTitle
+}
+V<30:mood
+{
+	I'm done with all of your push-back, wear your gag
+	I'll shut your mouth by force, put in your gag
+	maybe turning into a drooling mess will make you realize your position, wear your gag
+}

@@ -1,0 +1,44 @@
+V<0.85:breathHoldProgress V>0.5:breathHoldProgress
+{
+MOOD:-2 take a single breath and keep going
+}
+V>0.85:breathHoldProgress V<0.95:breathHoldProgress
+{
+MOOD:-2 CANCELBREATH: you may breathe again then
+}
+V>0.95:breathHoldProgress
+{
+hold out, you're almost there
+}
+V>0.95:breathHoldProgress
+{
+just a couple seconds more, you can do it
+}
+V<0.5:breathHoldProgress
+{
+MOOD:-8 CANCELBREATH: how are you already out of breath, we've not even reached the halfway point
+}
+V<0.5:breathHoldProgress
+{
+MOOD:-8 CANCELBREATH: I expect you to try way harder next time, we've barely started
+} 
+V<0.5:breathHoldProgress ISSETTING:humiliation
+{
+MOOD:-8 CANCELBREATH: you're not serious are you? this is downright pathetic
+} 
+V<0.5:breathHoldProgress ISSETTING:humiliation
+{
+MOOD:-8 CANCELBREATH: you've given up already? this is just sad
+} 
+V<0.5:breathHoldProgress ISSETTING:humiliation
+{
+MOOD:-8 CANCELBREATH: next time, I expect you to actually try for once in your pathetic life
+} 
+V<0.85:breathHoldProgress V>0.5:breathHoldProgress
+{
+MOOD:-2 breathe in just once and keep going
+}
+V<0.85:breathHoldProgress V>0.5:breathHoldProgress
+{
+MOOD:-2 CANCELBREATH: you could do this before so I expect you to be able to do so again in the future
+}

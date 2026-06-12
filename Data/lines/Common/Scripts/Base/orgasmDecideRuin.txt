@@ -1,0 +1,42 @@
+{
+keep those hands away as your load dribbles out slowly
+is it frustrating? is it painful?
+I don't care, you'll obey
+look at your @cock, so hard and desperate
+make sure to not touch your dick until it's gone soft
+I don't want you to gain even the slightest morsel of pleasure
+I've had fun playing with you today, so you'd better try to feel satisfied with that
+because even a ruined orgasm will feel like a luxury once I'm done with you
+}
+{
+I'm sure that you could still get a full orgasm if you started stroking again
+but you won't, your training prevents you from doing so
+so just watch as your cum dribbles out
+forming tear streaks on your abused dick
+see you tomorrow, @subTitle
+}
+{
+this is my favorite moment
+the second your face turns from hopeful to despair is so erotic
+your pleasure taken away by just a couple of words
+how did you let it come so far?
+now there is little else you can do, than to cope with the frustration
+try your best to get some rest tonight, you're going to need it
+}
+{
+hit your dick, I want your watery load to go everywhere
+harder @subTitle
+keep going @subTitle
+you can stop now, good @boy
+I hope your @cock won't sting to much to sleep tonight
+rest well, your training continues tomorrow
+}
+END:
+{
+ISSETTING:outsideSession CHANCE:30 COMMANDMENTS:
+and that concludes our session for today, see you soon!
+ISFLAGT:taskAdded don't forget about that task I gave you
+and remember, no touching!
+FLAG:ruinedOrgasm
+ENDSESSION
+}

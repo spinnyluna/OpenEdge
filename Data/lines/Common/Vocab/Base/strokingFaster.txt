@@ -1,0 +1,17 @@
+﻿{ 
+	faster 
+	hurry up 
+	increase your pace 
+	stroke faster 
+	you can take more right?
+	I'll make you pump your @cock a little faster
+	I'll make you speed up a bit
+	don't think, just focus on keeping that cum in your balls
+}
+ISFLAG:degrading
+{ 
+	faster @subTitle 
+	hurry up @subTitle 
+	increase your pace @subTitle
+	stroke faster @subTitle 
+}

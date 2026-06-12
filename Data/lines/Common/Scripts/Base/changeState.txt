@@ -1,0 +1,148 @@
+
+ISSETTING:wearingChastity ISNOFLAGT:changedChastityState ISNOSETTING:lostKey ISSETTING:chastity ISFLAGT:chastityDate
+{
+	STOPSTROKING:
+	CHASTITYOFF:
+}
+
+ISNOSETTING:wearingChastity ISNOFLAGT:changedChastityState ISSETTING:chastity
+{
+	STOPSTROKING:
+	ISFLAGT:ballsBound BINDBALLSNO:
+	CHASTITYON:
+}
+ISSETTING:wearingChastity ISNOFLAGT:changedChastityState ISSETTING:lostKey 
+{
+ah, by the way before I forget to tell you
+I've found the key again
+that doesn't mean I'm going to unlock you right now
+but at the very least the option that I may do so is back
+so that should be good news to you
+DELFLAG:lostKey
+}
+ISSETTING:gag ISNOFLAGT:gag
+{
+	STOPSTROKING:
+	GAG:
+}
+ISSETTING:gag ISFLAGT:gag
+{
+	
+		STOPSTROKING:
+		GAGNO:
+}
+
+ISSETTING:clothesPins ISNOFLAGT:clothesPins
+{
+	STOPSTROKING:
+	CLAMP:
+}
+ISSETTING:clothesPins ISFLAGT:clothesPins
+{
+	STOPSTROKING:
+	CLAMPNO:
+}
+ISSETTING:plug ISNOFLAGT:plug
+{
+	STOPSTROKING:
+	PLUGASS:
+}
+ISSETTING:plug ISFLAGT:plug
+{
+	STOPSTROKING:
+	PLUGASSNO:
+}
+ISFLAGT:bluetoothOna ISNOFLAGT:ona ISNOSETTING:wearingChastity
+{
+	STOPSTROKING:
+	ONA:
+}
+ISFLAGT:bluetoothOna ISFLAGT:ona
+{
+	STOPSTROKING:
+	ONANO:
+}
+ISSETTING:string ISNOFLAGT:ballsBound ISNOSETTING:wearingChastity
+{
+	STOPSTROKING:
+	I'll strangle your cum back in your @balls
+	BINDBALLS:
+}
+ISSETTING:string ISFLAGT:ballsBound ISNOSETTING:wearingChastity
+{
+	STOPSTROKING:
+	having your @balls bound makes everything so much more sensitive
+	BINDBALLSNO:
+}
+ISSETTING:collar ISNOFLAGT:collar
+{
+	STOPSTROKING:
+	COLLAR:
+}
+ISSETTING:collar ISFLAGT:collar
+{
+	STOPSTROKING:
+	COLLARNO:
+}
+ISSETTING:cei ISNOSETTING:wearingChastity
+{
+	STOPSTROKING:
+	(start)
+	grab your @cock from the base and squeeze towards the tip
+	really milk your rod until you get yourself a nice drop of precum
+	ASK:have you got it?
+	[@yes]
+	GOTO:mid1,mid2,mid3,mid4
+	[@no]
+	luckily we've got an easy solution for that
+	EDGE:
+	EDGE:
+	EDGE:
+	GOTO:start
+	(mid1)
+	put the precum on your index and middle finger
+	lick your fingers clean, really run your tongue over the whole length
+	don't swallow, just let it pool in your mouth
+	tilt your head backwards and gargle that mixture of precum and spit for me
+	I want you to get messy for me
+	slowly drool all over yourself, cover your @cock with spit
+	yes I think this look serves you much better
+	now the outside is just as dirty as the inside
+	GOTO:end
+	(mid2)
+	put the precum on your index and middle finger
+	deepthroat your fingers with your cum still on there, keep your fingers there
+	you're a joke of a @man, sitting here with cum dripping down your throat
+	CHANCE:40 EDGE:
+	CHANCE:30 EDGEHOLD:
+	CHANCE:40 EDGE:
+	are you enjoying your little treat? we went through a lot of trouble making it
+	you can take your fingers out of your throat now
+	be sure to suck them clean, not that your hungry throat left a lot on there
+	GOTO:end
+	(mid3)
+	put the precum on your index and middle finger
+	spread it on your lips
+	you must be hungry, but don't lick it up
+	CHANCE:40 EDGE:
+	just leave your sticky precum there as a lip gloss
+	CHANCE:30 EDGEHOLD:
+	when you've truly forgotten about the cum on your lips I'll let you lick them
+	CHANCE:40 EDGE:
+	instantly aroused as the taste takes you back to this moment
+	GOTO:end
+	(mid4)
+	put the precum on your index and middle finger
+	smear it directly under your nose
+	CHANCE:40 EDGE:
+	breathe in deeply
+	it stinks a bit doesn't it?
+	but it also smells of sex
+	it smells like desire, lust and ache
+	CHANCE:30 EDGEHOLD:
+	CHANCE:40 EDGE:
+	too bad you won't find out what your cum smells like
+	you will have to make do with this watery substitute
+	GOTO:end
+	(end)
+}

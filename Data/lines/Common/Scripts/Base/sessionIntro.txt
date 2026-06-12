@@ -1,0 +1,376 @@
+END: {
+ISSETTING:wearingChastity GOTO:endOfBinding
+ISSETTING:string GOTO:beginOfBinding
+GOTO:endOfBinding
+(beginOfBinding)
+ISFLAGT:string GOTO:endOfBinding
+ISSETTING:string CHANCE:50 GOTO:bindBalls
+GOTO:noBindBalls1,noBindBalls2,noBindBalls3
+(bindBalls)
+BINDBALLS
+GOTO:endOfBinding
+(noBindBalls1)
+ISSETTING:string I won't tie your @balls just yet
+GOTO:endOfBinding
+(noBindBalls2)
+ISSETTING:string maybe I'll bind your balls up later
+GOTO:endOfBinding
+(noBindBalls3)
+
+GOTO:endOfBinding
+(endOfBinding)
+ISSETTING:collar GOTO:beginOfCollar
+GOTO:endOfCollar
+(beginOfCollar)
+ISFLAGT:collar GOTO:endOfCollar
+ISSETTING:collar CHANCE:75 GOTO:collarNeck
+GOTO:noCollarNeck
+(collarNeck)
+COLLAR
+GOTO:endOfCollar
+
+(noCollarNeck)
+SETSETTING:collar,true you don't get to wear your collar just yet
+GOTO:endOfCollar
+
+(endOfCollar)
+
+ISSETTING:plug GOTO:beginOfPlug
+GOTO:endOfPlug
+(beginOfPlug)
+
+ISFLAGT:plug GOTO:endOfPlug
+ISSETTING:wearingChastity CHANCE:60 GOTO:plugAss
+ISSETTING:plug ANALPREFERENCE:Like ISANALTRAINING CHANCE:80 GOTO:plugAss
+ISSETTING:plug ANALPREFERENCE:Neutral ISANALTRAINING CHANCE:60 GOTO:plugAss
+ISSETTING:plug ANALPREFERENCE:Dislike ISANALTRAINING CHANCE:40 GOTO:plugAss
+GOTO:noPlugAss1,noPlugAss2,noPlugAss3,noPlugAss4
+(plugAss)
+PLUGASS:
+GOTO:endOfPlug
+(noPlugAss1)
+ISSETTING:plug your ass will stay empty for now
+GOTO:endOfPlug
+(noPlugAss2)
+ISSETTING:plug I won't make you plug your ass just yet
+GOTO:endOfPlug
+(noPlugAss3)
+ISSETTING:plug maybe I'll plug you up later
+GOTO:endOfPlug
+(noPlugAss4)
+
+GOTO:endOfPlug
+(endOfPlug)
+ISNOSETTING:wearingChastity ISFLAGT:bluetoothOna CHANCE:60 ONA:
+}
+{
+I'm really enjoying this you know
+these sessions of ours let us escape for a bit from the world around us
+here your task is so much simpler than out there
+you obey
+you submit
+and everything will be alright
+this also means that as soon as you fail at the only task you're given
+I'll view you as truly worthless
+so try your best not to disappoint me @subTitle
+}
+
+{
+don't you regret giving me full control
+in the past you could have jerked of whenever
+now I'm the one who decides what happens to that @cock
+but lets be honest, this is what you wanted all along
+someone to take that control away
+someone to dominate the fuck out of you
+and I'll make sure to deliver exactly what you want
+you can beg or plead it's not going to change anything about our current arrangement
+so be ready to get tortured every day from now on
+}
+{
+how is that ache coming along?
+I reckon you think you can't last another two weeks
+sadly it's not up to you though
+if I tell you to hold that orgasm back it's going to happen
+and since I haven't made my mind up just yet I expect you to be on your best behavior
+}
+ISFLAG:nipplePlay ISNOSETTING:wearingChastity
+{
+relax and keep looking at the screen
+breathe in and out slowly
+start to feel up your body, but don't touch your nipples
+focus on the dim sensation of your fingers brushing against your body
+look at the pictures on the screen
+not at any picture in particular but all of the porn combined
+feel how it draws your attention away from the rest of the world
+in this moment nothing exists apart from you and me
+circle your middle and index fingers around your nipples slowly
+do you feel that need burning deep in your chest
+repeat after me
+"my chest feels hot"
+"I want to touch my nipples"
+"I need to touch my nipples" 
+"please let me touch my nipples @missTitle " 
+use your left index and middle fingers to softly brush past your nipples
+rest your right hand between your legs
+switch the nipple your fingers are brushing against
+softly grab onto your @cock with your right hand
+keep your focus on your left hand, ignore your right hand
+push down on your nipple
+start making the circles again but keep the pressure up
+just sit like that for a second
+switch which nipple you're teasing
+grope your @cock with your right hand, just a bit
+good @subTitle
+}
+ISNOSETTING:wearingChastity
+{
+back once again are you
+I'm sure that aching rod between your legs had nothing to do with it and you just wanted to see me
+ASK: right?
+[yes @missTitle]
+although you shouldn't lie to me it's the thought that counts
+get your dick out, it's not going to stroke itself
+GOTO:end
+[no @missTitle]
+well at least you're honest
+lets give that @cock the attention it craves then
+(end)
+}
+
+{
+and once more you come crawling back
+you know that I'm bad for you right?
+my only wish is to bind you to me
+to wrap you around my finger and influence and control every aspect of your life
+but even knowing that you come back again and again
+the very fact that I am bad for you has only enchanted you into following me even more fanatically
+and that is exactly how you should be
+completely under my spell
+acting as commanded without a second thought
+however I believe we can still go further
+I want to take even more of you
+your thoughts, needs and worries
+until you won't be able to do anything but sit, stare and obey
+completely handing over control and becoming little more than a pet
+ASK:would you like that?
+[yes @missTitle]
+that's a good pet
+yes I think that would make for a good start, this whole pretending to be a functioning human has to go
+just an obedient little puppy wagging their tail for their @missTitle
+you've even got a tail of your own
+ISSETTING:sph although your dicklet's a bit of a downgrade
+GOTO:end
+[no @missTitle]
+well, you'd better try your hardest to resist then
+I'll try my hardest to turn you into a pet to be owned
+(end)
+}
+ISSETTING:humiliation ISNOSETTING:wearingChastity
+{
+welcome back @subTitle
+did you miss me?
+I've been bored without you by my side, tugging away
+your pleading eyes looking up at me from the floor
+and while begging doesn't work on me
+that doesn't mean it hurts to try
+so repeat after me
+"please let me cum today @missTitle"
+"I promise I'll be good, just let me cum"
+even while your dick is dripping with precum
+you'll obey, stopping just before orgasm
+}
+ISNOSETTING:wearingChastity
+{
+spread your legs for me
+lay both hands on your thighs and keep your back straight
+your need is growing by the day
+and with that need, your submission to me is growing as well
+reach for your @cock and close your hand around it
+can you feel it pulse as blood rushes into it
+if your @cock was a little bit smarter it would stay soft
+ISSETTING:anal although that would mean I'd tease your ass twice as hard
+}
+ISSETTING:humiliation ISNOSETTING:wearingChastity
+{
+it's good that you're here, I've been bored
+and you're just the type of toy that can keep my attention
+that's all you are to me, entertainment
+so start entertaining me already or I'll get myself a new plaything
+}
+ISNOSETTING:wearingChastity
+{
+I'm really not in the mood for this shit right now
+my boss has been bitching at me for the whole day
+and what do I have to get home to, a useless @subTitle
+although this could be good for getting some of that stress out of my system
+yeah, let's just do that
+COMMAND:you don't mind right? after all I'm your beloved @missTitle
+[please use me as stress relief @missTitle]
+that's a good @subTitle
+KNEEL
+keep your grubby little hands away from your @cock
+spank your ass
+...
+wait, wait, wait
+what the fuck was that? I told you to SPANK your ass, not to give it some love-taps
+maybe kneeling isn't enough for you?
+get on all fours and keep your ass high
+and no more of those taps, you're going to SPANK your ass
+I want to hear those slaps ring out
+get that ass higher @subTitle strain your whole body
+slap yourself
+and again
+once more
+again
+I told you to keep your ass high @subTitle
+don't disappoint me again @subTitle
+keep hitting yourself until I let you back up
+if I see that ass drop even a single centimeter I'm going to flog you in person
+you probably think that you'd like that
+I'll just tell you in advance that you won't
+maybe you'll enjoy the first couple of swings
+the adrenaline that accompanies the pain gives a euphoric feeling
+but your body can't keep that state of shock up for long
+in time the pain will return to being nothing but torture
+and that is when I'll enjoy myself to the fullest
+to me, nothing in this world is as sweet as the moment of realization that you've went too far
+that you're stuck for as long as I desire without any hope of escape
+where I've pushed you well beyond your breaking point, but you can't even muster the energy to run
+your eyes growing dim as you follow the road of least resistance
+once all eroticism has been stripped away, with you following commands automatically
+then and only then will I be satisfied with your submission
+so unless you want me to come break you, I think it'll be best if you just obey
+KNEELNO
+nothing is quite as good at destressing me as hurting you
+you're such a good @boy for taking it
+}
+
+D<2:failedSessionEnd V>2:sessions ISNOSETTING:wearingChastity
+{
+you're back already?
+have you become addicted to me or something?
+you should really appreciate the time you're away from me more
+since the longer you stay with me, the stronger your need will grow
+you'll be crawling back to me faster and faster
+so you should try to make the resistance you've got left last
+because soon you won't see the world around you anymore
+every second ticking down on the clock as I start forcing you to wait
+just an hour or two
+maybe a day or three
+just some things to look forward to
+}
+D>3:failedSessionEnd
+{
+it's been a while since I've seen you
+I'm glad that you're here, but it would have been best for your sanity if you had stayed away
+once the conditioning starts to take hold, you won't be able to choose anymore
+so while you've still got a chance, you should probably leave
+unless you want to be stuck here for life
+}
+
+D>3:failedSessionEnd 
+{
+so at last the @subTitle decides to show themselves
+I was wondering when you were going to show up again
+but before long you'd come crawling back to me
+denial can feel like an addiction
+the constant need, the ache
+every coherent thought, shattered by erotic images
+you aren't able to lie to yourself for long
+you know you need this now
+and I'm just doing what you asked
+}
+
+D>3:failedSessionEnd
+{
+you've been slacking a bit at keeping me company
+KNEEL
+I believe you should be re-educated for a little bit
+repeat after me @subTitle
+ASK:"I will make time to suffer"
+[I will make time to suffer]
+ASK:"obedience is pleasure"
+[obedience is pleasure]
+ASK:"pleasure is obedience"
+[pleasure is obedience]
+ASK:"I exist to serve"
+[I exist to serve]
+drill it deep into that thick skull of yours that me being here is a privilege
+and I can rescind it whenever I feel like it
+}
+
+D<2:failedSessionEnd V>5:sessions ISNOSETTING:wearingChastity
+{
+I got into your head didn't I?
+you can't close your eyes anymore without seeing erotica
+I'm sure you thought that I wouldn't affect you
+not this much at least
+you didn't expect your thoughts to betray you this quickly
+leading you into a cage of my making
+it's warm and safe inside so why not rest your head for a minute
+and while you have the key to the lock
+I don't expect you'll be using it
+}
+V>3:denied 
+{
+I've made a promise to you
+a promise to tease and deny
+a promise to make your mundane little life shine again
+just think back to before
+how many orgasms would you have had by now?
+how many moments of clarity
+I've kept you tense, sensitive
+so even brushing past a woman on the street will make your hairs stand on end
+ASK:do you believe I've delivered so far?
+[yes @missTitle]
+then since I've kept up my end of the bargain I'll expect you to do the same
+I'm sure you think that my teasing is almost over
+that you can almost go back to whatever boring stuff you were doing before meeting me
+do you even want to go back?
+just brushing your hand past your thigh makes you shiver
+no I think it would be better for you to build your need to ever greater heights
+GOTO:end
+[no @missTitle]
+then I think you're going to need a bit of a push
+don't worry, I'll train the brattiness out of you in no time at all
+(end)
+}
+
+
+V>3:denied ISNOSETTING:wearingChastity
+{
+is it starting to hurt yet?
+day after day, denial after denial
+as that @cock gets bullied everyday it will grow weaker and weaker
+ISSETTING:sph not that it was impressive to begin with
+I'll let you beg me for an orgasm
+mind, it's not going to change anything
+ASK:but while I can't be persuaded by flattery it's great for my ego
+[I won't beg @missTitle]
+that's fine as well, as I said before I don't even care all that much
+and the tiny bit of resistance you seem to have will crumble with time
+GOTO:end
+[please let me beg @missTitle]
+KNEEL
+MOOD:3
+you're pathetic you know that
+I even told you that you're wasting your time here
+but it seems you really want to beg me
+ASK:so go on then, beg me like the @subTitle you are
+[I'm begging you @missTitle, please let me cum]
+[I'm begging you @missTitle, please go easy on me]
+[I'm begging you @missTitle, please make me obey]
+I told you it wouldn't do anything at all, but while your down there you should give your ass a good slap
+GOTO:end
+(end)
+}
+
+D<2:failedSessionEnd V>3:denied ISNOSETTING:wearingChastity
+{
+don't you have to give your @cock a bit more time to rest?
+you know @jerkingOff is not going to help with the ache
+but you can't help yourself anymore, can you?
+just imagine that I'll let you cum at the end
+you never know, your orgasm could be just a couple minutes away
+I mean, I wouldn't bet on it but still, there's a glimmer of hope
+}

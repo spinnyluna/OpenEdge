@@ -1,0 +1,178 @@
+ISNOSETTING:wearingChastity ISNOFLAGT:changedChastityState ISSETTING:chastity
+{
+	STOPSTROKING:
+	ISFLAGT:ballsBound BINDBALLSNO:
+	CHASTITYON:
+}
+{
+I'm going to punish you
+MOOD:3
+CBTBALLS:
+}
+ISNOSETTING:wearingChastity {
+I'm going to punish you
+MOOD:2
+CBTCOCK:
+}
+{
+I'm going to punish you
+MOOD:3
+ASSSPANKING:
+}
+ISSETTING:wearingChastity ISNOSETTING:lostKey
+{
+LOSTKEY:
+}
+{
+I'm going to punish you
+MOOD:2
+NIPPLEPINCHING:
+}
+V<30:mood
+{
+I'm going to punish you
+MOOD:8
+CBTEXTREME:
+}
+V>0:noVideoValue
+{
+MOOD:2 ADDVAR:noVideoValue,1
+you've just added another day to your video ban
+}
+V<25:mood
+{
+	STOPSTROKING:
+	I'm so incredibly done with your behavior
+	I've been hoping for a long time now that you'd improve over time
+	that a remark here and there would be enough to tame you
+	but you've disappointed me just one too many times now
+	and I've given up on doing this the easy way
+	it's time for you to either bend
+	or break
+	ASK: do you even want to be here @subTitle?
+	[@yes]
+	GOTO:saidYes
+	[@no]
+	you're such a fucking brat
+	have fun being denied then @subTitle
+	ENDSESSION:
+	(saidYes)
+	if those balls aren't a fiery red after this you don't have to come back tomorrow
+	actually, you don't have to come back at all
+	CBTEXTREMESTART:
+	REPEAT: @cbtBalls
+	did that lesson wake up a sense of obedience?
+	or just a sense or dread
+	as long as it keeps you in line I don't mind either way
+}
+ISNOFLAGT:orgasmDenied V<20:mood ISNOSETTING:wearingChastity 
+{
+MOOD:10
+it's too bad, but it seems like you won't be cumming today
+maybe try a bit harder tomorrow to prevent this
+ORGASMDENIED:
+}
+ISSETTING:anal
+{
+MOOD:3
+ANAL:
+}
+ISSETTING:anal V<30:mood
+{
+MOOD:7
+ANALEXTREME:
+}
+ISNOFLAGT:censoredSession ISNOFLAGT:noCensors  V<50:mood
+{
+FLAGT:censoredSession
+CENSORON
+MOOD:6
+you've just ruined any chance of seeing your precious pictures without censors in the way
+but I'm sure you know what's behind those bars right?
+}
+ISFLAG:censor V<20:mood ISNOFLAGT:noCensors
+{
+MOOD:20
+you've really been pissing me off @subTitle
+again and again you've shown disrespect
+and frankly I'm sick of it
+so, I'm increasing your censors
+permanently
+you like denial right? then enjoy staring at a blacked out screen
+ADDVAR:censorIncrease,2
+}
+V<20:mood ISNOSETTING:wearingChastity 
+{
+MOOD:8
+don't you dare stroke that @cock of yours
+just sit there and stare
+this is what you deserve
+this is what happens when you try to stand up for yourself
+you're too weak to lead but still think that you don't have to follow
+I'll make this painstakingly clear
+you belong beneath me
+crawling on the floor like the worthless trash you are
+but it seems you've forgotten your place
+you think that it's unfair what I demand of you
+but even if I wouldn't ever let you touch yourself again, it would still be within my rights
+for tonight I'm done here, I've got no time for disobedient slaves
+but that doesn't mean you're done as well
+before the next time that we meet I want you to spend a full hour watching porn
+you are going to strip naked and wrap your hand around that @cock of yours
+of course you won't stroke yourself for the whole hour
+and I couldn't care less about what kind of porn it is that you're watching
+just make it as arousing as possible
+then, I'll see you next time, hopefully this will teach you just how kind I've been
+FLAG:hourSpentWatching FLAG:task
+ENDSESSION
+}
+ISSETTING:petPlay
+{
+@petPlayScold
+MOOD:1
+}
+ISSETTING:palming ISNOSETTING:wearingChastity 
+{
+MOOD:2
+CBTPALMING:
+}
+ISSETTING:taskScreen
+{
+MOOD:8
+it would seem you need some extra homework
+TASK:2,4
+ah and I've taken the liberty of activating the task as well so you'd better get on that
+I'll just take the favor you would have gotten by activating it yourself as compensation for your behavior
+}
+ISSETTING:findom
+{
+MOOD:6
+SHOWFAVOR:
+I had hoped that you would turn more obedient now that I can take your favor from you
+you're not misbehaving just so I'll take your cash from you right?
+TRIBUTE:3
+well either way I'm going to take it
+so just sit there while I take your hard work away from you
+}
+ISSETTING:findom  V<20:mood
+{
+MOOD:10
+SHOWFAVOR:
+you're pissing me off paypig
+I'm using you for your favor but it hardly seems worth it at this point
+I'm taking more, I've earned it for suffering through your bullshit
+TRIBUTE:8
+did that push you into debt?
+don't bother answering, I truly couldn't care less
+if you run out of funds go and earn some more, it's that simple
+}
+ISSETTING:taskScreen
+{
+MOOD:6
+TASK:2,2
+you've been misbehaving quite a bit @subTitle
+I'd almost go as far as to call you a bad @boy
+but don't worry, I've got just the solution in mind
+honest labor
+and I've activated the task already so you'd best get on that once we're done here
+}

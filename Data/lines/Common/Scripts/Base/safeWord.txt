@@ -1,0 +1,42 @@
+{
+STOPSTROKING:
+HYPNOSISOFF:
+ASK:I'm so sorry to hear that, do you need a second?
+[I want to end the session]
+then we'll do just that, always remember that anything I say is roleplay here
+I've got no interest in causing you long lasting negative feelings
+so drink something and I hope I'll see you again soon
+ENDSESSION
+[I'm fine]
+I'm glad to hear it
+GOTO:preEnd
+ISSETTING:wearingChastity [I had to remove my cage for health reasons]
+GOTO:chastityAsk
+
+[I want a break]
+you don't have to force yourself
+get yourself something to drink and stretch yourself out a bit
+ASK:just give me a call when you're ready
+[I'm ready]
+GOTO:preEnd
+(chastityAsk)
+DELFLAG:chastityDate
+DELFLAG:chastityTime
+DELFLAG:wearingChastity
+if it was for your safety there's no issue
+ASK:can you still stroke safely?
+[I cannot stroke safely]
+then we'll cut the session off here
+make sure that you're properly healed up before our next session
+ISSETTING:outsideSession CHANCE:30 COMMANDMENTS:
+that concludes our session for today, see you soon!
+ISFLAGT:taskAdded don't forget about that task I gave you
+ENDSESSION:
+[I can stroke safely]
+let's continue without a cage then
+ASK:just tell me when you're ready to continue
+[I'm ready]
+(preEnd)
+let's get back to it then
+(end)
+}

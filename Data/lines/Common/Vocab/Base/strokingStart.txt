@@ -1,0 +1,22 @@
+﻿ISNOFLAGT:ona { 
+	start @jerkingOff
+	start stroking that @cock
+	begin stroking 
+}
+ISNOFLAGT:ona ISFLAG:quickshot
+{ 
+	you may start stroking, but don't you dare cum 
+}
+ISNOFLAGT:ona ISFLAGT:kneeling 
+{ 
+	stay on your knees and stroke 
+}
+ISNOFLAGT:ona ISFLAG:degrading
+{ 
+	start stroking again, it's pretty much all you're good for anyway
+	start stroking @subTitle 
+}
+ISFLAGT:ona{
+	I'll be moving your stroker again, don't cum from the surprise
+	you'd better slip your @cock back into the stroker, I don't want you to miss out on any pleasure
+}

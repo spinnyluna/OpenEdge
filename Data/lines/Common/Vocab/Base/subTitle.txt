@@ -1,0 +1,71 @@
+ISNOFLAGT:petPlay
+{ 
+@boy
+ perv 
+ }
+ISFLAG:degrading
+{ 
+slave
+ loser
+ bitch
+ whore
+ slut
+ degenerate 
+ }
+ISFLAG:goon{
+gooner 
+
+}
+ISFLAG:goon ISFLAG:degrading{
+goonslut
+}
+ISSETTING:cuck
+{
+ cuck 
+ cuckie
+ }
+ISFLAG:sissy
+{
+ sissy 
+ }
+ISFLAG:cei
+{
+ cumslut 
+ cumdump 
+ }
+ISSETTING:feet
+{
+ footlover
+ footslut 
+ }
+ISFLAG:gayHumilliation
+{ 
+cock addict
+ dicklover
+ cockslut 
+ faggot 
+ }
+ISFLAG:quickshot
+{ 
+minute @man
+ quickshot 
+ }
+ISSETTING:humiliation
+{ toy
+ plaything
+ subby
+ weakling 
+ }
+V<30:mood
+{ 
+loser
+ trash
+ failure
+ virmin
+ }
+ISFLAG:findom
+{
+ paypig
+ human ATM
+ tribute slave
+ }

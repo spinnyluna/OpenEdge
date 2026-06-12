@@ -1,0 +1,9 @@
+{
+	ISFLAGT:ballsBound GOTO:start
+	GOTO:end
+	(start)
+	COMMAND: @bindBallsNo
+	[@yes]
+	DELFLAGT:ballsBound
+	(end)
+}

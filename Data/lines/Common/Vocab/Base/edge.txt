@@ -1,0 +1,58 @@
+ISFLAG:treats ISNOFLAGT:gag 
+{ 
+	take a treat and edge
+}
+{ 
+	edge for me 
+	edge 
+	hit the edge for me 
+	edge that @cock 
+}
+ISFLAG:quickshot
+{ 
+	I'm sure you can edge already right?
+	edge and don't you dare tip over
+	show me how quickly you can edge 
+}
+ISFLAG:degrading
+{ 
+	edge for me @subTitle 
+	edge already 
+	get that @cock close, make it good for something 
+}
+ISSETTING:humiliation
+{ 
+	let me see your pathetic face as you edge 
+}
+ISSETTING:sph
+{
+	I'll never touch that shrimpdick of yours but you can edge to the thought of me stroking it for you 
+}
+ISSETTING:cuck
+{ 
+	edge to the thought of me fucking someone else
+	edge to the thought of me getting fucked, not by you of course 
+}
+ISSETTING:petPlay 
+{
+	be a good @pup and edge for your owner
+	show your obedience @pup edge for me
+	move those paws fast enough to turn them into a blur, edge for your owner
+	keep your tongue dangling out of your mouth as you edge for me
+	get all sticky with drool as you edge 
+}
+ISFLAG:cat 
+{ 
+	I want you to turn into a purring mess as you edge my cute @pup
+}
+ISFLAG:pup 
+{ 
+	wag that tail and edge pup
+	breathe fast with your tongue hanging out of your maw as you edge
+}
+ISFLAG:findom{
+	edge already, you don't want me to rob you of even more funds right?
+	you'd better edge soon, otherwise I'll drag you into debt
+	hurry up and edge, unless you want me to take your hard earned cash from you
+	edge or I'm taking favor
+}

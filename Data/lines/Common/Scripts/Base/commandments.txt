@@ -1,0 +1,82 @@
+ISNOOUTSIDERULEACTIVE:noPorn ISNOOUTSIDERULEACTIVE:watchPorn
+{
+I want you to stop watching porn of any kind outside of our sessions
+unless I specifically tell you that it's allowed of course
+and it won't even be that long, just 3 short sessions
+ASK: can you do that? no porn outside of sessions until you've completed three sessions
+[yes @missTitle]
+SETSETTINGVALUE:noPorn,3
+maybe that was a bit too easy, but it's fine
+I'll make sure the next one will be a bit rougher
+GOTO:end
+[no @missTitle]
+and here I thought I was going too easy on you
+just how much of a porn addict are you?
+(end)
+}
+ISNOOUTSIDERULEACTIVE:constantCei ISSETTING:cei
+{
+you've got a leaky dick
+but that's not a problem
+just lick up any precum that comes out of it
+and you'll keep going until you've reached five sessions with me
+ASK:do you think you can do that?
+[yes @missTitle]
+SETSETTINGVALUE:constantCei,5
+maybe that was a bit too easy, but it's fine
+I'll make sure the next one will be a bit rougher
+GOTO:end
+[no @missTitle]
+what, are you scared someone smells the cum in your breath?
+don't worry, with a load as watery as yours that won't happen
+(end)
+}
+
+
+ISSETTING:plug ISNOOUTSIDERULEACTIVE:plugHour
+{
+until you've completed 4 sessions, I want you plugged for at least an hour outside of sessions
+I love nothing more than a good plugged sub trying their hardest to act normal
+bonus points if you go outside while wearing it
+just don't let the blush on your face show
+ASK:do you think you can do that?
+[yes @missTitle]
+SETSETTINGVALUE:plugHour,5
+don't worry, you'll be fine
+it'll surprise you just how many people are already walking around plugged
+GOTO:end
+[no @missTitle]
+aww, and here I thought that you were the adventurous sort
+(end)
+}
+ISNOOUTSIDERULEACTIVE:noPorn ISNOOUTSIDERULEACTIVE:watchPorn
+{
+for the next four sessions I want you to watch fifteen minutes of porn just before going to bed
+and you better keep your hands away from that @cock of yours
+ASK:do you think you can do that?
+[yes @missTitle]
+SETSETTINGVALUE:watchPorn,4
+let's see if your dreams turn more sexual
+oh and don't even try to use this as an excuse for having a wet dream
+GOTO:end
+[no @missTitle]
+are you worried that you'll lose too much sleep?
+(end)
+}
+ISNOOUTSIDERULEACTIVE:hypnoFiles ISSETTING:hypno
+{
+I want you to do something simple for me
+I want you to look up a audio hypnosis content creator
+I'd recommend ShibbySays but you're free to pick whatever
+and I want you to pick a file that's at least twenty minutes long
+until you've done three sessions I want you to listen to that file every evening
+ASK: can you do that for me?
+[yes @missTitle]
+SETSETTINGVALUE:hypnoFiles,3
+in case you've forgotten, the artist I recommend is ShibbySays
+any other works as well, if you've got a favorite of your own
+GOTO:end
+[no @missTitle]
+are you more into visual hypnosis then?
+(end)
+}

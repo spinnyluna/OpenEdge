@@ -1,0 +1,27 @@
+{ 
+	take a break
+	stop @jerkingOff for a bit
+	stop @jerkingOff but keep your hand wrapped around your @cock
+	stop @jerkingOff
+	you should stop touching now
+	that's enough, hands off
+	hands off
+	you can stop
+	just rest for a while
+}
+ISFLAG:quickshot
+{ 
+	you look like you need a break
+	that was probably almost too much for you
+	I'll give that weak dick some rest
+	it's fucking pathetic how much of a hard time you're having with this
+	knowing your dick, this break was just in time 
+}
+ISFLAG:degrading
+{ 
+	stop stroking @subTitle 
+}
+ISSETTING:humiliation
+{
+	stop touching that joke of a dick for a bit
+}

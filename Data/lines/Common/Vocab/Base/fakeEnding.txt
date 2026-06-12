@@ -1,0 +1,14 @@
+﻿V>80:mood{
+I was planning to let you go, but you've gotten me all worked up @subTitle
+I'm having too much fun to let you go already 
+}
+{
+I want to keep you around just a bit longer
+you know what, I'm not done with you for today
+I had expected your @cock to be in a worse state than it is, let's go fix that first
+}
+V<30:mood
+{ 
+you know, I don't think you've earned that rest just yet
+ you seem to need some supplemental lessons 
+ }

@@ -1,0 +1,279 @@
+ISNOANALFIRSTDONE {
+	STOPSTROKING:
+	I'm sure you've come prepared today, but just in case you haven't
+	ASK: are you ready for some anal play?
+	[@yes]
+	(cont1)
+	now then lets begin
+	ANALSTAGE:Beginner GOTO:cont2
+	ANALSTAGE:Experienced GOTO:experienced
+	I'm so glad that you've given yet another part of yourself to me
+	I'll make sure to treat your ass with all the love and care in the world
+	GOTO:cont2
+	[@no]
+	ASK:well get ready then! make sure you've got your lube if you have any and clean up
+	[@yes]
+	GOTO:cont1
+	(cont2)
+	ASK:put a towel down on your chair and put both feet on top of your desk
+	[@yes]
+	in a bit I want you to reach down for your ass in between your legs
+	this will make it easier to stimulate the prostate
+	take some lube and apply it on your middle-finger
+	move your finger to your little hole and circle it
+	take your time and re-apply the lube as often as you want
+	(experienced)
+	ASK:once your ready, slowly insert your finger up to the first joint
+	[@yes]
+	take your finger out, re-apply the lube and put it back in, slightly farther this time
+	as a general rule of thumb, with anal there is no such thing as too much lube
+	ASK:keep doing this until you can fit your whole finger in there
+	[@yes]
+	congrats! slowly move your finger in and out at your own pace
+	as you move your finger out try to push towards your dick with your middle-finger
+	you should feel a slightly harder patch, that is your prostate
+	ASK:have you found it?
+	[@yes]
+	GOTO:cont3
+	[@no]
+	keep looking a bit longer
+	you can change your position if you think you can't reach deep enough
+	if you still can't find your prostate, look for a reference image online
+	ASK:did you find it?
+	[@yes]
+	great! lets keep going then
+	if you changed up your positioning take on this position when I tell you to put both feet on the desk
+	I want you to relentlessly tease that little pleasure button of yours after all
+	GOTO:cont3
+	[@no]
+	don't worry about it, we'll roll with it
+	keep playing with your behind
+	FLAG:prostateHidden
+	GOTO:cont4
+	(cont3)
+	pushing into it feels weird at first but soon it'll start to feel good
+	(cont4)
+	take your time and slowly get used to it
+	don't forget to apply as much lube as necessary
+	speed up a little bit now
+	if you feel comfortable in doing so, you can add a second finger
+	keep going
+	if your ass starts to feel a little sore you can slow down again
+	and for now we'll end it here
+	you can take your finger from your behind and clean up
+	ASK:just tell me when you're done
+	[@yes]
+	before I ask you if you liked your first anal experience I want to tell you something
+	and I mean this wholeheartedly
+	I'm so proud of you for trying something so different from your standard jerking off
+	I'm thankful that you trusted me with leading you through this
+	I hope you'll continue to let me guide you in the future
+	now that I've got that off my chest
+	ASK:how did you like your first anal experience?
+	[I liked it]
+	ISSETTINGDECLINED:waterLube if you like this already, you really should get yourself some lube on water basis
+	I'm glad that you enjoyed yourself, lets train that ass of yours a whole lot more next time
+	SETANALPREFERENCE:Like
+	SETANALTRAINING:true
+	GOTO:cont5
+
+	[it was so-so]
+	SETANALPREFERENCE:Neutral
+	GOTO:cont6
+
+	[I disliked it]
+	SETANALPREFERENCE:Dislike
+	GOTO:cont6
+
+	(cont6)
+	ISFLAG:prostateHidden it's strange that you couldn't find your prostate
+	you've made me happy by trying anal out in the first place
+	ASK:do you want to continue your training next time?
+	[yes @missTitle]
+	ANALPREFERENCE:Dislike so you're willing to suffer for me, huh
+	ISSETTINGDECLINED:waterLube you really should get yourself some lube on water basis then
+	SETANALTRAINING:true
+	GOTO:cont7
+	[no @missTitle]
+	that's too bad, I won't push you on training your ass
+	I'll still use it as a punishment however so you'd better obey
+	ISSETTINGDECLINED:waterLube and even if it's just for the punishments, get yourself some water based lube
+	SETANALTRAINING:false
+	(cont7)
+	SETANALSTAGE:first
+}
+ISNOFLAG:analSecond ISSETTING:plug {               
+	STOPSTROKING:
+	MOOD:3
+	ISFLAGT:plug PLUGASSNO:
+
+	ASK: make your plug nice and slippery
+	[@yes]
+	it seems I'm going to have to fuck some sense into you
+	I want you to really visualize this
+	you're not holding on to a plug right now
+	GOTO:cont1
+	(cont1)
+	what you're holding onto is my strap-on
+	so show it some love, @subTitle
+	let both of your feet rest on your desk and show me your cute little hole
+	just rest the head of my strap-on against your ass, don't apply any pressure
+	do you want it inside of you?
+	do you feel that need growing?
+	slowly apply a little bit of force
+	just enough that you can't forget my strap-on pushing against your hole
+	you will wait until I let you push my strap-on inside
+	ISSETTING:pup stay, pup
+	do you want this?
+	do you need to be fucked?
+	then push me inside of you slowly
+	feel my strap entering you little by little
+	ASK: your hungry little hole, swallowing every inch with ease
+	ISNOFLAGT:petPlay [you're all the way inside of me @missTitle]
+	ISFLAGT:petPlay[*take it to the base for your @missTitle*]
+	good @subTitle, let your body adjust for a bit
+	and once you feel ready to do so, start moving my strap slowly
+	out then in
+	in then out
+	feel the right rhythm
+	you need to learn your place
+	and fucking every last bit of dignity and arrogance out of you ought to be effective
+	ASK: take my strap from your ass and re-apply the lube
+	[@yes]
+	then re-insert it slowly, make sure everything is as slick as it can be
+	because I'm going to fuck you and I'm going to fuck you hard
+	ASK: are you ready?
+	ISNOFLAGT:petPlay [yes @missTitle, please fuck me hard]
+	ISFLAGT:petPlay[*relax and get taken*]
+	ANALEXTREMESTART:
+	REPEAT @anal
+	ASK: who owns you @subTitle?
+	ISNOFLAGT:petPlay [you do @missTitle]
+	ISFLAGT:petPlay[*nuzzle your @missTitle*]
+	good @boy, you may take my strap from your ass
+	ASK: clean up and tell me when you're ready to start stroking again
+	[@yes]
+	let's give your @cock the attention it craves then
+	FLAG:analSecond
+}
+ISNOFLAG:analSecond ISSETTING:dildo {               
+	STOPSTROKING:
+	MOOD:3
+	ISFLAGT:plug PLUGASSNO:
+	ASK: lube up your dildo
+	[@yes]
+	it seems I'm going to have to fuck some sense into you
+	I want you to really visualize this
+	you're not holding on to a dildo right now
+	(cont1)
+	what you're holding onto is my strap-on
+	so show it some love, @subTitle
+	let both of your feet rest on your desk and show me your cute little hole
+	just rest the head of my strap-on against your ass, don't apply any pressure
+	do you want it inside of you?
+	do you feel that need growing?
+	slowly apply a little bit of force
+	just enough that you can't forget my strap-on pushing against your hole
+	you will wait until I let you push my strap-on inside
+	ISSETTING:pup stay, pup
+	do you want this?
+	do you need to be fucked?
+	then push me inside of you slowly
+	feel my strap entering you little by little
+	ASK: your hungry little hole, swallowing every inch with ease
+	ISNOFLAGT:petPlay [you're all the way inside of me @missTitle]
+	ISFLAGT:petPlay[*take it to the base for your @missTitle*]
+	good @subTitle, let your body adjust for a bit
+	and once you feel ready to do so, start moving my strap slowly
+	out then in
+	in then out
+	feel the right rhythm
+	you need to learn your place
+	and fucking every last bit of dignity and arrogance out of you ought to be effective
+	ASK: take my strap from your ass and re-apply the lube
+	[@yes]
+	then re-insert it slowly, make sure everything is as slick as it can be
+	because I'm going to fuck you and I'm going to fuck you hard
+	ASK: are you ready?
+	ISNOFLAGT:petPlay [yes @missTitle, please fuck me hard]
+	ISFLAGT:petPlay[*relax and get taken*]
+	ANALEXTREMESTART:
+	REPEAT @anal
+	ASK: who owns you @subTitle?
+	ISNOFLAGT:petPlay [you do @missTitle]
+	ISFLAGT:petPlay[*nuzzle your @missTitle*]
+	good @boy, you may take my strap from your ass
+	ASK: clean up and tell me when you're ready to continue
+	[@yes]
+	let's give your @cock the attention it craves then
+	FLAG:analSecond
+}
+ISFLAG:analSecond
+{
+	STOPSTROKING:
+	ISFLAGT:plug CHANCE:40 GOTO:plugInsertedPhrase0,plugInsertedPhrase1,plugInsertedPhrase2
+	ISFLAGT:plug GOTO:noPlug
+	ISSETTING:plug CHANCE:40 FLAGT:plug GOTO:plugPhrase0,plugPhrase1,plugPhrase2
+	(noPlug)
+	ISFLAGT:plug PLUGASSNO:
+	ISSETTING:dildo CHANCE:70 FLAGT:dildo GOTO:dildoPhrase0,dildoPhrase1,dildoPhrase2
+	FLAGT:finger GOTO:fingerPhrase0,fingerPhrase1,fingerPhrase2
+	(dildoPhrase0)
+	get your dildo ready for use
+	GOTO:cont1
+	(dildoPhrase1)
+	we're going to use your dildo, so lube it up
+	GOTO:cont1
+	(dildoPhrase2)
+	lube up your dildo for me
+	GOTO:cont1
+	(plugInsertedPhrase0)
+	take your plug from your ass and lube it up again
+	GOTO:cont1
+	(plugInsertedPhrase1)
+	re-apply the lube on your plug
+	GOTO:cont1
+	(plugInsertedPhrase2)
+	make sure there is enough lube on your plug
+	GOTO:cont1
+	(plugPhrase0)
+	lube up your plug, I'm going to fuck you with it
+	GOTO:cont1
+	 (plugPhrase1)
+	lube up your plug for me
+	GOTO:cont1
+	 (plugPhrase2)
+	we're going to use your plug, so lube it up
+	GOTO:cont1
+	(fingerPhrase0)
+	lube up your fingers, I'm going to play with your ass
+	GOTO:cont1
+	(fingerPhrase1)
+	we're going to use your fingers on your little hole, so lube them up
+	GOTO:cont1
+	(fingerPhrase2)
+	your fingers should be lubed up for this next part
+	GOTO:cont1
+	(cont1)
+	I'm going to fuck your little ass to the beat
+	COMMAND: are you ready?
+	[@yes]
+	good @subTitle
+	ASK:slowly enter your ass, make sure to take your time to adjust fully
+	[@yes]
+	then let's begin
+	ANALSTART:
+	REPEAT @anal
+	ASK: who owns you @subTitle?
+	ISNOFLAGT:petPlay [you do @missTitle]
+	ISFLAGT:petPlay [*nuzzle your @missTitle*]
+	good @boy, give your ass some rest
+	ISFLAGT:plug take out your plug GOTO:endOfAnal
+	ISFLAGT:dildo slide that dildo out of your ass slowly GOTO:endOfAnal
+	you're allowed to take your fingers from your ass GOTO:endOfAnal
+	(endOfAnal)
+	DELFLAGT:plug DELFLAGT:dildo DELFLAGT:finger
+	ASK: clean up and tell me when you're ready to continue
+	[@yes]
+	ISNOSETTING:wearingChastity let's give your @cock the attention it craves then
+}

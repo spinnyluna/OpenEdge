@@ -1,0 +1,81 @@
+{
+keep those hands away from your @cock
+don't you fucking dare touch that thing again today
+I'm not here for your pleasure, you're here for mine
+so obey and suffer for me
+I'll see you tomorrow, since there is zero chance you'll want to miss a session now
+}
+{
+too bad @subTitle
+you've given me the right to control you
+and I plan on using it as much as I please
+so keep those grubby hands away from your @cock today
+}
+{
+you really thought I would let you cum after a display like that?
+it'll take a lot more suffering on your part before I'll let you cum again
+and even then I may make you ruin it, just for my enjoyment
+}
+{
+slowly you're starting to realize that your pleasure doesn't matter anymore
+of course that doesn't mean I'll never let you cum, just not today
+tomorrow is another day, I may just let you cum then
+although, how much trouble can a couple days of denial be
+maybe your balls aren't as full as they could be just yet
+let's find out together
+}
+{
+thank me for denying your orgasm
+after all I promised I would be hard on you
+and I've delivered
+ASK:so thank me @subTitle
+[thank you for denying my orgasm from me]
+you're welcome @subTitle, I'm sure you wouldn't have enjoyed it anyway
+sleep well
+}
+{
+look at that @cock twitch
+just a couple more strokes and you would have been in heaven
+instead you're sitting here grinding your teeth
+tears forming in the corners of your eyes as you beg for release
+how clear do I have to be that any decision I make is final
+and all this pleading is just giving me another way to control you
+}
+{
+these are the moments that will make you realize how far you've fallen
+think about it, disobeying me will directly lead you to pleasure
+but you'll sit there with still hands waiting for the next command
+all because you know I can give you pleasure that you can't give yourself
+and every denial makes the eventual reward that much sweeter
+so just sit there and stare, I'm sure I'll let you cum eventually
+right?
+}
+ISFLAGT:orgasmDenied
+{
+you knew you were getting denied
+but deep down you still had hope hadn't you?
+hope that I would have forgotten
+hope for release from this torment
+too bad for you, but my memory is great when it comes to things that interest me
+things like your pain and agony
+so you can let go of that hope
+your fate is sealed as soon as I mention denial
+sleep well @subTitle
+}
+ISSETTING:findom
+{
+I know how much you want to pay for an orgasm right now
+but you can't even hand over your favor until I allow you to do so
+paying me is a privilege, a boon that can be taken with a snap of the finger
+at least this is the cheap outcome right?
+maybe you'll be able to find some solace in that
+sleep well @subTitle
+}
+END:
+{
+ISSETTING:outsideSession CHANCE:40 COMMANDMENTS:
+and that concludes our session for today, see you soon!
+ISFLAGT:taskAdded don't forget about that task I gave you
+and remember, no touching!
+ENDSESSION
+}

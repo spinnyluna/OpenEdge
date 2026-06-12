@@ -1,0 +1,16 @@
+﻿{ 
+kneel 
+get on your knees 
+on your knees 
+get on your knees, keep your back straight
+ kneel before your @missTitle
+ I want you on your knees 
+ }
+ISFLAG:degrading{ 
+kneel @subTitle 
+get on your knees @subTitle
+ on your knees @subTitle 
+ get on your knees, keep your back straight @subTitle 
+ I want you on your knees @subTitle
+ get on your fucking knees @subTitle 
+ }

@@ -1,0 +1,9 @@
+{
+	ISFLAGT:collar GOTO:start
+	GOTO:end
+	(start)
+	COMMAND: @collarNo
+	[@yes]
+	DELFLAGT:collar
+	(end)    
+}

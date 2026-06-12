@@ -1,0 +1,4 @@
+{
+	AUTOREPLY: I'm still on break
+	ENDSESSION
+}

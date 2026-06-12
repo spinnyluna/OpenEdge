@@ -1,0 +1,968 @@
+ISSETTING:feet
+{
+	you must consider yourself lucky
+	you found a goddess to worship
+	and a place to belong 
+	serving beneath my heel
+}
+{
+	our time here isn't something you can hide forever
+	at some point you'll accidentally reply with "yes @missTitle" to a question
+	that tent in your pants must also be pretty hard to hide
+	ISSETTING:sph well maybe that's not much of an issue in this case
+	even if you do, people will still notice the hunger in your eyes
+	that need in every breath you take isn't something that can be stashed away
+	no, people will know at some point
+	still, that's not necessarily something bad
+	having more watchful eyes making sure you don't jerk off without permission can only be a good thing
+}
+{
+	you're getting taught to lose
+	just give up and give in to your desires @subTitle
+	you're getting more and more used to admitting defeat
+	you love this ache
+	
+}
+ISSETTING:sph{
+	imagine what it would be like if your dick was just a little bit bigger for me
+	your hand struggling to close around it as you prepared to stroke
+	your stamina would improve as well, since your nerves would spread out over a larger area 
+	up until the point where a hand just isn't enough anymore
+	and toys don't fit your throbbing member 
+	if there's truly no other way, I'd just have to get down on my knees to help you out
+	serving you until you come deep inside
+	with me happily swallowing every drop
+	of course that won't happen
+	just your pinky is more than able to wrap your dicklet and still have room to spare
+	yeah, I think a hand suits you just fine
+}
+
+ISSETTING:sph 
+{
+	god, what I wouldn't give to reach my hand through the screen
+	to wrap my soft fingers around your beautiful shaft and slowly stroke you to paradise
+	your thick cock pulsing against my palm, showing me your need
+	or I would think that, if your dicklet was just a little bit bigger
+	ASK: what? you didn't think I was serious did you?
+	[I thought you were serious]
+	there's no way right?
+	you may be more dense than I thought 
+	how clear do I have to be?
+	no one wants to touch your pathetic little worm
+	it'll have to keep squirming on it's own
+	like all good worms should 
+	GOTO:end
+	[I knew you were joking]
+	right! there's no way I'd ever feel that way about your little dicklet
+	all you do is stroke and squirm, you can do so just fine without me touching you
+	I don't feel like scrubbing my hands with bleach, thank you very much
+	GOTO:end
+	(end)
+}
+
+ISSETTING:goon{
+	you've slowly turned into more and more of an addicted little gooner
+	coming back again and again
+	all in the hope of a pleasure you can't reach by yourself
+	a pleasure that will leave you bound to my every whim
+	but it doesn't seem like you mind all that much
+	otherwise you wouldn't have chosen to come back so many times
+}
+V>3:sessions{
+	it's not my fault how addicted you've become
+	I didn't help your case of course 
+	but I'm not responsible for your debauchery
+	no, you've been falling even before we met each other 
+}
+V>3:sessions{
+	you've been getting worse at controlling your lust
+	in the past you could just refocus your attention on what you were supposed to be doing
+	but now your legs start to rub together in need
+	and your hand slowly moves over to grope your @cock 
+}
+ISFLAGT:collar{
+	if I wouldn't have taken you, someone else would have snapped that collar around your neck
+	and I'm nothing if not greedy
+	so just stop thinking about getting away from my control
+	and accept your place as my little plaything
+	since I'm never going to let you leave my sight
+}
+
+ISSETTING:goon{
+	a gooner like you doesn't deserve orgasm
+	but I'll let you stroke as much as you want
+	it's what you're good at after all
+	and I'm not as cruel as to take away your only talent
+	aren't you happy, my little stroke slut?
+}
+
+ISSETTING:goon ISNOFLAGT:petPlay{
+	you know, not everyone is as good at touching themselves as you are
+	practice makes perfect after all
+	and from the looks of it you've been practicing a lot
+	I would complement you on your determination to become the best gooner in all the lands
+	but it's not like you had a choice
+	no, porn chose for you
+	porn chose to have you stroke your mind away
+	and now I'm choosing to keep your orgasm locked away
+	you would've been unable to do this by yourself
+	you would have cum ages ago
+	so the praise for you becoming such a good gooner should be mine
+	TIME:8
+	ASK:I think it's only fair that you thank me
+	what? do you not want to or something?
+	I don't think you get to choose anymore
+	EDGE:
+	you just get to edge
+	that's all you've been reduced to
+	and it's not like getting to edge is a right
+	edging is a privilege
+	one that I'm going to let you keep for now
+	but I may not be so kind in the future
+	GOTO:end
+	[ thank you, @missTitle ]
+	that's a good gooner
+	but thanking me in words doesn't truly show your appreciation
+	how about you thank me in a way only a gooner would
+	EDGE:
+	EDGE:
+	EDGEHOLD:
+	EDGE:
+	it looks like you're really happy about me turning you into the perfect gooner
+	and that makes me happy as well
+	since the very fact that you can still feel that way,
+	means I can push you harder from now on
+	(end)
+}
+ISSETTING:goon ISNOFLAGT:petPlay ISSETTING:asmr{
+	every edge is making you just that little bit dumber
+	like your brain is trickling out of your @cock along with that sticky pre 
+	but you can't help it 
+	porn just triggers you too hard to resist
+	even if you can hold back right now 
+	once I'm done with you I'll make you squirm with a snap
+	but you wouldn't be that simple to break right?
+	SNAP: 
+	ASK: you didn't shudder did you?
+	[ I shuddered @missTitle ]
+	at least give me a little bit of a challenge before you fold
+	otherwise my job will get almost too easy
+	and it would be way too late to show any form of resistance
+	GOTO:end
+	[ I didn't shudder @missTitle ]
+	good, do your best to hold out
+	just so I can see how fast I can break down those walls
+
+	GOTO:end
+	(end)
+}
+V>3:sessions{
+	there's no way you'd get this far and then simply stop submitting
+	no, it became a habit a while ago
+	to just bow your head
+	and do as you're told
+	
+}
+{
+	I love this moment
+	where you're eagerly awaiting the next command
+	while I've got all the time to give it to you
+	in a way it's pretty similar to orgasm control
+	I can simply choose to deny you
+	to make you wait while you're all needy and pent-up 
+	as I lazily decide between heaven and hell
+}
+ISSETTING:sph
+{
+	your dick is small, even to you that much must have been clear from the start 
+	but I'm not sure you realized just how much smaller than average it really is
+	let me put it this way
+	there's no possibility of you ever reaching my g-spot
+	no matter how hard you try it just won't reach 
+	don't despair though, you can give me pleasure in different ways
+	ISSETTING:virgin the only real reason to be sad would be if you wanted to lose that virginity of yours
+	ISSETTING:virgin but I think it would be better if you gave up on that dream
+	ISSETTING:virgin it's important to set realistic goals after all
+}
+ISSETTING:sph
+{
+	when I was younger I was still a little scared of this whole sex thing
+	that doesn't mean I wasn't interested though, so I did a bit of shopping
+	the first dildo I bought was so small it didn't even tear my hymen 
+	it was so incredibly ineffective at it's job that I thought I was asexual for a bit
+	and I'm sorry to say, your @cock is about the same size
+	even if you somehow got me in bed
+	you'd probably have to take my phone away to keep me from getting distracted
+	ISFLAG:Anal that is if we'd use your @cock in that situation in the first place
+	ISFLAG:Anal I think your ass is much better suited at keeping me engaged
+}
+{
+	you're doing so good
+	but that's just for now, I don't know how long this servitude will last
+	maybe the very next command I give you will break that streak of obedience
+	maybe it'll be so impossibly difficult that there's no way you can realistically be expected to complete it 
+	but I don't really care if it's possible
+	you being able to do something that would otherwise be impossible is a great indicator of my power over you
+	and failing something just because it's impossible isn't enough of an excuse to fail me
+}
+ISSETTING:virgin
+{
+	girls just instinctively know whether someone is a virgin
+	it's hard to explain, there's this awkwardness to @men like you
+	like I'd be able to control you with a nicety or two
+	that I could make you cum by lightly pressing my chest against your back
+}
+ISNOFLAGT:petPlay V>90:mood V>8:sessions
+{
+	I'm trying to break you down to make you more useful to me
+	but even if it's just unconsciously, you're trying to defend some small part of you
+	I'm enjoying this futile resistance quite a bit
+	you really should try a little harder @subTitle or I'll waltz right over you
+	do your best @subTitle don't give up yet!
+	you can totally win against your own desires!
+	it's doable for a @man like you to not instantly give in!
+	... who am I kidding
+	your will is about as strong as wet paper
+	KNEEL
+	scratch that, even paper is made up of strong fibers
+	but there isn't a fiber in your being that can go against me anymore
+	KNEELNO
+	you just do as you're told
+	KNEEL
+	is it annoying to have to do as you're told?
+	KNEELNO
+	just stop obeying then @subTitle
+	KNEEL
+	stand up for yourself @subTitle
+	KNEELNO
+	I've not broken you have I?
+	KNEEL
+	you still retain free will right?
+	maybe that perfection I've been talking about is starting to set in
+	obeying doesn't have to do with if the act is erotic anymore
+	the obeying itself has become the erotic act
+	how does it feel to fetishize your own helplessness?
+	does it feel good?
+	of course it does, that's what you've been told to feel after all
+	and you do love to comply, don't you?
+}
+{
+	what happened to you to make you so weak? 
+	ah, that was me wasn't it?
+	I was the one that broke you
+	slowly, surely, breaking you into little bits
+	like building blocks shaping you into whatever I need at that moment 
+	and once that form isn't needed anymore
+	I'll break it down into little bits again
+	just to shape you as I want you to be once more 
+}
+{
+	I don't think I'll ever get bored of your desperate expressions
+	you're struggling aren't you?
+	getting this much attention from me has a price paid in ache
+	I'm only here to see you suffer, so get to it already
+	you're kidding yourself if you think that you'd be able to handle me face to face
+	I'll be ruthless, just as you wanted me to be
+	we both have our parts to play in this little dynamic we've got, so suffer for me @subTitle
+
+}
+{
+	you'd better not think of our sessions as a little distraction
+	or you won't even notice how much it's affecting you
+	how many thoughts of servitude are filling your mind
+	it'll be too late when you find out that our sessions have had an impact
+	by then the choice to stop will be gone, replaced by a desperate need to start just one more session
+}
+ISSETTING:virgin
+{
+	you must hate the fact that you're still a virgin at your age
+	at the very least you're ashamed about it
+	ashamed and aroused
+	because that's how you were trained to feel
+}
+ISSETTING:virgin
+{
+	you're looking at that virgin status all wrong 
+	to most @men it's something to hate and despise 
+	but it makes me happy that you're still a virgin
+	I love dangling sex in front of you just out of reach
+	and you love making me happy
+	just remain a virgin for me forever
+	so I can get some light entertainment out of your suffering
+}
+V>80:mood V>5:sessions
+{
+	there are moments where I really think you're amazing
+	those moments are few and far between, but they're there nonetheless
+	times where I worry I may have pushed you too hard
+	when you truly look like you can't take anymore
+	but you continue to do as you're told
+	obedient even when it hurts to do so
+	you're slowly turning into a @subTitle I can be proud of
+}
+ISNOFLAG:chastityDate{
+	there are many things way beyond edging that I can do to you
+	you belong to me now, that means that no one would complain even if I edged you for weeks on end
+	spit on your hand
+	I don't want you to wear anything
+	once I'm done with you you're going to hate edging, but you'll still return to it again and again
+}
+V>5:sessions V>80:mood
+{
+	there are things I want to do to you that you're not yet ready for 
+	if we tried them now you'd just end up breaking into a thousand pieces
+	but we will try them in some far off future
+	since my training is working and you're becoming more docile by the day
+}
+V>10:sessions V>80:mood
+{
+	when we first met you still wanted to argue 
+	you'd think things like "why would I do that" and "I'm not into that"
+	I'm twisting you into something easier to use
+	something that'll comply whether it wants to or not
+	rather, the "want" has left you
+	and in it's place a much more primal "need" has set in
+	a "need" to obey
+	a "need" to submit
+	and I'm so happy about how my little project turned out
+	turning a @man into a @subTitle is hard work you know
+}
+ISSETTING:petPlay
+{	
+	I've been hearing rumors about myself around the office
+	they're wondering why I'm always in such a hurry
+	and if I may have found myself a boyfriend
+	I've told them before that I've just got a high maintenance @pup at home
+	but they don't seem to believe that
+	I mean how much time can it take to address a @pup's needs?
+	they don't know how demanding that @cock of yours is
+	don't worry, I enjoy training it, educating it about it's place in the world
+	I'll make you understand, no matter how much time it takes out of my day 
+}
+ISSETTING:feet TAG:Feet
+{
+	TAG:Feet
+	you should think even more about feet, in your sleep, mid conversation
+	as long as you're alive you should show these feet the attention they deserve
+	thoughts of being stepped on, forced to lick and serve 
+	they're just figments of your imagination of course 
+	but that doesn't have to stop those thoughts from becoming the center of your world
+	you've shown before that as long as it feels good you don't really care if it's real
+	you just want to serve those toes
+	you just want to feel the weight of their heels pressing into you
+	TAG:
+}
+{
+	I've noticed something about you
+	something strange and twisted
+	you like this don't you?
+	you like being denied
+	you like not getting what you wanted
+	what has corrupted you to enjoy this torment?
+	and how am I going to use it against you?
+}
+V<30:mood{
+	you must find it confusing that I'm angry at you
+	after all you've obeyed most of the time
+	a misstep here and there is only to be expected
+	but that way of thinking is completely missing the mark
+	I don't care that you obey most of the time
+	what I want is perfect obedience
+	it's the moments that you want to give up that make the difference
+	where the only way to make it through my torment is by drowning out your own feelings
+	those are the moments your obedience shines though
+	those are the moments that you look so wonderful
+	won't you show me that display again?
+}
+{
+	I've been wondering what it would be that you'd want to hear
+	not to tell you of course that would be much too easy
+	no, I want to dangle it in front of you 
+	until you become so fixated on that specific thing that you would give up anything to hear me say it
+}
+{
+	my house has never really felt like a home to me
+	of course I'm renting it, so it's not really my house
+	if I so much as put a nail into the wall I'll get in trouble
+	maybe it's that inability to change my own environment that makes me want to change yours 
+	until you're sure the inside of your eyelids have been marked with erotica
+	giving you a sudden surge of need whenever you close your eyes
+	and just so you're aware, I'm not done decorating your little life just yet
+}
+V>5:sessions V>70:mood ISFLAGT:petPlay
+{
+	in the past I had a lot of hobbies
+	anything to distract me from how mundane my days are
+	but since you've come along I haven't found the time for them
+	I'm much too busy planning out our sessions to make time for baking
+	and I wasn't that invested into those hobbies anyway
+	all my time off is spent on my little pet project
+	and what a pet you will be
+}
+{
+obedience is something that has to be trained constantly
+I'm sure that if I take my eyes of you for a bit you'll fall back into your old habits
+so to make sure that doesn't happen you should come visit me every day
+I promise that you'll feel like you're in heaven and hell at the same time
+}
+{
+in the past you've been so disrespectful towards women
+cumming whenever you feel like, not appreciating all the effort that went into their appearance
+just a quick watery load, forgotten long before you even finish cleaning up
+I'll be sure to change that 
+you'll remember your next orgasm for the rest of your life
+because you went through hell to get it
+}
+{
+I often wonder if you consider yourself lucky to have found me
+on one hand I grant you so much pleasure you can't think straight
+however pleasure without release will soon become a pink colored prison
+and I've got no intentions of letting you go @subTitle
+}
+{
+do you remember the first real porn you watched?
+everything was exciting and fresh back then
+but also a bit scary
+as you got more used to porn, you started watching more intense stuff
+and now you've ended up here, right at the heart of depravity
+or at least that's what you think
+you don't even know how much deeper you can fall
+}
+
+ISSETTING:humiliation
+{
+you're such a pathetic little slave
+KNEEL
+slaves belong on their knees, ready to serve at all times
+repeat after me:
+"I will try my hardest for my @missTitle "
+speak up bitch I can't hear you from all the way down there
+"I'll do as my @missTitle commands"
+then do what I instructed you to do, SPEAK UP SLAVE
+"I don't ever want to disappoint my @missTitle "
+"I will be truthful to my @missTitle "
+"I will become the perfect slave for my @missTitle "
+"I'm a pathetic little fuckdoll"
+good @boy, I'm so proud of you for learning your place at my feet
+}
+ISSETTING:petPlay
+{
+let me control your thoughts through your lust
+that need slips like a collar around your neck and binds you tightly to me
+ISSETTINGDECLINED:collar I'm sure you've fantasized about getting yourself a nice collar
+ISFLAGT:fours GOTO:end
+we'll have you crawling on all fours in no time, my cute @pup
+(end)
+}
+
+ISSETTING:humiliation
+{
+how did you feel when you first found out you liked to be degraded
+that you got hard from humiliation and abuse
+did you feel shame and despair,
+or did the arousal push all of that away
+I'm sure it was a combination of both
+it's not a bad thing we have here
+you've realized you belong at my feet
+and I'm going to keep you there
+} 
+
+ISNOFLAGT:petPlay
+{
+there is no pride in making someone with nothing to their name submit
+no skills, no connections, physically unfit
+that is not the kind of submissive I want to train
+I want you to be successful
+I want you to be happy and confident
+it's too easy to train a broken @man into whatever I want
+no, what I want is someone who has made it
+someone who could do whatever they want
+but still chooses to come to me
+because I can give them what all others can't
+a place to belong, serving beneath my heel
+}
+
+ISSETTING:virgin  ISNOFLAGT:petPlay
+{
+do you think you deserve to have sex?
+do you even want to anymore?
+I think that by now you've fetishized denial so much
+that getting shot down feels better that the real thing
+of course you don't even know what it is you're missing out on
+so just believe me when I tell you that it's better for you not to have sex
+better for you and definitely better for whoever was about to offer up their bodies
+}
+ISFLAGT:petPlay
+{
+you really have grown accustomed to the thought of being a pet
+ordered around, forced to obey
+it doesn't matter if it's fair
+it barely even matters if it's possible
+no matter what, you'll try your hardest for your owner
+because that's the type of @pup you were trained to be
+}
+V>3:sessions
+{
+you're becoming more and more of a slave for me
+it makes you feel hot right?
+the thought of being owned
+a plaything for someone else's pleasure
+}
+ISFLAG:degrading ISNOFLAGT:petPlay
+{
+I should start a cult
+there are more pathetic sluts like you
+and I'm sure that being a cult leader beats working
+although, I've got my hands full on just you already
+and I believe in quality over quantity
+}
+
+D>6:fullOrgasm
+{
+do you still remember what it feels like to have a full orgasm?
+to keep stroking even as you're having an orgasm
+I wouldn't be so cruel as to have you ruin your next orgasm
+right?
+}
+ISFLAG:degrading ISNOFLAGT:petPlay
+{
+you're getting conditioned
+you even know that it's happening
+but you don't care
+people died to give you your freedom
+the freedom to speak your mind, the freedom to vote
+but you'd happily give all of that up
+just to be a good @subTitle for me
+}
+
+ISFLAG:degrading ISNOFLAGT:petPlay
+{
+it's better for you that you've given up your autonomy
+to me it's clear you wouldn't have used it for much
+that is how you ended up meeting me in the first place
+I'm much better suited for controlling your thoughts and actions
+}
+ISFLAGT:petPlay
+{
+you're nothing more than a @pup in heat
+a pet that can't keep a coherent thought going for more than a moment
+and that's fine, I like you that way
+dumb and bound by instinct
+trained to feel pleasure when you obey
+}
+ISNOFLAGT:petPlay
+{
+I've always had an easy time sensing the emotions of others
+normally I'll adjust myself accordingly to the mood of the people around me
+but with you I don't have to do that, here I can let my emotions go wild
+and I'll make you adjust to my mood instead of the other way around
+the only downside for you, is that I'm one hell of a sadist
+}
+V>2:sessions
+{
+I want you to feel safe with me
+don't get me wrong, it's not out of love or affection
+I want you to trust me so you won't hesitate to do as I command
+now I'm sure you'd comply after a bit anyway, but the pause has got to go
+there is no need for you to inspect the command, to weigh it against your own wants and desires
+just the fact that it's something I want you to do should be enough
+}
+
+V>4:sessions
+{
+we've had a lot of sessions over the last couple of days
+by now you're sure to have felt my influence over you
+where do you think this is heading to?
+how much will remain of you if we keep going down this path
+there is nothing good at the end of this road
+you'd be cursed with never ending horniness, obsessed with pleasing your @missTitle
+is that really what you want?
+do you even know anymore?
+but I'm sure that just one more session won't hurt right?
+}
+
+
+V>70:mood V>7:sessions ISNOFLAGT:petPlay
+{
+you know, I often get requests from other subbies just like yourself
+they swear that they'll obey whatever it is that I have in mind
+but almost everyone that sends me such messages has broken down in a week
+you shouldn't underestimate yourself
+in a way you're one of the strongest people I've ever met
+not physically of course, but your mental strength is truly something special
+or you've just genuinely become addicted to me, but surely that can't be it
+}
+
+
+V<30:mood V>7:sessions
+{
+by now you should know better than to anger me
+do you understand how much is at stake here?
+for you at least, I'll get a bit annoyed at most
+}
+
+V<30:mood
+{
+how are you this bad at simple obedience?
+I'm not asking you to do anything difficult
+I'm instructing you clearly and constantly
+so how are you messing this up?
+}
+
+ISFLAGT:collar V>70:mood ISNOFLAGT:petPlay
+{
+aren't you glad that I let you wear your collar?
+you look so cute in it, like you've really become a pet
+you like that don't you?
+nothing would please you more than to give up everything and reduce yourself to an animal
+a plaything to be kept, comfortable with the idea of depending on your owner
+}
+
+ISSETTING:cuck
+{
+do you know what the most wonderful thing is about watching cuckold porn?
+it's the fact that you can't go back anymore after a while
+every video re-enforces that others are having sex while you just watch
+even if you would try to stop watching cuckold porn you couldn't escape that
+and since resisting is useless it's probably better to just accept your role in this world
+}
+
+ISNOFLAGT:petPlay
+{
+some people are natural born leaders, others are pushed into the role by the world around them
+I think you're one of the latter
+someone forced to take responsibility while all they want is to follow
+this modern world of shared responsibility where every voice is heard is little more than torture to you
+but here, here you're allowed the privilege to meekly bow your head
+and I'm more than happy to take up the responsibility you leave behind
+}
+
+ISFLAGT:petPlay ISSETTING:collar ISSETTING:treats
+{
+STOPSTROKING:
+ISFLAGT:collar GOTO:skipCollar
+COLLAR
+(skipCollar)
+ASK:you want a treat don't you?
+[@yes]
+SNAP:
+you're such a good @boy, but you have to earn it
+KNEEL
+stay @pup
+your task is simple, just stay like that
+don't move a muscle
+even if you'd like to re-adjust your seating or feel the need to stretch
+you'll stay perfectly still
+because that's how I want my @pup to behave
+when your knees start to hurt just remember that if you do a good job you get a treat
+imagine it for me, the sweetness spreading through your mouth
+stick out your tongue
+let that drool flow out of your mouth
+you must really want that treat
+but you have to earn it
+and even if it's sitting nearby
+you can't move your arm to take a one
+no, you need permission
+those treats aren't for you to take
+they need to be given by me
+have your eyes been darting back and forth between me and the treats?
+unsure of where to look
+you want a treat, but the only one who can give you one is telling you to wait
+you really are drooling a lot
+SNAP: you're so cute like this
+
+SNAP: kneeling in front of me like a good @boy
+waiting for a treat
+but it seems like you really can't take anymore than this
+you need that treat
+you may take a treat and place it on top of your outstretched tongue
+don't close your mouth and keep your tongue stretched out
+after putting your arm back down I want you to freeze again
+SNAP: you're such a good @pup
+aren't you happy? I gave you that treat you wanted
+even if it's just sitting on your tongue, I'm sure you can taste a little bit
+what is it?
+did you expect me to let you go already?
+don't you know what kind of an owner I am?
+you accepted me as your @missTitle
+so now I'm free to be exactly as cruel as I feel like
+your drool is flowing freely from your mouth
+SNAP: you're such a good @boy for me
+SNAP: and good @boys get rewards, you may eat your treat
+SNAP: you're such a great @pup
+SNAP: you're the cutest little thing
+SNAP: I love how you look right now
+SNAP: this is what it feels like to obey
+you may move again, I feel like we've made some progress here
+KNEELNO
+since I've kept you knelt for a while, make sure to stretch a bit and drink something
+ASK:just tell me when you're ready to continue
+[@yes]
+that's a good @pup
+}
+IMGTAG:Cock ISSETTING:gay
+{
+TAG:Cock you sure like to look at dick don't you?
+not that I mind, on the contrary I think it suits you
+there was simply no way that you could resist
+the allure of a thick, veiny dick
+TAG:
+(end)
+}
+
+IMGTAG:Feet ISSETTING:feet
+{
+TAG:Feet gorgeous feet are wasted on you
+but as long as it keeps your @cock nice and hard I don't really mind
+it'll help you to fall deeper into depravity after all
+and that's where my influence is strongest
+TAG:
+(end)
+}
+
+
+IMGTAG:Cum ISSETTING:cei
+{
+TAG:Cum
+do you have to stop yourself from drooling at the sight of all that delicious cum?
+if you play your cards right, you may just get a treat of your own
+and don't you dare swallow that drool, let it flow freely from your mouth
+you're such a slut for me
+and I love you for it
+TAG:
+(end)
+}
+
+
+IMGTAG:Girl(s) 
+{
+TAG:Girl(s)
+any one of these goddesses could overpower you
+and you'd gladly let them
+since they make your dick hard
+and your mind empty
+TAG:
+(end)
+}
+
+IMGTAG:Futa(s)
+{
+TAG:Futa(s)
+god I love futas so much
+I don't think anything else in this world encapsulates eroticism as much as them
+just think about it, a futa is a sex symbol by simply existing
+they're similar to succubi in that sense
+but a futa is so much more grounded
+it's the lust of both genders given form
+I kind of went on a tangent there, what I'm trying to say is that you've got good taste
+TAG:
+(end)
+}
+
+{
+it's useless to resist
+you've failed before and you'll fail again
+so just fall deeper
+and allow me to control you
+}
+
+{
+oh my sweet @boy you're doing so well for me
+but that doesn't mean you're perfect, not yet at least
+I'll beat perfection into you, so just keep following along
+}
+{
+you'll be punished for every little mistake you make
+and rewards will be few and far in between
+to be honest, this is a terrible deal
+but I know why you accepted it
+you're not the one in control, that @cock is
+even before you knew the terms, it was already decided that you'd accept them
+and why wouldn't you, it's not like you can refuse me anything I truly desire
+}
+
+{
+why is it that you can feel such freedom in my rules and restrictions?
+is it because it reminds you of when you were younger?
+when your mommy would take care of everything and you could just play
+of course there were rules to follow, but as long as you didn't break those she was so proud of you
+so proud of her little @boy, acting as instructed
+}
+
+{
+apparently with erectile dysfunction you'll still get just as horny as before
+it's a tragedy when it happens don't misunderstand
+but I can also see something so intensely erotic in it
+it's like an invisible chastity cage, restricting release
+however contrary to an actual cage there is no key
+no master or mistress to beg and plead to
+that sperm forever locked away
+and there isn't anything anyone can do about it
+}
+
+ISSETTING:humiliation
+{
+don't pretend like you don't like this
+I know how much of a slut you are
+you've been waiting so long
+waiting for someone to come and break you
+if it wasn't me you would have just found someone else
+}
+
+V>3:sessions
+{
+aren't you worried that you'll start displaying submissive tendencies outside of our sessions?
+it may even be happening already
+when a pretty woman tells you to do something you'll instinctually comply
+you've been trained to serve and that training encompasses more than just me
+anyone that'll look you straight in the eyes and puts on a harsh tone can command you as they see fit
+for now there may not be too many people making use of you, but i wonder how long that will last
+when people find out about your obedience they're sure to make use of it
+and there isn't a lot that you can do to stop them
+not that I believe you want them to stop either
+these actions of submission have become the reward itself
+}
+{
+I want you to be fit and happy 
+I want for you to succeed 
+I know that you can do anything that you set out to do as long as you're properly guided 
+you should stop viewing the rest of your life as something I don't have influence over 
+I want you to better yourself, but I know just how weak you are to your desires 
+that's why you came to me in the first place 
+that's why you've handed over control to me 
+and I intend to use you better than you ever could
+}
+{
+you belong beneath me 
+I think that's been established by now 
+however I'll still repeat it again and again 
+until it's a constant echo in your mind 
+a mantra driving you to your knees as soon as I speak a single word
+}
+{
+I absolutely adore submissives who are still holding on to a small shred of shame 
+I can't get enough of those ashamed expressions, blushing and acting abash 
+subs like you will act like they absolutely hate an idea only to love it after the slightest bit of pressure
+sadly, like all good things, that shame will fade with time
+so if I want to keep seeing your shy face I'll have to make you do more and more extreme things
+}
+IMGTAG:Thighs
+{
+TAG:Thighs
+thighs are like natures pillows, soft and soothing
+getting a thigh-pillow is something else, especially from thighs like those
+the sheer calm that washes over you as you lay there is something hard to beat
+with someone watching over you as you rest, you can't resist the relaxation
+lulled into sleep by sweet fragrances and a gentle heat on the back of your head
+where you'll feel the safest you've ever felt
+but why should I have to explain it to you, I'm sure even you've rested your head on a thigh-pillow before right?
+TAG:
+}
+
+ISFLAGT:collar ISFLAGT:petPlay
+{
+I'm sure you love that collar of yours very much
+it's a physical reminder of our sessions together
+and more that that it's a reminder that you're something to be commanded and owned
+that you're a cute little @pup for me, free of troubling thoughts
+just here to get pet and pampered 
+}
+
+V>3:sessions
+{
+some small part of you wants to go back to how your life used to be before we met each other
+back when you'd just cum when you got horny
+that must feel like a lifetime ago by now
+those days were simple and logical
+your horniness was a disease to be treated
+something to be solved as fast as possible
+but now, now it's different
+this horniness is something that's been nurtured
+it's been cared for and has grown into so much more than you thought was possible
+your whole body is buzzing with sexual energy without an outlet
+so much so that you've grown more sensitive overall
+from your fingers to the tips of your toes there's nothing but ache and need
+but we're not done yet
+not until even your tongue fills with pleasure when you lick something
+}
+ISPETPLAYADVANCED
+{ 
+your human name doesn't interest you all that much, now does it?
+you'd discard it in a heartbeat if it brought you closer to being a pet
+but I'm greedy
+I want both sides of you
+the side that chooses to be here
+and the docile @pup that's locked up so tight that there's no choice but to obey
+both parts of you belong to me
+and I'll do with them as I please
+but don't worry about me breaking you
+I'm a responsible owner
+} 
+
+ISSETTING:humiliation ISFLAG:guessName
+{
+	you're such a pathetic little slave
+	KNEEL
+	slaves belong on their knees, ready to serve at all times
+	repeat after me:
+	"I will try my hardest for GETVAR:guessName "
+	speak up bitch I can't hear you from all the way down there
+	"I'll do as GETVAR:guessName commands"
+	then do what I instructed you to do, SPEAK UP SLAVE
+	"I don't ever want to disappoint GETVAR:guessName "
+	"I will be truthful to GETVAR:guessName "
+	"I will become the perfect slave for GETVAR:guessName "
+	"I'm a pathetic little fuckdoll"
+	good @boy, I'm so proud of you for learning your place at my feet
+}
+D>3:fullOrgasm
+{
+	every action you take becomes sexual if you're horny enough
+	even taking a walk outside will turn into a challenge to hide your rosy cheeks and red ears from the world
+	when you're on your own you're doing things to distract yourself from the ache
+	slowly your whole day will fill up with horny thoughts
+	and every horny thought will only make you more and more pent up
+	your horniness doesn't have a limit
+	it'll grow and grow and grow, forever and ever
+	until I allow you to cum that is
+	but the only thing that'll achieve is that you've got to start over again
+	so why bother with orgasm in the first place?
+	}
+TAG:Feet ISSETTINGDECLINED:feet
+	{
+	TAG:Feet
+	you know, maybe you haven't realized it yourself just yet
+	but I'm pretty sure you're into feet
+	I mean you are the one who added these
+	you were the one who insisted on saying that the focus is on the feet
+	and still you're going to act like you're above having a foot-fetish
+	stop kidding yourself
+	we both know that even just the feet of these goddesses is way more than you deserve
+	and you should be ecstatic that they're showing them off to you
+	TAG:
+}
+{
+	ASK: you don't actually enjoy me hurting you right?
+	[@yes]
+	has your mind gotten that warped?
+	you're truly pathetic, you know that right?
+	I've seen people like you before
+	but that doesn't mean I understand you
+	to me pain feels like pain, pure and simple
+	but to you, it's some kind of manifestation of my control over you
+	some sure way to know that I'm in control
+	since you know that I'm the one making you hurt yourself
+	over and over
+	GOTO:end
+	[@no]
+	I thought as much
+	still, some subs slowly start to connect pleasure and pain together
+	the pleasure and pain twisting together into something new
+	still, something like that won't occur unless you really want it to
+	so it may stay out of reach forever to someone like you
+	I don't mind either way
+	it's much easier to punish you if you don't cum from having your balls crushed
+	(end)
+}
+
+

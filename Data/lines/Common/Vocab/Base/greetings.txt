@@ -1,0 +1,36 @@
+V>80:mood
+{
+I hope you're doing well today, because I'm going to tease the hell out of you 
+}
+{
+ hello @subTitle
+ hey @subTitle 
+ }
+ISFLAG:degrading
+{ 
+don't you have anything better to do? 
+back already? that's just sad 
+you've long lost your way out of this agreement haven't you
+ let's torture that @cock some more 
+ }
+ISSETTING:sph
+{
+ that tiny dick of yours sure asks for a lot of attention
+ do your best @jerkingOff, although I really can't call it that
+ do you expect your dick to grow with practice or something? 
+ }
+ISSETTING:humiliation
+{ 
+it's hilarious that you come crawling back again and again 
+}
+ISSETTING:cuck
+{ 
+are you worried that I had fun with someone else while you were gone? 
+I've enjoyed myself plenty while you weren't looking, maybe I'll tell you about it 
+}
+V<30:mood
+{ 
+oh, it's you again, don't you have anything else to do? 
+lets get this over with 
+fucking hell, I have to deal with this dipshit again? 
+}

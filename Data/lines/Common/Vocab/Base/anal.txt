@@ -1,0 +1,58 @@
+EXTENDS:tease
+V>80:mood{
+	you look so cute with your @cock bouncing around as you're getting fucked
+	stretch that cute little hole
+	you're such a good @boy for trying this with me
+	you're so pretty when you submit fully 
+	keep going like this and I may just never let you go 
+	I won't ever grow bored as long as you're doing this well
+	you're doing so good right now
+}
+{ 
+	I love teasing you while you're at your lowest
+	I own everything of you 
+	how much more will you give me if I command you to?
+	your ass belongs to me @subTitle
+	I love putting you in your place
+	this weird mix between pleasure and pain will soon become addictive
+	before long you'll be fingering your ass whenever you can
+	I'm going to get you addicted to this pleasure
+	you've fallen so far from when we first met 
+	why would the prostate be up your ass if you weren't meant to tease it?
+	you love anal don't you?
+	you can't get enough of playing with that little hole of yours can you?
+	before long you'll be absentmindedly fingering yourself as you lay in bed
+	your ass is just one other way to play with you
+	isn't the idea of stretching your little hole so erotic?
+	I want to get you addicted to anal
+	just indulge in this pleasure and forget about your @cock
+}
+ISFLAG:quickshot
+{ 
+	is your dick weak enough to cum from anal stimulation alone?
+	is your dick dripping yet?
+	you can forget all about your dick for now, yours seemed to barely function anyway 
+	maybe you're better at anal than at stroking 
+}
+ISSETTING:sph
+{
+	surely you realize that this suits you much better than simply stroking your little nub
+	for now your size won't be an issue 
+	small @boys were made to serve in other ways than their little dicklets 
+	it's great that you've found some other way to serve instead of getting your dick wet 
+}
+ISFLAG:cockControl{
+		I don't want you to touch your @cock when we're not together but you're free to tease your ass
+}
+V<30:mood
+{ 
+	I'll fuck the obedience into you 
+	I'll only let you stop once you're sore and gaping 
+	I'll fuck the arrogance out of you 
+	you won't have any dignity left after this
+	even you can't fuck up being a hole 
+}
+ISFLAGT:orgasmDenied 
+{ 
+	it must suck knowing that you're getting denied while still getting forced to play with your hole 
+}

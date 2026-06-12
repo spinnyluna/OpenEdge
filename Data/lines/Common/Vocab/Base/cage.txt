@@ -1,0 +1,20 @@
+{
+	little cage
+	chastity cage
+	cage
+	cock cage
+}
+V=0:cageType
+{
+	cloth cage
+	cloth prison
+}
+V=1:cageType
+{
+	metal cage
+	steel cage
+}
+V=2:cageType
+{
+	plastic cage
+}

@@ -1,0 +1,14 @@
+﻿
+V>80:mood
+{
+give your cute nipps a moment of respite, take the clamps off 
+}
+{ 
+you may take the clamps off again
+ take off the clamps 
+ }
+V<30:mood
+{ 
+rip off the clamps, no opening them first 
+tear off the clamps 
+}

@@ -1,0 +1,105 @@
+{
+I'll let you cum on one condition
+you'll have to eat it
+and I don't mean you'll only have to give it a little taste
+I want you to take that whole load into your mouth and swirl it around
+coating the inside of your mouth with your seed
+and only when I tell you to I expect you to swallow
+ASK:will you eat your cum for me?
+[no @missTitle]
+god you're boring, enjoy being denied then
+DENY:
+[yes @missTitle]
+ISFLAG:cumSlut GOTO:hungry
+ASK:have you done this before?
+[yes @missTitle]
+so you're a little cumslut already? I should have known
+FLAG:cumSlut
+GOTO:cont1
+[no @missTitle]
+you're desperate enough for an orgasm to do just about anything
+I'm proud of you for trying this with me
+GOTO:cont1
+(hungry)
+I knew you would be in for a treat
+you love this don't you?
+maybe I should have you eat every load from now on
+(cont1)
+EDGE:
+STROKEON: SPEED:420
+ASK: get yourself to the edge
+[I'm on the edge]
+ASK:cum into your hand for me
+[I came in my hand]
+FLAG:fullOrgasm
+in a bit you're going to lick that sticky cum off your hand
+slant your hand a bit, look at how viscous it is
+slowly dripping from one hand onto the other
+you're going to eat that
+and you're going to savor it
+start lapping up your load
+lick everything sparkling clean
+ASK:no swallowing of course
+[my mouth is full of cum]
+good @boy
+swirl it around inside of you
+how would you describe the taste?
+salty?
+bitter?
+in time you'll learn to love this taste
+conditioned that the taste of cum goes accompanied by pleasure
+that when your mouth is full of semen, you at least got to cum
+ASK:swallow it down for me
+[I've swallowed my load]
+good @boy
+I'm so proud of you
+you've earned your rest this time
+and now that I know I can pressure you into lapping up your load
+we'll have more fun than every
+sweet dreams @subTitle
+ENDSESSION
+}
+V>3:denied
+{
+I've got a bit of a proposal for you
+normally I'd just deny you and that would be the end of it
+but today I'll give you a choice
+I'll allow you to have a ruined orgasm today
+however you should view it as a loan
+and the next time that you would have gotten an orgasm I'll deny you
+so all in all you'll cum just as much
+it's just that you get to the cumming part quicker
+don't think too hard about what getting denied twice as long after this is going to do to you
+you need the pleasure now right?
+EDGEHOLD:20
+waiting would be smarter, but can you even still think?
+EDGEHOLD:20
+ASK:so @subTitle, what is it going to be?
+[please let me ruin]
+god you're such an easy slut
+so predictable, so simple to steer and manipulate
+you know that this is just going to draw you deeper into my control
+but you don't care anymore, do you?
+you just want to feel good
+you just need to feel something other than ache
+RUIN:
+FLAG:ruinedOrgasm hands off @subTitle
+FLAG:debt did that help a little with the pressure in your balls?
+I honestly doubt it
+but remember, this was your choice, you accepted the deal
+so when you would have finally been allowed a full orgasm and I snatch it away in front of you it's only fair
+if you're going to blame anyone, blame yourself
+sweet dreams @subTitle
+ENDSESSION
+[please deny me]
+it seems you've still got your wits about you
+I wonder how long that will last
+it could be gone as soon as tomorrow
+or it could be weeks from now
+but don't worry, the second you break, I'll be there to take advantage of the opportunity
+and you'll never claw your way back to sanity again
+DENY:
+enjoy your denial @subTitle, you've earned it
+sweet dreams @subTitle
+ENDSESSION
+}

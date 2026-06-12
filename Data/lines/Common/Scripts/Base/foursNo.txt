@@ -1,0 +1,10 @@
+{
+ISFLAGT:fours GOTO:start
+GOTO:end
+(start)
+STOPSTROKING:
+COMMAND: @foursNo
+[@yes]
+DELFLAGT:fours
+(end)
+}

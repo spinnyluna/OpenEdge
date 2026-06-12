@@ -1,0 +1,48 @@
+ISSETTING:petPlay 
+{ 
+	you should never physically punish your pet, I'll make an exception for you though 	
+}
+V>80:mood 
+{ 
+	you're such a good @subTitle for suffering through this 
+	I love watching you hurt yourself 
+	it makes me wet to see how much power I hold over you 
+	it's sad, you were doing so well for me 
+}
+{ 
+	don't start using less force just because it hurts
+	do you think I'm making you do this for show? make it hurt
+	you'd better redouble your efforts after this 
+	keep going @subTitle 
+	harder now @subTitle 
+	put some strength into it or I'm going to deny you
+	bad @boys get punished 
+	reflect on why you're being punished
+	I enjoy making you squeal, but that doesn't mean I don't have a solid reason for doing this
+	some people need a hand to get the message
+	I'll break you down to build you back up 
+ }
+ V>5:sessions
+ {
+	I'm expecting you to be better than this by now
+	we've had a bunch of sessions before so don't act like you didn't know any better
+	if you don't start improving soon I may just have to make my punishments even harsher
+ }
+V<30:mood
+{ 
+	you're such a little shit
+	I truly couldn't care less how you feel right now
+	you deserve this treatment
+	you were made to be used and discarded
+	you're nothing to me @subTitle
+	you've forced my hand with your recent behavior
+	I used to think we could have fun together, but you're in need of re-education 
+	how hard can it can be to obey? 
+	I'll beat this lesson into you as many times as necessary 
+	you're going to kill me with boredom unless you actually start applying some force 
+}
+ISSETTING:sph
+{ 
+	you've got more problems than just your small dick
+	a small dicked loser who can't even obey is utterly worthless
+ }

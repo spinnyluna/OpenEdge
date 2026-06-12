@@ -1,0 +1,72 @@
+ISFLAGT:ballsBound 
+{ 
+bound dick 
+bound cock
+}
+{ 
+cock
+ dick
+ horny dick
+ horny cock 
+ desperate cock 
+desperate dick 
+}
+ISSETTING:sph
+{ 
+dicklet
+ toy
+ small thing
+ toothpick
+ tiny cock
+ little cock
+ hilarious excuse for a dick
+ joke of a dick
+ hilarious excuse for a cock
+ joke of a cock
+ little dick
+ tiny dick 
+ denied little dick 
+ denied little cock 
+ poor little cock 
+ poor little dick 
+ horny little cock 
+ horny little dick 
+ }
+ISFLAG:quickshot
+{ 
+leaky dick 
+weak dick 
+drippy dick 
+leaky cock 
+weak cock 
+drippy cock 
+}
+ISFLAG:degrading
+{ 
+pathetic dick 
+useless dick 
+worthless dick 
+pathetic cock 
+useless cock 
+worthless cock 
+}
+ISFLAG:virgin
+{ 
+unused dick 
+virgin dick 
+celibate dick 
+unused cock 
+virgin cock 
+celibate cock 
+}
+ISFLAG:wearingChastity
+{ 
+caged dick
+ locked dick 
+ restrained dick 
+ strained dick 
+ caged cock 
+ locked cock 
+ restrained cock 
+ strained cock 
+ }

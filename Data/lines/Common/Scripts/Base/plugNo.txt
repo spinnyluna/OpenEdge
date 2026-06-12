@@ -1,0 +1,11 @@
+{
+	ISFLAGT:plug GOTO:start
+	GOTO:end
+	(start)
+	STOPSTROKING:
+	COMMAND: @plugNo
+	[@yes]
+	DELFLAGT:plug
+	GOTO:end
+	(end)
+}

@@ -1,15 +1,18 @@
-# Build output
-bin/
-obj/
 runtime/local/
-
-# Local IDE/user state
-.vs/
-.vscode/
+src/EverEdge/bin/
+src/EverEdge/obj/
+src/OpenEdge/bin/
+src/OpenEdge/obj/
+tests/**/bin/
+tests/**/obj/
+.codegraph/
+*.lscache
 *.user
 *.suo
-*.lscache
 *.cache
-
-# Generated or local-only artifacts
-.codegraph/
+LOB.exe
+Data/LOB/LOB.exe
+share/
+AGENTS.md
+todo.md
+.vscode/

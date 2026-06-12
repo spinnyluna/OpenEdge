@@ -1,0 +1,467 @@
+ISSETTING:taskScreen ISNOSETTINGDECLINED:findom 
+{
+	SHOWFAVOR:
+	ASK: I'll let you gamble some of your favor on a coinflip if you want to
+	[no I'd rather not]
+	GOTO:end
+	[yes let's gamble]
+	ASK: so, how much are you putting as your bet?
+	[1]
+	SETVAR:gamble,-2 TRIBUTE:1
+	GOTO:gamble
+	[3]
+	SETVAR:gamble,-6 TRIBUTE:3
+	GOTO:gamble
+	[5]
+	SETVAR:gamble,-10 TRIBUTE:5
+	GOTO:gamble
+	[10]
+	SETVAR:gamble,-20 TRIBUTE:10
+	GOTO:gamble
+	(gamble)
+	then, let's begin
+	I'm taking heads by the way since there's no chance of you getting any
+	here goes nothing
+	I've got some good news
+	CHANCE:45 GOTO:win
+	and some bad news
+	the good news is that your money will now be spent by me
+	the bad news is that you now have less money to hand over
+	GOTO:end
+	(win)
+	TRIBUTE:GETVAR:gamble
+	you've just doubled your stake
+	just remember
+	in the end the house always wins
+	(end)
+}
+
+ISSETTING:edgeHold ISNOSETTING:wearingChastity
+{
+	STOPSTROKING:
+	ISFLAG:edgeHoldGame GOTO:cont1
+	I've thought about it
+	and I don't think you've suffered enough for the chance to cum just yet
+	so I've thought up a little game for you
+	in a bit I'll tell you to hold an orgasm
+	now, normally I would decide how long you have to hold it
+	but just for you I'll allow you to decide that on your own
+	I'll count the duration extra heavy when I'm deciding if I'll let you cum
+	FLAG:edgeHoldGame
+
+	(startOfGame)
+	ASK:do you want to play @subTitle?
+	(cont1)
+	I want to play that game where you hold a long edge again
+	GOTO:startOfGame
+
+	[no @missTitle]
+	too bad, maybe next time
+	GOTO:end
+	(beginningOfEdge)
+	[yes @missTitle]
+
+	lets get started then
+	ISSETTING:asmr ASMRON:0 ASMRON:1
+	SPEED:500 STROKEON:
+	COMMAND: get yourself to the edge for me
+	[on the edge]
+	FLAG:edgeHoldGameTime
+	ASK:the timer starts now!
+	[please let me stop]
+	SPEED:50 STROKEOFF: ASMROFF:
+	ISVAR:edgeHoldGameTime,GETVAR:edgeHoldRecord SETVAR:edgeHoldRecord,GETTIME:edgeHoldGameTime GOTO:record
+	let go of your @cock then
+
+	you lasted GETVAR:edgeHoldRecord seconds on the edge during your record
+	now, I'm sure you tried your hardest, but I want to see you improve
+	otherwise I'm just wasting my time training you
+	ASK:so, do you want to try again or do you want to face a punishment for disappointing me?
+	[please let me try again]
+	good @subTitle
+	GOTO:beginningOfEdge
+	[I'll take the punishment]
+	MOOD:-5 so be it then
+	PUNISHMENT:
+	next time try a bit harder @subTitle
+	GOTO:end
+	(record)
+	let go of your @cock then
+	MOOD:5
+	you've tortured yourself longer than ever before @subTitle
+	you lasted GETVAR:edgeHoldRecord seconds on the edge
+	I get a deep feeling of satisfaction from seeing you improve
+	(end)
+}
+ISNOSETTING:wearingChastity
+{
+	STOPSTROKING:
+	ISFLAG:explainedEdgeChoice GOTO:skipExplain
+	for a change I'll let you choose how many edges you want to do
+	now you might ask to yourself why you would ever pick a lot of edges given the choice
+	believe me when I say you'll regret picking just one edge here
+	you'll just have to find out what I mean by that, but keep it in mind
+	GOTO:start
+	(skipExplain)
+	I'll let you choose how many edges you'll have to withstand
+	(start)
+	ASK:so, how many edges do you want to do?
+	[1]
+	I warned you, so you know who to blame
+	I'll show you just how agonizing a single edge can be
+	and don't you dare back off even a single inch
+	I want you close enough that just blowing on your @cock will make you spurt your load
+	EDGEHOLD:80000
+	so, what have we learned today?
+	when a sadist warns you that something is going to be tough, take them seriously
+	although I must say I'm proud of you for making it through that
+	good @subTitle
+	GOTO:end
+	[3]
+	very reasonable to take the middle of the road
+	it's also very boring
+	so let's fix that shall we
+	PUNISHMENT:
+	your heart better be racing after that or you're not hitting hard enough
+	EDGE:3
+	let's hope this makes you a little more interesting to be around
+	GOTO:end
+	[5]
+	it makes me happy that you would expose yourself to another five edges for me
+	but maybe I've grown a bit soft on you that you've got enough leeway to take these
+	I'll make sure to amend that
+	EDGE:5
+	do you still feel like you've got a lot of leeway?
+	GOTO:end
+	(end)
+}
+
+IMGTAG:Nude ISSETTING:canRemove ISNOSETTING:wearingChastity
+{
+	IMGTAG:Nude
+	ASK:you really love your porn don't you?
+	[@yes]
+	it's easy to claim you love something if you don't have to fight for it
+	let's see just how true that love holds
+	LOCKIMG:
+	I'm going to give you a choice
+	you're either going to edge for me
+	or I'm removing this image
+	ASK: so what's it going to be?
+	[please make me edge]
+	I'm happy to do so, just remember that you could have taken the easy way
+	and all it would've cost you is some of that porn you love
+	GOTO:edgeAgain
+
+	[please remove the image]
+	so you're not even willing to suffer through a single edge to keep your porn safe?
+	maybe you've grown so horny that you don't even need porn anymore
+	GOTO:endRemove
+
+	(edgeAgain)
+	SPEED:500 STROKEON:
+	ASK: @edge
+
+	[on the edge]
+	STROKEOFF:
+	CHANCE:90 @delPornTaunt GOTO:edgeAgain
+	GOTO:defendedPorn
+
+	[I give up]
+	GOTO:endRemove
+
+	(defendedPorn)
+	I'll let you hold on to it for now then
+	just make sure you're not going to regret this later
+	UNLOCKIMG:
+	GOTO:end
+
+	(endRemove)
+	STOPSTROKING:
+	I want you to stare
+	take in the beauty in front of you
+	this will be the last time you see this image
+	and all because you couldn't take a couple of edges
+	it really is extraordinary how weak you've become
+
+	DELIMG: and there it goes TAG:
+	just remember that while I may have pulled the trigger
+	it's your own fault that you'll have to do without that porn from now on
+	(end)
+} 
+
+VIDTAG:Nude ISSETTING:canRemove ISFLAGT:hasVideo ISNOSETTING:wearingChastity
+{
+	VIDTAG:Nude
+	LOCKVIDEO: don't you think nudity is a bit much for you?
+	I'm going to give you a choice
+	you're either going to edge for me
+	or I'm removing this video
+	ASK: so what's it going to be?
+	[please make me edge]
+	GOTO:edgeAgain
+
+	[please remove the video]
+	I glad you agree, we should get rid of all that nudity
+	GOTO:endRemove
+
+	(edgeAgain)
+	SPEED:500 STROKEON:
+	ASK: @edge
+
+	[on the edge]
+	STROKEOFF:
+	CHANCE:92 @delPornTaunt GOTO:edgeAgain
+	GOTO:defendedPorn
+
+	[I give up]
+	GOTO:endRemove
+
+	(defendedPorn)
+	I'll let you hold on to it for now then
+	just make sure you're not going to regret this later
+	UNLOCKVIDEO: TAG:
+	GOTO:end
+
+	(endRemove)
+	STOPSTROKING:
+	but before we remove it, I want you to sear it into your brain
+	I want you to stare
+	take in the beauty in front of you
+	this will be the last time you see this video
+	DELVIDEO: and there it goes TAG:
+	how long will your memory last?
+	surely you won't have forgotten it by next week right?
+	(end)
+}
+
+
+ISSETTING:findom ISSETTING:canRemove 
+{
+	LOCKIMG: you don't deserve to see such beauty
+	so you're going to have to pay if you want to keep this image
+	SHOWFAVOR: but don't worry, it'll only take a single favor to have a chance at keeping it
+	(chooseAgain)
+	ASK:do you want to pay for a chance at keeping the image?
+	[please make me pay]
+	TRIBUTE:1 CHANCE:85 @delPornTauntFindom GOTO:chooseAgainRep
+	GOTO:succesEnd
+	[please take my porn from me]
+	GOTO:delEnd
+	(succesEnd)
+	good job @subTitle
+	UNLOCKIMG: you've proven that you're worth keeping around
+	still, you should try your best to earn more
+	since I'm going to drain you again soon
+	and if you're lacking funds I may just have to go and get myself a new wallet
+	and we both wouldn't want that right?
+	GOTO:end
+	(delEnd)
+	I want you to stare
+	take in the beauty in front of you
+	this will be the last time you see this image
+	and all because you wouldn't hand over some favor
+	DELIMG: and with that it's gone forever
+	this is what happens if you don't hand over funds
+	it's your own fault that you'll have to do without that porn from now on GOTO:end
+
+	(chooseAgainRep)
+	ASK:what's it going to be @subTitle?
+	[please make me pay]
+	TRIBUTE:1 CHANCE:85 @delPornTauntFindom GOTO:chooseAgainRep
+	GOTO:succesEnd
+	[please take my porn from me]
+	GOTO:delEnd
+	(end)
+}
+
+ISSETTING:findom ISSETTING:canRemove ISFLAGT:hasVideo
+{
+	LOCKVIDEO: you don't deserve to see such beauty
+	so you're going to have to pay if you want to keep this video
+	SHOWFAVOR: but don't worry, it'll only take a single favor to have a chance at keeping it
+	(chooseAgain)
+	ASK:do you want to pay for a chance at keeping the video?
+	[please make me pay]
+	TRIBUTE:1 CHANCE:92 too bad, @delPornTauntFindom GOTO:chooseAgainRep
+	GOTO:succesEnd
+	[please take my porn from me]
+	GOTO:delEnd
+	(succesEnd)
+	good job @subTitle
+	you've proven that you're worth keeping around
+	UNLOCKVIDEO: still, you should try your best to earn more
+	since I'm going to drain you again soon
+	and if you're lacking funds I may just have to go and get myself a new wallet
+	and we both wouldn't want that right?
+	GOTO:end
+	(delEnd)
+	I want you to stare
+	take in the beauty in front of you
+	this will be the last time you see this video
+	and all because you wouldn't hand over some favor
+	DELVIDEO: and with that it's gone forever
+	this is what happens if you don't hand over funds
+	it's your own fault that you'll have to do without that porn from now on GOTO:end
+
+	(chooseAgainRep)
+	ASK:what's it going to be @subTitle?
+	[please make me pay]
+	TRIBUTE:1 CHANCE:85 @delPornTauntFindom GOTO:chooseAgainRep
+	GOTO:succesEnd
+	[please take my porn from me]
+	GOTO:delEnd
+(end)
+}
+
+
+ISSETTING:edgeHold ISSETTING:canRemove ISFLAG:edgeHoldRecord ISNOSETTING:wearingChastity
+{
+	by now you must consider yourself to be pretty good at edging
+	practice makes perfect after all
+	but you can do better
+	your record can still go higher
+	LOCKIMG: you just need the right motivation to do so
+	so you're going to edge for me
+	I'll let you stop whenever you want
+	you win if you hold it longer that you've ever held an edge before
+	fail and this is the last time that you'll see this image
+	I'm not going to tell you when you've reached your record though
+	so do your best guessing if you've beaten your record
+	aren't I so kind for doing this to you?
+	succeed and you make me happy
+	fail and it'll only cost you a single image
+	truly a great deal
+	let's begin then
+	ISSETTING:asmr ASMRON:0 ASMRON:1
+
+	SPEED:500 STROKEON:
+	ASK: get yourself to the edge for me
+	[on the edge]
+	FLAG:edgeHoldGameTime
+	ASK:the timer starts now!
+	[please let me stop]
+	SPEED:50 STROKEOFF:
+	ISVAR:edgeHoldGameTime,GETVAR:edgeHoldRecord SETVAR:edgeHoldRecord,GETTIME:edgeHoldGameTime GOTO:record
+	let go of your @cock then
+	ASMROFF:
+	it's too bad @subTitle
+	I had hoped that you'd improve if there were some real stakes
+	but maybe removing a single image isn't enough to get you motivated anymore
+	maybe I'll have to remove a little more from now on
+	well those are plans for future me, for now I want you to watch closely as I take your porn from you
+	DELIMG: and there it goes, you know who to blame
+	GOTO:end
+	(record)
+	let go of your @cock then
+	MOOD:5 UNLOCKIMG:
+	you've tortured yourself longer than ever before @subTitle
+	you lasted GETVAR:edgeHoldRecord seconds on the edge
+	I get a deep feeling of satisfaction from seeing you improve
+	(end)
+}
+ISSETTING:findom {
+	STOPSTROKING:
+	you still seem to think that when you edge has something to do with how fast I'm making you stroke
+	but that's all wrong @subTitle
+	I decide when you edge 
+	how fast you're stroking is secondary to that
+	so, to train you up a bit I'll have you stroke slowly at the start and gradually turn up the speed
+	SHOWFAVOR: ah, and you should probably hurry up with that edge
+	otherwise this is going to be a rather expensive exercise
+	
+	SPEED:20 STROKEON: TIME:22 
+	
+	ASK: @edge
+	TRIBUTE:1 SPEED:40 TIME:20 
+	GOTO:cont20
+	[I'm edging]
+	GOTO:end
+	(cont20)
+	
+	ASK: @edge
+	TRIBUTE:1 SPEED:60 TIME:18
+	GOTO:cont40
+	[I'm edging]
+	GOTO:end
+	(cont40)
+	
+	ASK: @edge
+	TRIBUTE:1 SPEED:60 TIME:16 
+	GOTO:cont60
+	[I'm edging]
+	GOTO:end
+	(cont60)
+	
+	ASK: @edge
+	TRIBUTE:1 SPEED:80 TIME:14 
+	GOTO:cont80
+	[I'm edging]
+	GOTO:end
+	(cont80)
+	
+	ASK: @edge
+	TRIBUTE:1 SPEED:100 TIME:12 
+	GOTO:cont100
+	[I'm edging]
+	GOTO:end
+	(cont100)
+	
+	ASK: @edge
+	TRIBUTE:1 SPEED:120 TIME:10
+	GOTO:cont120
+	[I'm edging]
+	GOTO:end
+	(cont120)
+	
+	ASK: edge
+	TRIBUTE:1 SPEED:140 TIME:8
+	GOTO:cont140
+	[I'm edging]
+	GOTO:end
+	(cont140)
+	
+	ASK: @edge
+	TRIBUTE:1 SPEED:160 TIME:6 
+	GOTO:cont160
+	[I'm edging]
+	GOTO:end
+	(cont160)
+	
+	ASK: @edge
+	TRIBUTE:1 SPEED:180 TIME:4 
+	GOTO:cont180
+	[I'm edging]
+	GOTO:end
+	(cont180)
+	
+	ASK: @edge
+	TRIBUTE:1 SPEED:200 TIME:2 
+	GOTO:cont200
+	[I'm edging]
+	GOTO:end
+	(cont200)
+	
+	ASK: @edge
+	TRIBUTE:1 SPEED:220 
+	GOTO:cont220
+	[I'm edging]
+	GOTO:end
+	(cont220)
+	
+	STOPSTROKING:
+	really? you still can't edge at this speed?
+	is there something wrong with you?
+	or do you want me to take your money that badly?
+	I do agree that I deserve to have it, I'm working so hard after all
+	telling you to edge and stroke
+	yeah, we'll play this again when I need some extra cash
+	GOTO:actualEnd
+	(end)
+	STOPSTROKING:
+	good @boy! you're making me so proud!
+	and that's only partially because you keep putting money in my pocket
+	I'll happily play this again with you, as long as you keep paying up
+	and I know you will, even if you go into crippling debt because of it
+	(actualEnd)
+}

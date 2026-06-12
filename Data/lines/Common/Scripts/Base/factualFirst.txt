@@ -1,0 +1,112 @@
+{
+ISSETTING:explanationFactualFirst GOTO:explanation
+welcome to OpenEdge, first a word of caution
+ASK:This application deals with adult themes and is intended for a mature and mentally stable audience, your own health and well-being always comes first. You are in no way obligated to do as instructed by this application and the author bears no responsibility for damages or harm done by following the instructions of the application. Since there are a large amount of flashing lights, people with photosensitivity should not use this application. Play safe!
+[I decline]
+GOTO:failEnd
+[I accept]
+now that we've got that out of the way
+we both know why you're here
+you want, no, need to be owned
+and I intend to do just that
+while I'll give you some choices anything important will be decided by me and me alone
+if I tell you edge, you edge HARD
+and when you've been bad you'll hit your balls as many times as I deem necessary
+of course that also includes whether you get to cum
+maybe I'll make you build up a massive load only to make you ruin it
+ASK:do you think you can handle that?
+
+[I don't think so]
+that's too bad, but I appreciate you being straight about it
+better to get it out of the way quickly if you can't deal with that much uncertainty
+I wish you the best of luck finding a soft-dom
+GOTO:failEnd
+
+[yes @missTitle]
+then the two of us are going to have a lot of fun together
+but before that I need you to promise me something
+and this is really important so I want you to focus
+
+ASK:promise me you will always speak truthfully when asked a question
+
+[I won't promise you that]
+(headToFail)
+I really can't be asked to train you if you won't take this seriously
+I'll still be here if you ever change your mind
+but until then, I've got no interest in training you
+GOTO:failEnd
+
+[I'll answer truthfully when asked]
+make sure you keep that promise no matter what
+let's go over what I expect of you in return for my valuable time
+you'll meet with me for a session at least once every three days
+when we meet you'll do your utmost to obey, but safety comes first
+for now you are allowed to stroke as much as you want, but your orgasms belong to me
+if you have an accident and cum without me I'll take that privilege away from you, so be on your best behavior
+when you start a session I expect you to finish it, I'm not going to waste my time planning out a session only for you to bail
+the average session takes half an hour
+ASK: do you agree to this?
+[yes, I agree]
+GOTO:happySub
+[no, I won't]
+GOTO:headToFail
+
+(explanation)
+I can't say I'm surprised to see you again
+we both know that you'll give in to whatever I demand of you
+maybe it'll take a while, sure
+but before long you'll be kneeling before me
+begging to comply
+
+(happySub)
+SETSETTING:explanationFactualFirst,true
+ASK:kneel before me then
+[yes, @missTitle]
+this is your last chance @boy
+I can understand not wanting to go down this road
+and it's a road few people come back from
+most masochists just get more and more extreme
+you should leave if you can still reign in your submissive tendencies
+ASK:because once I'm done with you, there will be little to nothing left of the @man you are today
+[I want you to train me]
+GOTO:pleaseTrainMe
+[this seems a little extreme for me]
+GOTO:headToFail
+(pleaseTrainMe)
+ASK:that's hardly the way you should ask a stranger for a favor now is it?
+[please train me @missTitle]
+ASK:say it out loud @boy
+[please train me @missTitle]
+ASK:louder
+[please train me @missTitle]
+ASK:who owns your orgasms?
+[I do]
+and here I thought you had potential
+GOTO:headToFail
+[you do]
+ASK:so I'm free to deny you then?
+[no @missTitle]
+and here I thought you had potential
+GOTO:headToFail
+[yes @missTitle]
+good slave, you may get up now
+by now that way out is gone
+but I think you don't want a way out
+no way out, no quick relief from the torment
+ASK:aren't you happy subby?
+[yes @missTitle]
+GOTO:successEnd
+[no @missTitle]
+that may be the smartest answer you've given so far
+sadly it's a little too late to turn back now
+GOTO:successEnd
+
+(failEnd)
+ENDSESSION
+(successEnd)
+get your @cock out and follow my instructions
+SETSETTING:factualFirst,true
+FLAG:fullOrgasm
+FLAG:ruinedOrgasm
+FLAGT:sessionIntro
+}

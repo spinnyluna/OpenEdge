@@ -1,0 +1,63 @@
+V>80:mood
+{
+	you look cute when your face is flushed pink 
+}
+ISFLAG:quickshot
+{ 
+	you wouldn't cum from a short hold like this right? 
+	a quickshot like you is going to have some trouble with this 
+}
+{ 
+keep going
+	I'm almost gonna let you breathe again, promise
+	if I tell you that you must hold your breath, there isn't even any air to breathe
+	just like that, let me see you struggle just a bit more 
+}
+ISFLAG:degrading
+{
+	you're not even allowed to breathe in my presence
+	you'll obey me till you pass out
+	don't you fucking dare give up
+	trash like you doesn't deserve air
+	god this is pathetic 
+}
+ISSETTING:petPlay 
+{ 
+	good pets obey 
+}
+ISFLAG:pup { 
+	good pups obey 
+}
+ISFLAG:cat { 
+	good kittens obey 
+}
+ISSETTING:humiliation
+{ 
+	you look ridiculous 
+	your head is getting red 
+}
+SETTAGGEDMEDIA:Feet
+{
+	just imagine that it's these feet that are blocking off your air
+	how much would you give up for stuffy socks to cover your face?
+	you'd drown in the scent of those feet
+	all these goddesses could deny you even the air you breathe with a single foot 
+	maybe this breathhold will be easier if you imagine it to be a foot blocking your breath 
+	you'd love to have them stepping on your head, blocking off your air
+	your face is perfect as a footstool, don't worry about getting air
+}
+SETTAGGEDMEDIA:Ass
+{
+	just imagine that it's these asses that are blocking off your air
+	you'd love to have them sitting on your head, blocking off your air
+	with an ass like that there's no way you'd get any air under them
+	your face is perfect as a stool, don't worry about getting air
+	maybe this breathhold will be easier if you imagine it to be an ass blocking your breath 
+	all these goddesses could deny you even the air you breathe by just sitting down 
+}
+SETTAGGEDMEDIA:Smirk
+{
+	look at those eyes, do you really think they'll let you breathe again soon?
+	these aren't the eyes of someone concerned with how much air a @subTitle needs
+	you can fall into eyes like those, you barely even notice that you're choking
+}

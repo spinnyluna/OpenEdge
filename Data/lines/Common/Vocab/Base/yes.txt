@@ -1,0 +1,14 @@
+﻿ISFLAGT:petPlay ISFLAG:cat
+{
+meow 
+nya
+}
+ISFLAGT:petPlay ISNOFLAG:cat
+{
+woof 
+bark
+}
+ISNOFLAGT:petPlay
+{
+yes @missTitle
+}

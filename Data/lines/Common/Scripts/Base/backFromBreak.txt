@@ -1,0 +1,6 @@
+{
+	hey @subTitle, I'm back, did you miss me?
+	FLAGT:sessionIntro DELFLAG:break I hope you've reflected on your behavior by now
+	after your horrible performance last time, I really did lose hope for a bit
+	but as long as you've been good while I was away I'll let it slide
+}

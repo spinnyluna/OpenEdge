@@ -1,0 +1,15 @@
+﻿V>80:mood
+{
+I love impact-play like this
+ can you feel that shockwave traveling through your body with every hit?
+}
+{ 
+spank harder @subTitle
+ make those slaps ring out
+ those swings better be leaving red marks
+ hit with your palm, not with your fingers
+ }
+V<30:mood
+{ 
+I really should bend you over my knee 
+}

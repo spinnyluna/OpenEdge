@@ -1,0 +1,39 @@
+{
+ISFLAG:explainedNote GOTO:explainedNote
+you're going to write lines for me
+and it's going to be on paper not on keyboard
+ASK:get yourself some blank a4 paper and a thick pen or a marker
+[I'm ready]
+you'll write out what I tell you
+fit everything on one page
+don't just write out straight lines, make some go vertical or diagonal
+try to be creative with it, altering angle and size
+FLAG:explainedNote GOTO:start
+(explainedNote)
+ASK:you're going to make a new note for me, get some paper and a marker
+[I'm ready]
+(start)
+let's begin, and remember, don't just put the lines directly under each other
+ASK:write out: @lines as big as you can over the diagonal axis
+[done]ASK:write out: @lines four times
+[done]ASK:write out: @lines five times, as small as you can make readable
+[done]ASK:write out: @lines four times
+[done]ASK:write out: @lines six times
+[done]ASK:write out: @lines four times
+[done]ASK:write out: @lines four times
+[done]
+ASK:by now your page should be pretty full
+[yes, the page is full]
+GOTO:writeCont
+[no, there is still some space left]
+well you should get back to work then
+ASK:fill up the page with all the phrases I've said before, just tell me when you're done
+[I'm done @missTitle]
+(writeCont)
+you are to take this page with you wherever you go from now on
+so when you go to work or school you'll take it with you
+at night it'll be under your pillow, pouring ideas into your head even as you sleep
+and you'll carry it with you until I let you have an orgasm, ruined or not
+you may fold the page so it fits in your pocket, however the writing should still be visible
+FLAG:note
+}

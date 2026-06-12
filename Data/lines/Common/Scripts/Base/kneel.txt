@@ -1,0 +1,9 @@
+{
+ISFLAGT:kneel GOTO:end
+ISFLAGT:fours GOTO:end
+STOPSTROKING:
+FLAGT:kneel
+COMMAND: @kneel
+[@yes]
+(end)
+}

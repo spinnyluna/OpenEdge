@@ -1,0 +1,196 @@
+START: {
+GOTO:reachedTheEnd,ImKind,wantToCum,somethingYouNeed
+(reachedTheEnd)
+SHOWFAVOR: we've once again reached the end of the session
+and it's too bad for you but I think I'm going to deny you
+ASK: unless you want to give me something to butter me up?
+[I've brought you a tribute]
+GOTO:tribute
+[no @missTitle]
+GOTO:noTribute
+(ImKind)
+SHOWFAVOR: I'm kind enough to let you pay for an orgasm today
+have you grown weak enough that you'll pay your way to an orgasm?
+ASK: will you hand over your favor?
+[please let me pay]
+GOTO:tribute
+[no @missTitle]
+GOTO:noTribute
+(wantToCum)
+SHOWFAVOR: if you want to cum so bad I expect something in return
+ASK: will you hand over your favor?
+[please let me pay]
+GOTO:tribute
+[no @missTitle]
+GOTO:noTribute
+(somethingYouNeed)
+SHOWFAVOR: I've got something you need
+and you've got something I want
+so how about a trade
+hand over enough favor and I may just let you cum
+ASK: will you hand over your favor?
+[please let me pay]
+GOTO:tribute
+[no @missTitle]
+GOTO:noTribute
+}
+{
+(noTribute)
+then I'll keep to my initial decision
+DENY:
+ENDSESSION
+(tribute)
+ASK: so, how big of a tribute will I take from you today?
+[1]
+GOTO:pay1
+[5]
+GOTO:pay5
+[10]
+GOTO:pay10
+[20]
+GOTO:pay20
+(cum)
+CUM:
+FLAG:fullOrgasm sear this pleasure into your brain @subTitle
+ISFLAGT:taskAdded don't forget about that task I gave you
+ENDSESSION
+(ruin)
+RUIN:
+FLAG:ruinedOrgasm hands off @subTitle
+ISFLAGT:taskAdded don't forget about that task I gave you
+ENDSESSION
+(deny)
+DENY:
+ISFLAGT:taskAdded don't forget about that task I gave you
+ENDSESSION
+
+(pay1)
+GOTO:1,2,3,4
+(1)
+just one favor?
+now that's just insulting
+if you actually think I'm going to let you cum you've got another thing coming
+TRIBUTE:1
+CHANCE:20 GOTO:ruin
+GOTO:endPay1
+(2)
+MOOD:-6 you're joking right?
+I'll have you know I'm worth a lot more that this
+I'm taking three favor whether you want me to or not
+and the most I'll grant you is a ruin
+TRIBUTE:3
+GOTO:ruin
+(3)
+you're not trying to piss me off are you?
+you understand that a single favor is not going to make me change my mind right?
+TRIBUTE:1
+GOTO:endPay1
+(4)
+even after paying you're still getting denied
+oh don't look like that, if you really wanted to cum you'd have tributed more
+TRIBUTE:1
+GOTO:endPay1
+(endPay1)
+next time bring some funds
+GOTO:deny
+(pay5)
+GOTO:1p5,2p5,3p5,4p5
+(1p5)
+good @subTitle get that little brain of yours used to the feeling of feeling good by paying
+slowly conditioning you to want to spend more and more on me
+TRIBUTE:5
+CHANCE:30 GOTO:cum
+CHANCE:40 GOTO:deny
+GOTO:endPay5
+(2p5)
+you feel this pressure to pay more because that @cock needs release
+I'm not complaining, I deserve it
+TRIBUTE:5
+CHANCE:30 GOTO:cum
+CHANCE:40 GOTO:deny
+GOTO:endPay5
+(3p5)
+you know what this is doing right?
+the conditioning that giving away your stuff will lead to pleasure
+TRIBUTE:5
+CHANCE:30 GOTO:cum
+CHANCE:40 GOTO:deny
+GOTO:endPay5
+(4p5)
+it seems you're not desperate enough to start throwing favor around frivolously
+some small part of you still holds on to some semblance of sense
+for such a small amount I'll let you ruin your little load
+TRIBUTE:5
+GOTO:endPay5
+(endPay5)
+GOTO:ruin
+(pay10)
+GOTO:1p10,2p10,3p10
+(1p10)
+you love this feeling
+the feeling of favor being taken from you
+all that hard work, suddenly in my hands
+and all because your @cock decides what happens
+the problem is, I control that @cock now
+and I don't plan on ever letting go
+TRIBUTE:10
+CHANCE:60 GOTO:cum
+CHANCE:20 GOTO:deny
+GOTO:endPay10
+(2p10)
+you're so pathetic for paying for an orgasm
+and we both know that getting the favor back is only going to make you hornier
+causing you to spend more and more on me
+until I've taken everything from you
+TRIBUTE:10
+CHANCE:60 GOTO:cum
+CHANCE:20 GOTO:deny
+GOTO:endPay10
+(3p10)
+do you consider this expensive?
+oh woe is you @subTitle
+all you're really handing over is time
+time that you must now spend looking at porn
+there's worse fates out there than to get trapped in a never ending stream of erotica
+TRIBUTE:10
+CHANCE:80 GOTO:cum
+GOTO:endPay10
+(endPay10)
+GOTO:ruin
+(pay20)
+GOTO:1p20,2p20,3p20
+(1p20)
+you love making tributes to me don't you?
+the feeling of cash leaving your hand
+I'm kind enough to take it from you
+don't worry about me ever stopping
+I'll take from you until there's nothing left
+TRIBUTE:20
+GOTO:endPay20
+(2p20)
+I want you to be aware of just how long you've worked for this orgasm, even outside of our sessions
+hours have gone into this moment, building that favor up
+and now I'm so kind for taking it from you
+I'm giving you release and it only cost you a couple hours of your life
+isn't that such a cheap price to pay?
+TRIBUTE:20
+GOTO:endPay20
+(3p20)
+I want you to visualize handing it over
+you're on your knees in front of me
+looking down to the floor, hands cupped and stretched upwards
+your tribute sitting within, sparkling and beautiful
+I stand in front of you, looking almost bored
+slowly I take one favor out of your trembling hands
+a surge of pleasure hits you as my fingers brush past the palms of your hands
+just that pleasure would be enough to gather tribute, again and again
+another favor changes owner, another surge of pleasure
+before long your cock is dripping and pulsing desperately
+as the last favor gets taken from you you feel your orgasm rising
+all that work taken away, all those hours spent waiting for this
+intense pleasure fills you as I pat your head
+you're such a good @boy for me TRIBUTE:20
+GOTO:endPay20
+(endPay20)
+GOTO:cum
+}

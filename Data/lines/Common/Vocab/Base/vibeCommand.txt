@@ -1,0 +1,11 @@
+{
+	press it against your @balls
+}
+ISNOFLAG:chastityDate
+{
+	press it against your @cock 
+}
+ISFLAG:wearingChastity
+{
+	press it against your @cage
+}

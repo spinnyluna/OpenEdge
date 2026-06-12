@@ -1,0 +1,109 @@
+{
+STOPSTROKING:
+you're taking too long
+and I'm done waiting
+so we'll skip this edge
+but from now on you'll be stroking faster ADDVAR:strokeMod,1
+}
+ISFLAGT:censorship
+{
+STOPSTROKING:
+are you having a hard time edging with the censors in the way?
+that's really too bad, since I've just decided that we'll keep these censors up a little while longer
+do you want to know just how long we'll keep these pretty blurs and bars around?
+I think the rest of this session will do FLAGT:censoredSession
+ASK: don't you agree @subTitle?
+[@yes]
+you want to be conditioned don't you?
+until the bars become more arousing than the porn it's hiding
+GOTO:end
+[@no]
+it's too bad that you don't get to refuse anymore
+even if you don't want to you're getting conditioned
+and before long you'll fall in line
+since I know that under that bratty shell
+there's an obedient @subTitle
+and it desperately wants to be a good @boy for me
+(end)
+}
+{
+STOPSTROKING:
+it seems you're not quite ready to edge just yet
+I don't mind, that just means I'll have to tease you harder from now on
+ADDVAR:strokeMod,1
+}
+{
+STOPSTROKING:
+you don't seem to get it
+when I tell you to edge you edge
+and don't come whining to me that I'm not letting you stroke fast enough
+just do as you're told
+ADDVAR:strokeMod,1
+}
+{
+STOPSTROKING:
+I'm getting bored waiting for you to edge
+it seems your training is paying off earlier than expected
+so I'll increase the stroke speed from now on
+ADDVAR:strokeMod,1
+}
+ISFLAGT:petPlay
+{
+STOPSTROKING:
+SNAP: GETVAR:petName was I not clear enough?
+I told you to edge, my @pup
+so why are you not a shuddering mess right now?
+you want to be good right?
+you want your treats
+you want your praise
+be good and I may just indulge you
+ADDVAR:strokeMod,1
+}
+ISFLAGT:petPlay
+{
+STOPSTROKING:
+I wanted you to edge @pup
+was that not clear?
+you have to earn those treats
+so you'd better submit completely
+I don't want to hear your excuses
+just be a good @boy
+and obey
+ADDVAR:strokeMod,1
+}
+V>70:mood
+{
+STOPSTROKING:
+you have so much potential
+and it seems I've underestimated you
+you can take more, can't you?
+then we'll speed those strokes up from now on
+ADDVAR:strokeMod,1
+}
+{
+STOPSTROKING:
+this is the moment you'll regret the most
+if you could've edged just a bit faster it would have saved you so much ache
+now I'm going to increase the overall stroke speed permanently
+and that means just a bit more ache overall
+can you take that?
+we'll find out together
+ADDVAR:strokeMod,1
+}
+V>9:strokeMod
+{
+STOPSTROKING:
+don't you dare touch yourself
+it's pretty common for you to not edge when I tell you to
+and I'm not sure just increasing the stroke speed is going to improve your behavior
+no, you need to be more desperate
+every stroke should be a treasure
+something to look forward to
+something to remember after it's long gone
+ADDVAR:strokeMod,-8
+}
+{
+STOPSTROKING:
+why aren't you on the edge yet @subTitle?
+PUNISHMENT:
+}

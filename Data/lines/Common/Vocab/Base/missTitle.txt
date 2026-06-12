@@ -1,0 +1,20 @@
+ISFLAG:domTitle
+{
+GETVAR:domTitle
+}
+ISNOFLAG:domTitle
+{ 
+domme 
+domina 
+mistress 
+goddess 
+}
+ISSETTING:petPlay ISNOFLAG:domTitle
+{
+ owner 
+ trainer 
+}
+ISSETTING:chastity ISNOFLAG:domTitle
+{
+ keyholder 
+ }

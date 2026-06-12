@@ -1,0 +1,77 @@
+{
+	STROKENORMAL:
+	it's time for that note of yours to come into play
+	ASK:you've still got your note right?
+	[no @missTitle]
+	MOOD:-20 what? did you lose it somewhere?
+	then you'd best hope no-one finds it
+	luckily there is a simple solution to your failings
+	we'll just make another
+	and this time please do pay attention to where you put it
+	MAKENOTE: or you'll soon have twenty pages with your deepest desires scattered around the house
+	and it should be obvious that you're getting denied
+	DENIED:
+	ENDSESSION
+	[yes @missTitle]
+	great, I want you to grab it for me
+	ASK:fold it out on your desk, text facing upwards of course
+	[I'm ready]
+	I'm sure you can see where this is going
+	you're going to cum on that page
+	unless you don't want to, but then you're denied
+	so what will it be?
+	you don't even know if I'm going to let you throw it away afterwards
+	maybe I'll make you walk around with that page still reeking of your seed
+	ASK:are you sure you want that?
+	[no @missTitle]
+	GOTO:denied
+	[yes @missTitle]
+	good @boy
+	you must be really desperate then
+	I'm sure that some small part of you want to cum on that page
+	it's almost like a physical connection between you and me
+	something that stays with you even between our sessions
+	reminding you of your place, serving beneath my feet
+	EDGE:
+	it's like you've got a secret identity
+	similar to a marking under your clothes
+	when someone sees that note, you can't talk your way out of it
+	you can't make up excuses for your other self
+	EDGE:
+	with just one look, everyone would know that you're my slave
+	your mask would slip off, your true self revealed
+	this page has the potential to destroy your life as it is currently
+	EDGE:
+	but all you can think of is your aching dick
+	EDGE:
+	EDGEHOLD:
+	CUM:
+	keep stroking your @cock
+	squeeze everything out of that @cock
+	it looks even prettier than before
+	imagine walking around with it
+	a cum covered note filled with commands
+	sitting in your pocket as you try your hardest to act like a functional member of society
+	ASK:would you like that
+	[yes @missTitle]
+	that's too bad for you, since once we're done here you're going to throw that page away
+	GOTO:noteEnd
+	[no @missTitle]
+	good because we're not going to do that
+	(noteEnd)
+	I've got no interest in making others deal with your debauchery
+	and I'm sure that before long it would reek of your useless seed
+	as soon as we're done here you're going to throw your mark away
+	sleep well @subTitle
+	ISFLAGT:taskAdded don't forget about that task I gave you
+	DELFLAG:note
+	FLAG:fullOrgasm
+	ENDSESSION
+	(denied)
+	then you're getting denied
+	and since you're getting denied, you'll have to walk around with your note some more
+	I hope you enjoy it's company, because until you cum it'll stay by your side
+	DENIED:
+	ISFLAGT:taskAdded don't forget about that task I gave you
+	ENDSESSION
+}

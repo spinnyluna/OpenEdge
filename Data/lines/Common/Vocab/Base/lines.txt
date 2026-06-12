@@ -1,0 +1,21 @@
+{ 
+"I've failed my @missTitle "
+ "I'm sorry for having a orgasm "
+ "I'm just a slave "
+ "I deserve to be punished "
+ "my @missTitle owns my orgasms "
+ "pleasure is given not taken "
+ "bad @boys write lines "
+ "a good @subTitle doesn't cum "
+ }
+ISSETTING:cuck{ 
+"my @missTitle may leave me for a better man "
+ "a @subTitle should know @his place " 
+ }
+ISSETTING:petPlay { 
+"I've been a bad pet "
+ "I've disappointed my owner "
+ }
+ISFLAG:findom{ 
+"please take my money "
+}

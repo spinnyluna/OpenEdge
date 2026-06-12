@@ -1,0 +1,14 @@
+﻿{
+why do you insist on misbehaving?
+}
+ISFLAG:pup { 
+bad dog! 
+you're acting like a bad dog 
+}
+ISFLAG:cat { 
+bad cat! 
+you're acting like a bad kitten 
+}
+ISFLAGT:collar { 
+you really don't deserve that collar 
+}

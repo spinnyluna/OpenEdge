@@ -1,0 +1,158 @@
+{
+	FLAGT:changedChastityState
+	GOTO:intro1,intro2,intro3
+	(intro1)
+	STOPSTROKING:
+	I know just how dumb being horny can make a @man
+	how a single moment of weakness can take away weeks of hard work
+	and I'm not going to leave my little project up to chance
+	GOTO:getCage
+	
+	(intro2)
+	STOPSTROKING:
+    I've taken a lot from you over the past couple of days
+	but I would argue that I've given you more than that I've taken so far
+	I've granted you pain and denial, sleepless nights and attention deficit
+	while all you've had to give up is your orgasms
+	I'm going to collect just a bit of that debt
+	GOTO:getCage
+	(intro3)
+	I think it's about time to put that @cock back in it's place
+	and that place is just out of reach
+	GOTO:getCage
+	(getCage)
+	ASK:go get your cage @subTitle
+	[@yes]
+	clean up your @cock and let it dry properly
+	ASK:you can use an air-drier to speed up the process a bit
+	[@yes]
+	slip the ring into place
+	GOTO:slipRing1,slipRing2
+	
+	(slipRing1)
+	you can already feel the strain with just that can't you?
+	your @cock is probably only getting harder
+	but we'll cut it down to size
+	GOTO:putCage
+	
+	(slipRing2)
+	is it setting in yet?
+	you're not going to touch your @cock for a long time
+	it'll stay limp in it's cage
+	just out of reach, no matter how pent up you get
+	GOTO:putCage
+	
+	(putCage)
+	ASK:put the cage into place and stick the lock through the hole, don't close it yet
+	[@yes]
+	ASK:are you ready to be locked up?
+	[@yes]
+	GOTO:isReady1,isReady2
+	
+	(isReady1)
+	good, just give yourself over to me
+	I take good care of my toys
+	and your cock is nothing more than just another plaything
+	GOTO:closeLock
+	
+	(isReady2)
+	let's see if you can keep putting on that brave front a couple of days from now
+	maybe you'll have been reduces to a panting mess by then
+	GOTO:closeLock
+	
+	[@no]
+	GOTO:isNotReady1,isNotReady2
+	
+	(isNotReady1)
+	ready or not, that lock is going to close when I tell you to
+	GOTO:closeLock
+	
+	(isNotReady2)
+	you're not getting cold feet are you?
+	even if you are there's no backing out now
+	so just try to stop thinking about how much you hate that cage around your @cock
+	because it's going to happen either way
+	GOTO:closeLock
+	
+	(closeLock)
+	GOTO:add1,add2,add3,add4,add5
+	(add1)
+	SETSETTINGVALUE:chastityTime,1
+	GOTO:endOfDayAdd
+	(add2)
+	SETSETTINGVALUE:chastityTime,2
+	GOTO:endOfDayAdd
+	(add3)
+	SETSETTINGVALUE:chastityTime,3
+	GOTO:endOfDayAdd
+	(add4)
+	SETSETTINGVALUE:chastityTime,2
+	GOTO:endOfDayAdd
+	(add5)
+	SETSETTINGVALUE:chastityTime,1
+	GOTO:endOfDayAdd
+	(endOfDayAdd)
+	ADDVAR:chastityTime,GETVAR:chastityMod
+	ASK:close the lock @subTitle
+	[@yes]
+	FLAGT:chastityJustClosed FLAG:chastityDate SETSETTING:wearingChastity,true
+	GOTO:lockSnap1,lockSnap2,lockSnap3,lockSnap4,lockSnap5,lockSnap6
+	
+	(lockSnap1)
+	do you love the sound of the lock snapping shut as much as I do?
+	now then, how long should I keep you locked?
+	I think GETVAR:chastityTime days will do fine for now
+	of course that's just if you act like a good @boy
+	I can keep you locked for as long as I want
+	GOTO:end
+	
+	(lockSnap2)
+	that snapping sound of the lock gets me so hot and bothered
+	just that simple sound means so much
+	so much ache, so many sleepless nights
+	and all because of that little snap
+	I'm sure you'd love to know how long I'm keeping you locked
+	but I want to see you struggle without a clear end in sight
+	just remember that I can still increase how long I've planned to keep you locked for
+	GOTO:end
+	
+	(lockSnap3)
+	god, I love the clicking of the lock as it closes
+	just how long am I going to make you suffer behind those bars?
+	I'm not even all that sure myself
+	I'll just decide on the spot I think
+	maybe a week?
+	maybe a month?
+	but if I want to torture your @cock I may just let you out tomorrow
+	so stay strong okay? you can handle this
+	I hope...
+	GOTO:end
+	(lockSnap4)
+	that snapping sound must seem so evil to you
+	every time you hear it it'll sound even more nightmarish
+	and every period of chastity conditions you to fear that lock
+	until just the sound of someone locking their bike will send shivers down your back
+	GOTO:end
+	(lockSnap5)
+	I'm torn between telling you just how many days I'm going to keep you like this
+	I could just not tell you anything but with how weak you've shown yourself to be
+	I'm not sure you can last without a speck of light on the horizon
+	but I really don't feel like telling you
+	I want to watch the hope drain from your face every single day, as you realize that you've still got more ache before you
+	it really is quite the conundrum 
+	though...
+	there is one thing I can do to keep us both happy
+	I can just lie
+	I'm going to unlock you tomorrow @subTitle
+	just think of getting unlocked tomorrow if you start feeling like you can't take it anymore
+	since I'm totally going to unlock you then
+	GOTO:end
+	(lockSnap6)
+	I kind of still want to play with your cock
+	but I'll save up those feelings for when you get out again
+	it's just GETVAR:chastityTime days after all
+	unless you misbehave of course
+	and don't go thinking that I won't increase your sentence just because I want to edge you
+	I've got standards, thank you very much
+	(end)
+}

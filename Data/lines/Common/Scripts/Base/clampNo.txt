@@ -1,0 +1,11 @@
+{
+                
+	ISFLAGT:clothesPins GOTO:start
+	GOTO:end
+	(start)
+	STOPSTROKING:
+	COMMAND: @clampNo
+	[@yes]
+	DELFLAGT:clothesPins
+	(end)    
+}

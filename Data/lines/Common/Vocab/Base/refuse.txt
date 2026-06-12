@@ -1,0 +1,8 @@
+﻿ISFLAG:cat ISFLAGT:petPlay{hiss}
+ISNOFLAG:cat ISFLAGT:petPlay {growl} 
+ISNOFLAGT:petPlay
+{
+no @missTitle
+ I don't want to do that
+ I'm not doing that 
+ }

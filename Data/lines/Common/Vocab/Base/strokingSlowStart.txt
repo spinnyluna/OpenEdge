@@ -1,0 +1,21 @@
+﻿ISNOFLAGT:ona{ slowly start @jerkingOff
+ slowly start stroking that @cock 
+ slowly begin stroking
+ start @jerkingOff at a relaxed pace
+ }
+ISNOFLAGT:ona ISFLAG:quickshot{
+start stroking that @cock of yours slowly
+ I'll allow you to stroke slowly, so don't cum quickshot
+ I would make you stroke faster but I'm not sure you can handle it 
+ }
+ISNOFLAGT:ona ISFLAGT:kneeling { 
+stay on your knees and stroke slowly 
+}
+ISFLAGT:ona{
+	I'll slowly push you closer to the edge, do at least try to resist
+}
+ISFLAG:quickshot{
+	even you wouldn't cum from this speed right?
+	make sure to tell me when you're on the edge quickshot
+	let's train that quickshot dick of yours a bit
+}

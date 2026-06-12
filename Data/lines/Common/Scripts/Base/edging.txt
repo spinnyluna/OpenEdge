@@ -1,0 +1,240 @@
+{
+let's get you back to the place you belong
+on the edge, as your orgasm stays just out of reach
+EDGEHOLD:
+and again
+EDGEHOLD:
+isn't this so much better than slowly stroking your @cock?
+hit your @balls right now
+again, harder @subTitle
+EDGE:
+}
+{
+EDGE:
+it'll never get old to watch you edge
+ISFLAG:degrading you trying so desperately to show me a pathetic display
+ISFLAG:degrading ISSETTING:sph even though I can barely even see your @cock from here
+EDGE:
+do you even realize what is happening
+EDGE:
+how much pleasure you're denying yourself
+EDGE:
+all for my entertainment
+just know, I intend to edge you again and again
+}
+{
+EDGE:
+you're such a good edge slave for me
+prepared for anything I've got in stock for you
+EDGE:
+even if all I'll ever give you is denial
+forcing you to build an orgasm
+EDGE:
+and breaking it down again
+}
+{
+that @cock isn't twitching nearly enough
+EDGE:
+EDGE:
+EDGEHOLD:
+now isn't that just so much better
+just look at it bounce around excitedly
+your @cock is never going to learn this is as far as I'll let it go
+in this respect the two of you are so very similar
+}
+{
+EDGE:
+how good would it feel to stroke just one to many times
+all that pressure finally unleashed
+but it'll feel horrible right afterwards
+all the effort that had gone into appeasing me suddenly annulled
+no, that is not the orgasm you're looking for
+what you want is my approval, my permission
+but I've got no intention of giving it to you just yet
+so struggle more for me
+EDGEHOLD:
+}
+{
+EDGE:
+ASK:do you like edging for me?
+[@yes]
+then I may have been too kind to you so far
+GOTO:end
+[@no]
+lucky for me that it really doesn't matter if you like it
+I won't let you stop until you're a shaking mess
+(end)
+EDGEHOLD:
+}
+{
+EDGE:
+and once again that ever elusive orgasm drifts away from you
+I'm sure many would agree that what I'm doing to you is horrible
+but those same people were the ones who didn't give you any attention
+isn't this better for everyone?
+you get someone who will think and care for you
+and I get a human toy that I can shape to my discretion
+ISSETTING:petPlay although I really shouldn't call you human anymore
+ISSETTING:petPlay you've given that up, along with the rights that came with it
+ISSETTING:pup isn't that right my cute puppy?
+ISSETTING:cat isn't that right my cute kitten?
+}
+ISSETTING:humiliation
+{
+EDGE:
+you should view your submission to me as a privilege
+I can take it from you whenever I want
+that is what you fear most of all isn't it
+your @missTitle abandoning you
+you don't want your freedom back
+you want to sink even deeper into the role of a slave
+ISSETTING:humiliation KNEEL
+EDGEHOLD:
+do you really think that is enough to keep me entertained?
+EDGE:
+KNEELNO:
+}
+ISFLAG:degrading
+{
+EDGE:
+how many people know the real you?
+not the fake portrayal of someone well adjusted to society that you show the world
+the real you, with all of your flaws and fetishes
+ISSETTING:virgin I'm certain that I'm the only one who has seen you like this virgin
+ISSETTINGDECLINED:virgin I'm not even sure you've shown your previous partners
+you're afraid of how peoples opinions would change if you acted like you are deep down
+that's the reason why you can be as disgusting as you want with me
+I knew you were a degenerate right from the first time I saw you
+and my opinion of you can honestly not get any worse
+I may even find it kind of funny how much of a loser you are
+EDGE:
+}
+ISSETTING:cuck
+{
+EDGE:
+you know, it's natural that you ended up as a cuck
+after all, you've been training yourself for years now
+from the very first time you watched porn
+it has been other people having sex
+while you sit in your room, tugging away
+EDGE:
+dribbling out a watery load while they ignore you
+I'm sure that at first you imagined yourself as the one having sex
+ISSETTING:virgin but you don't even know what sex feels like
+EDGE:
+even if you imagine yourself to be having sex
+deep down you know that you don't belong on that bed
+all that your brain registers is the pleasure
+it feels good to watch, it feels good to be ignored
+you've been training yourself with every orgasm
+so you can't help it, it's not your fault
+just embrace what you've become, cuck
+EDGE:
+}
+ISSETTING:virgin
+{
+EDGE:
+do you think you deserve to have sex?
+do you even want to anymore?
+I think that by now you've fetishized denial so much
+that getting shot down feels better that the real thing
+of course you don't even know what it is you're missing out on
+so just believe me when I tell you that it's better for you not to have sex
+better for you and definitely better for whoever was about to offer up their bodies
+}
+ISFLAG:quickshot
+{
+EDGE:
+it's not normal to edge this fast
+your stamina isn't what it used to be
+even is you were to get someone in your bed it would be over in seconds
+unless they too would keep you on the edge
+EDGE:
+bringing you to the brink
+EDGE:
+again and again
+EDGEHOLD:
+}
+{
+EDGE:
+I'll make sure to get your place in this world through that thick skull of yours
+KNEEL
+EDGE:
+you belong on your knees, suffering in silence
+EDGEHOLD:
+}
+{
+EDGE:
+I'll make you melt in pleasure
+until nothing remains of the person you think you are
+EDGEHOLD:
+}
+V>80:mood V>7:sessions
+{
+EDGE:
+why do you think I picked you to train?
+was it because you were the most attractive?
+was it because you seemed to be the easiest to mold?
+really think about it, what makes you exceptional?
+why do I spend this much time commanding you to stroke?
+EDGEHOLD:
+of course, both your looks and desperation were factors
+but it wasn't what made me pick you
+EDGE:
+I can't even explain it that well myself
+but it's like we were made for each other
+with me being made especially for you and you being made especially for me
+so when I tell you that I own you, I'm not joking
+you're my property
+and I have no intention of ever letting you go
+EDGEHOLD:
+}
+V>80:mood V>3:sessions
+{
+EDGE:
+I tend to become rather possessive of things I like
+and if you keep acting like such a good @boy I may never let you leave
+EDGEHOLD:
+}
+{
+EDGE:
+apparently it's important that you cum at least once every few weeks
+EDGE:
+although normal people probably don't get edged every day
+so maybe that health hazard is approaching faster than average
+EDGEHOLD:
+I'm sure you think you're dying already
+EDGEHOLD:
+but even with intense edging it'll take more than a few days
+I hope
+}
+ISSETTING:petPlay ISSETTING:collar ISSETTING:treats ISFLAGT:petPlay
+{
+STOPSTROKING:
+ISFLAGT:collar GOTO:skipCollar
+COLLAR
+(skipCollar)
+ASK:you want a treat don't you?
+[@yes]
+SNAP:
+you're such a good @boy, but you have to earn it
+FOURS
+STROKENORMAL:
+ISSETTING:pup keep stroking for me pup
+ISSETTING:cat keep stroking for me kitten
+SPEEDUP:
+you look so cute staring up at me
+SPEEDUP:
+ISSETTING:pup I want to hear you panting
+ISSETTING:cat I want to hear you purring
+SPEEDUP:
+breathing heavily as you get close to the edge
+do you want to edge for me?
+do you want to get so close for me?
+teetering on the brink of release
+ASK:you may take a treat
+[@yes]
+EDGEHOLD:
+EDGE:
+EDGEHOLD:
+}

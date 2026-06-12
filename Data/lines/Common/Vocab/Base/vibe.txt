@@ -1,0 +1,16 @@
+ISFLAGT:bluetoothVibe {
+	take your vibe and @vibeCommand
+	I feel like teasing you myself, grab your vibe and @vibeCommand
+	I'll educate you by hand, take the vibe and @vibeCommand
+}
+ISNOFLAGT:bluetoothVibe
+{
+	have the vibe set to high and @vibeCommand SETVAR:vibeStrength,2
+	set the vibe to high and @vibeCommand SETVAR:vibeStrength,2
+	have the vibe set to low and @vibeCommand SETVAR:vibeStrength,1
+	set the vibe to low and @vibeCommand SETVAR:vibeStrength,1
+	put that vibrator at the max and @vibeCommand SETVAR:vibeStrength,3
+	set the vibrator as hard as it can and @vibeCommand SETVAR:vibeStrength,3
+	set the vibrator to max and @vibeCommand SETVAR:vibeStrength,3
+	put your vibrator at full-throttle and @vibeCommand SETVAR:vibeStrength,3
+}

@@ -1,0 +1,86 @@
+V>80:mood{
+good @boy 
+so obedient
+you're doing so well
+ keep going just like that
+ your @missTitle is so proud of you!
+ }
+{ 
+love censorship
+ no nudity
+ pleasure is denial
+ denial is pleasure
+ can't resist
+ obey your @missTitle
+ crave denial
+ stroke to pixels
+ blurred
+ blocked
+ not for you
+ you deserve this
+ boobs are too much for you
+ you don't deserve to look
+ stay pussyfree
+ love censors
+ }
+ISFLAG:degrading
+{ 
+you're fucking pathetic
+ trash doesn't deserve to see 
+ }
+ISSETTING:cuck
+{ 
+she is being held by someone else
+ do you deserve to be there?
+ at the end of the bed
+ peeking in from the closet
+ she'll send you a video
+ listening in from the hallway
+ you gave her away
+ she used to love you
+ }
+ISFLAG:gayHumilliation
+{ 
+faggots don't even get to watch
+}
+ISFLAG:sissy
+{ 
+sissy's get denied
+sissy free
+ you look so cute
+ love pink
+ you should swallow
+ cum is your reward
+ you love the smell of cum
+ thoughts go pop pop pop
+ love makeup 
+ high heels and cute dresses
+ }
+ISFLAG:virgin
+{ 
+virgins deserve to suffer
+no virgins allowed
+can't see what you can't have
+ this is too much for a virgin
+ }
+V<30:mood
+{ 
+you know who to blame
+ this is your fault 
+ you made me do this
+ }
+ISFLAG:findom
+{ 
+UNLOCK FOR A SMALL DONATION
+missing funds 
+pay to play 
+$imp and $end
+}
+ISFLAG:pup { 
+bark for me my @pup
+ you're such a cute @pup
+ }
+ISFLAG:cat { 
+meow for me my @pup
+ you're such a cute @pup 
+ }

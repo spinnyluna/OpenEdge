@@ -1,0 +1,40 @@
+{
+	KNEEL
+	you're going to hit your @balls
+	and you're going to hit them hard
+	CBTEXTREMESTART:
+	REPEAT @cbtBalls
+	now, where were we
+}
+{
+	in a bit you'll start hitting your balls lightly
+	every hit has to be a bit harder than the previous one
+	the difference can be minimal, but you should always hit harder than the previous hit
+	so I'd recommend you start out with light taps
+	CBTEXTREMESTART:
+	REPEAT @cbtBalls
+	now, where were we
+}
+ISSETTING:humiliation
+{
+	you fucking degenerate
+	I'm going to knock some sense into those @balls of yours
+	stroke once on ever hit
+	and hit hard @subTitle
+	CBTEXTREMESTART:
+	REPEAT @cbtBalls
+	now, where were we
+}
+
+ISFLAG:degrading
+{
+	you piece of shit
+	you're going to spank your ass
+	ready yourself for the beating of a lifetime
+	I want you crying by the end of this
+	begging for forgiveness
+	KNEEL
+	CBTEXTREMESTART:
+	REPEAT @cbtSpank
+	now, where were we
+}

@@ -1,0 +1,262 @@
+EXTENDS:stories
+{
+make sure to use plenty of lube or spit even when I don't instruct you to do so
+I do think there is something so hot about being covered in drool
+but lube is slicker so use whichever you want
+}
+{
+I've had a hard day today
+but my mood always perks right up when I think of you
+I get to do whatever I want with you after all
+so keep going, you wouldn't want to disappoint me right?
+}
+
+{
+	I've made a lot of different things in my life
+	from electronics to art, posters to spreadsheets
+	and do you know what I've learned after all that work?
+	the process is everything
+	results are just a byproduct of the work that's gone into achieving it
+	so don't think that these strokes aren't important
+	it's these strokes that will make you leak later
+	it's these strokes that will cause you to squirm all night
+	and they're going to keep coming 
+	again and again, up then down
+	keep stroking properly and I'll remake you into the horniest little @subTitle this world has ever seen
+}
+V>5:sessions {
+your training has advanced pretty far by now
+I highly doubt you could run even if you wanted to
+you can leave whenever you want
+but you won't
+and strangely enough your not doing it for yourself anymore
+you are stroking that @cock to please ME
+you are edging yourself to please ME
+and at the end of it all you'll deny yourself for MY enjoyment
+because you know that when I'm happy, you're happy
+} 
+
+D>2:fullOrgasm
+{
+I wonder how your dick is doing, I'm sure it's not used to working this hard
+ISFLAG:quickshot normally it takes you just a few pumps
+ISFLAG:quickshot but now you have to hold back again and again
+day after day you spend more and more time in front of porn
+stroke after stroke you fall deeper into depravity
+} 
+{
+someone like you should feel honored by my presence alone
+but I even let you stroke your @cock
+so don't say I never do anything for you
+}
+{
+you've become addicted to this pleasure
+but hey, there are worse things to get addicted to
+at least stroking yourself is free
+as long as you don't count the ache as a price to pay
+}
+{
+these sessions have to be doing something to your stamina
+I don't know if those effects will be positive or negative
+but we'll find out together
+}
+
+V>3:denied
+{
+even if you didn't like denial when we started
+I'm sure you can see the appeal by now
+every touch a spark, every edge a high
+and you'll just have to suffer through the pain
+}
+
+V<3:denied
+{
+soon your @cock will start leaking even if you don't touch it
+a constant stream of precum, reminding you of your need
+although I'm sure that by then you won't need any reminding
+since your whole body will be screaming for release
+}
+ISSETTING:humiliation ISNOFLAGT:petPlay
+{
+stroke, stroke, stroke
+you look ridiculous right now
+sweating hard with a red face
+you really are close to your limit aren't you my little @subTitle?
+}
+
+
+
+D>2:fullOrgasm
+{
+you came just a little while ago
+so it won't hurt too bad yet
+but you know what is going to happen in the future
+you can feel the dread settling in
+as stroke after stroke your need grows
+}
+
+ISFLAG:degrading ISNOFLAGT:petPlay
+{
+you can do anything you want to if you set your mind to it
+but that's your problem isn't it?
+your mind is too weak to do anything meaningful
+it's a failed machine that gets distracted and bored
+but I know how to keep it's attention
+how to keep it focused on one goal
+and anything that helps towards that goal becomes easy
+more than easy, it becomes compulsory
+and my message is growing louder, one stroke at a time
+}
+
+ISSETTING:humiliation ISNOFLAGT:petPlay
+{
+do you realize just how crazy it is that you're even sitting here
+billions of years of evolution, being the once sperm cel that fertilized that specific egg
+and what are you using this one in a trillion for?
+you're using it to stroke your @cock
+ISFLAGT:plug with a plug up your ass
+while getting denied again and again
+god you're pathetic, but in a way I'm not too different from you
+since I'm wasting my time on telling my @subTitle to stroke
+so maybe the real long shot was us finding each other
+} 
+
+
+ISFLAGT:petPlay ISSETTING:collar ISSETTING:treats
+{
+STOPSTROKING:
+ISFLAGT:collar GOTO:skipCollar
+COLLAR
+(skipCollar)
+SNAP:
+does my good @boy want another treat?
+[@yes]
+then you'd best do as I instruct you to
+ASK: I want to hear you @pup
+[@yes]
+ASK: louder @pup
+[@yes]
+SNAP:
+ASK: that's a good @boy
+[@yes]
+ASK: you love being trained like this don't you?
+[@yes]
+ASK: your task is simple
+[@yes]
+ASK: and if you do well you get praised
+[@yes]
+ASK: you barely even have to think to do as you're told
+[@yes]
+ASK: as my training sinks deeply into your mind
+[@yes]
+ASK: more akin to a habit then a choice
+[@yes]
+SNAP:
+ASK: good @boy
+[@yes]
+SNAP:
+ASK: you're the best @pup you can be right now
+[@yes]
+SNAP:
+ASK: I love seeing you like this
+[@yes]
+SNAP:
+ASK: are you the happiest @pup you can be right now?
+[@yes]
+SNAP:
+ASK: that's right my cute doggie, you're so precious to me
+[@yes]
+ASK: does my @pup want a treat?
+[@yes]
+you may take one then
+STROKENORMAL: enjoy the sweet sensation as you start stroking
+and while I don't mind if you continue responding in barks it's no longer mandatory
+}
+
+ISSETTING:goon{
+you've got yourself quite an interesting habit 
+these gooning sessions will fill your head with dopamine
+keep fucking up those pleasure centers of yours
+until they're squeezed dry
+}
+
+ISFLAGT:petPlay ISSETTING:collar ISSETTING:treats
+{
+STOPSTROKING:
+ISFLAGT:collar GOTO:skipCollar
+COLLAR
+(skipCollar)
+ASK:you want a treat don't you?
+[@yes]
+you're such a good @boy, take one into your hand then
+GOTO:cont1
+[@yes]
+then you may take one into your hand
+(cont1)
+in a bit I'll tell you to close your eyes
+when you hear a snap you may eat your treat
+and when you hear two snaps you may open your eyes once more
+ASK: do you understand me?
+[@no]
+GOTO:cont1
+[@yes]
+that's a good @pup
+then you may close your eyes now
+close your eyes @pup
+SNAP: STROKEFAST:
+close your eyes @pup
+SPEEDUP:
+close your eyes @pup
+SPEEDDOWN:
+close your eyes @pup
+SPEEDUP:
+close your eyes @pup
+SPEEDUP:
+close your eyes @pup
+SPEED:410
+close your eyes @pup
+SNAPDOUBLE:
+SPEED:60
+ASK: you may open your eyes again
+[@yes]
+} 
+
+
+{
+there is this feeling I get when I watch you stroke
+it's not horniness, though I feel that too of course
+no, what I feel is pride, pride of how much of yourself you show to me
+it makes me feel all warm inside how much you trust me
+how deep your devotion to me goes
+and similar to how you trust me, I'm trusting you
+to be truthful and honest even when you fuck up
+}
+{
+you're such a precious little @boy, as fragile as a flower 
+if I push a bit too hard you'd break into a thousand pieces 
+but still I can't help myself, I want to push you harder and harder 
+every edge harder than the last as everything becomes more challenging as time goes on 
+keep stroking my sweet @boy 
+and don't you dare break on me
+}
+
+
+V>3:sessions
+{
+internally you must be fighting a war by now
+a war between your @cock and your head
+that @cock must want to spurt it's load by now
+but to be honest there's no reason to listen to it
+how many times has your @cock lead you to make the right decision
+}
+
+
+ISSETTING:humiliation
+{
+your submissive tendencies will start to leak out if you're not careful
+not that you were that good at hiding it from the start
+lets just hope that no attractive ladies will take advantage of you while I'm not looking
+since I've got no intention of sharing my cute little @boy with someone else
+you belong to me @subTitle
+}
+

@@ -1,0 +1,9 @@
+ISFLAGT:bluetoothVibe{
+	I won't activate your vibe for now, put it down
+}
+{
+	you can lower your vibe for now
+	take your vibrator away 
+	take the vibe away
+	calm down and take your vibrator away
+}

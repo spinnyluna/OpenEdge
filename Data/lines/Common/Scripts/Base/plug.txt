@@ -1,0 +1,10 @@
+{
+ISFLAGT:plug GOTO:end
+STOPSTROKING:
+COMMAND: @plug
+[@yes]
+FLAGT:plug
+now you're nice and full for me
+GOTO:end
+(end)
+}
