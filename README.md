@@ -1,5 +1,3 @@
-# OpenEdge recovery notes
-
 ## Working layout
 - `src/OpenEdge/` contains the editable recovered source project.
 - `runtime/sample/` contains a minimal committed runtime fixture.
@@ -23,10 +21,6 @@
 - The executable is built to `runtime/local/app/`, and `RuntimePaths.RuntimeRoot` resolves inside that folder.
 - Rebuilds now copy loose assets from `Data/resources/` to `runtime/local/app/resources/` and from `Data/audio/` to `runtime/local/app/audio/`.
 - File-backed runtime state such as `flags/`, `lines/`, `images/`, `videos/`, `debug/`, `options.txt`, `tasks.txt`, and `tags.txt` is expected under `runtime/local/app/`.
-
-## Phase 1 stabilization entrypoints
-- Backlog and exit criteria: `docs/recovery/phase-1-baseline.md`
-- Repeatable smoke check: `docs/recovery/smoke-check.ps1`
 
 ## Canonical smoke-check command
 From the repo root:
