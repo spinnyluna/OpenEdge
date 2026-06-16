@@ -194,7 +194,7 @@ public partial class CompatibilityToolsPage : Page, IComponentConnector
 		builder.AppendLine("## Media tag stores");
 		builder.AppendLine();
 		builder.AppendLine("- Primary identity index: `" + Path.Combine(RuntimePaths.RuntimeRoot, "media-tag-index.json") + "` exists=" + File.Exists(Path.Combine(RuntimePaths.RuntimeRoot, "media-tag-index.json")));
-		builder.AppendLine("- Legacy tags mirror: `" + RuntimePaths.TagsFile + "` lines=" + (File.Exists(RuntimePaths.TagsFile) ? File.ReadAllLines(RuntimePaths.TagsFile).Length : 0));
+		builder.AppendLine("- Legacy tags input: `" + RuntimePaths.TagsFile + "` exists=" + File.Exists(RuntimePaths.TagsFile) + " lines=" + (File.Exists(RuntimePaths.TagsFile) ? File.ReadAllLines(RuntimePaths.TagsFile).Length : 0));
 		builder.AppendLine();
 		builder.AppendLine("## Script migration diagnostics");
 		builder.AppendLine();
@@ -221,6 +221,7 @@ public partial class CompatibilityToolsPage : Page, IComponentConnector
 		AddFileIfExists(zipArchive, RuntimePaths.TagsFile, "state/tags.txt");
 		AddFileIfExists(zipArchive, RuntimePaths.TagGroupsFile, "state/tagGroups.txt");
 		AddDirectoryFiles(zipArchive, RuntimePaths.FlagsDir, "flags");
+		AddSessionTraceFiles(zipArchive);
 		AddRecentDebugFiles(zipArchive, zipPath);
 	}
 
@@ -233,7 +234,8 @@ public partial class CompatibilityToolsPage : Page, IComponentConnector
 		builder.AppendLine();
 		builder.AppendLine("Included when present:");
 		builder.AppendLine("- diagnostics/compatibility-diagnostics.md");
-		builder.AppendLine("- debug/session-trace.log and recent debug reports/logs");
+		builder.AppendLine("- debug/session-trace.log plus retained debug/session-trace-*.log archives");
+		builder.AppendLine("- recent debug reports/logs");
 		builder.AppendLine("- media/media-sources.json");
 		builder.AppendLine("- media/media-tag-index.json");
 		builder.AppendLine("- state/options.txt, tasks.txt, tags.txt, tagGroups.txt, compatibility-state.json");
@@ -241,6 +243,21 @@ public partial class CompatibilityToolsPage : Page, IComponentConnector
 		builder.AppendLine();
 		builder.AppendLine("Privacy note: media source/index files can contain local folder and file paths. Redact paths before sharing if needed.");
 		return builder.ToString();
+	}
+
+	private static void AddSessionTraceFiles(ZipArchive zipArchive)
+	{
+		if (!Directory.Exists(RuntimePaths.DebugDir))
+		{
+			return;
+		}
+		AddFileIfExists(zipArchive, Path.Combine(RuntimePaths.DebugDir, "session-trace.log"), "debug/session-trace.log");
+		foreach (string file in Directory.GetFiles(RuntimePaths.DebugDir, "session-trace-*.log", SearchOption.TopDirectoryOnly)
+			.OrderByDescending(File.GetLastWriteTimeUtc)
+			.Take(10))
+		{
+			AddFileIfExists(zipArchive, file, "debug/trace-archive/" + Path.GetFileName(file));
+		}
 	}
 
 	private static void AddRecentDebugFiles(ZipArchive zipArchive, string zipPath)
@@ -254,7 +271,8 @@ public partial class CompatibilityToolsPage : Page, IComponentConnector
 			.Where(delegate(string path)
 			{
 				string extension = Path.GetExtension(path).ToLowerInvariant();
-				return Path.GetFullPath(path) != fullZipPath && (extension == ".log" || extension == ".txt" || extension == ".md" || extension == ".json");
+				string fileName = Path.GetFileName(path);
+				return Path.GetFullPath(path) != fullZipPath && !fileName.StartsWith("session-trace", StringComparison.OrdinalIgnoreCase) && (extension == ".log" || extension == ".txt" || extension == ".md" || extension == ".json");
 			})
 			.OrderByDescending(File.GetLastWriteTimeUtc)
 			.Take(25);

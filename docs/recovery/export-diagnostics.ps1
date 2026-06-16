@@ -12,6 +12,9 @@ $runtimeRoot = Join-Path $repoRoot 'runtime\local\app'
 $compatibilityState = Join-Path $runtimeRoot 'compatibility-state.json'
 $mediaIndex = Join-Path $runtimeRoot 'media-tag-index.json'
 $legacyTags = Join-Path $runtimeRoot 'tags.txt'
+$debugDir = Join-Path $runtimeRoot 'debug'
+$sessionTrace = Join-Path $debugDir 'session-trace.log'
+$archivedSessionTraces = if (Test-Path $debugDir) { @(Get-ChildItem -Path $debugDir -Filter 'session-trace-*.log' -File | Sort-Object LastWriteTimeUtc -Descending | Select-Object -First 10) } else { @() }
 $auditTemp = Join-Path ([System.IO.Path]::GetTempPath()) ('openedge-audit-' + [Guid]::NewGuid().ToString('N') + '.md')
 
 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $repoRoot 'docs\recovery\audit-legacy-state.ps1') -OutputPath $auditTemp | Out-Null
@@ -53,6 +56,14 @@ $lines.Add("- Media identity index exists: $(Test-Path $mediaIndex)")
 $lines.Add("- Media identity records: $mediaIdentityCount")
 $lines.Add("- Tagged identity records: $taggedIdentityCount")
 $lines.Add("- Legacy tags.txt lines: $legacyTagLines")
+$lines.Add('')
+$lines.Add('## Runtime logs')
+$lines.Add('')
+$lines.Add("- Current session trace exists: $(Test-Path $sessionTrace)")
+$lines.Add("- Retained session trace archives: $(@($archivedSessionTraces).Count)")
+foreach ($trace in $archivedSessionTraces) {
+    $lines.Add("  - $($trace.Name) ($([Math]::Round($trace.Length / 1KB, 1)) KB, $($trace.LastWriteTime.ToString('yyyy-MM-dd HH:mm:ss')))" )
+}
 $lines.Add('')
 $lines.Add('## Script migration audit')
 $lines.Add('')
