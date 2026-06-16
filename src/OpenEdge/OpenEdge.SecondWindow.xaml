@@ -46,7 +46,7 @@
         <RowDefinition />
         <RowDefinition />
       </Grid.RowDefinitions>
-      <MediaElement Name="videoWindow" ScrubbingEnabled="True" Grid.Column="0" Grid.RowSpan="12" Visibility="Visible" Grid.Row="0" LoadedBehavior="Play" Grid.ColumnSpan="6" Volume="0.1" Stretch="Uniform" MediaOpened="videoWindow_MediaOpened" MediaEnded="videoWindow_MediaEnded">
+      <MediaElement Name="videoWindow" ScrubbingEnabled="True" Grid.Column="0" Grid.RowSpan="12" Visibility="Visible" Grid.Row="0" LoadedBehavior="Play" Grid.ColumnSpan="6" Volume="0.1" Stretch="Uniform" MediaOpened="videoWindow_MediaOpened" MediaEnded="videoWindow_MediaEnded" MediaFailed="videoWindow_MediaFailed">
         <UIElement.Effect>
           <BlurEffect Radius="0" x:Name="mediaBlurEffect" KernelType="Gaussian" />
         </UIElement.Effect>

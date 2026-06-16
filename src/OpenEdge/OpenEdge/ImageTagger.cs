@@ -70,6 +70,7 @@ public partial class ImageTagger : Page, IComponentConnector
 	public MediaCatalogService MediaCatalog => mediaCatalog;
 
 	private bool shouldBeMuted;
+	private string currentVideoRelativePath = "";
 	private List<string> tagNames = new List<string>();
 	private List<string> tags = new List<string>();
 	private string[] rawTags = new string[0];
@@ -994,9 +995,39 @@ public partial class ImageTagger : Page, IComponentConnector
 		currentImage.Visibility = Visibility.Collapsed;
 		currentVideo.Stop();
 		currentVideo.Source = null;
-		currentVideo.Visibility = Visibility.Visible;
-		currentVideo.Source = new Uri(RuntimePaths.ResolveRuntimePath(videos[currentVideoPointer % videos.Count]));
-		pathOfFile.Content = videos[currentVideoPointer % videos.Count];
+		string relativePath = videos[currentVideoPointer % videos.Count];
+		if (TrySetCurrentVideoSource(relativePath))
+		{
+			currentVideo.Visibility = Visibility.Visible;
+		}
+		else
+		{
+			currentVideo.Visibility = Visibility.Collapsed;
+		}
+		pathOfFile.Content = relativePath;
+	}
+
+	private bool TrySetCurrentVideoSource(string relativePath)
+	{
+		currentVideoRelativePath = relativePath ?? "";
+		try
+		{
+			string fullPath = RuntimePaths.ResolveRuntimePath(currentVideoRelativePath);
+			if (!File.Exists(fullPath))
+			{
+				SessionTraceLogger.Error("tagger-video", "Video file not found relative=" + currentVideoRelativePath + " full=" + fullPath);
+				return false;
+			}
+			SessionTraceLogger.Info("tagger-video", "load relative=" + currentVideoRelativePath + " full=" + fullPath);
+			currentVideo.Source = new Uri(fullPath, UriKind.Absolute);
+			return true;
+		}
+		catch (Exception ex)
+		{
+			SessionTraceLogger.Error("tagger-video", "Failed to set video source relative=" + currentVideoRelativePath, ex);
+			currentVideo.Source = null;
+			return false;
+		}
 	}
 
 	private void getImages()
@@ -1235,6 +1266,14 @@ public partial class ImageTagger : Page, IComponentConnector
 	private void currentVideo_MediaEnded(object sender, RoutedEventArgs e)
 	{
 		currentVideo.Position = new TimeSpan(0L);
+	}
+
+	private void currentVideo_MediaFailed(object sender, ExceptionRoutedEventArgs e)
+	{
+		SessionTraceLogger.Error("tagger-video", "MediaElement failed relative=" + currentVideoRelativePath + " source=" + (currentVideo.Source?.LocalPath ?? ""), e.ErrorException);
+		currentVideo.Stop();
+		currentVideo.Source = null;
+		currentVideo.Visibility = Visibility.Collapsed;
 	}
 
 	private void createGroup_Click(object sender, RoutedEventArgs e)

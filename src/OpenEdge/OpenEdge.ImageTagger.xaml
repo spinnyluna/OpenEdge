@@ -135,7 +135,8 @@
                       UnloadedBehavior="Stop"
                       Visibility="Collapsed"
                       MediaOpened="currentVideo_MediaOpened"
-                      MediaEnded="currentVideo_MediaEnded" />
+                      MediaEnded="currentVideo_MediaEnded"
+                      MediaFailed="currentVideo_MediaFailed" />
       </Grid>
     </Border>
 

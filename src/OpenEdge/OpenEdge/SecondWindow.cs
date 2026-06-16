@@ -66,6 +66,10 @@ public partial class SecondWindow : Grid, IComponentConnector
 
 	public List<string> videoPaths = new List<string>();
 
+	private string currentVideoRelativePath = "";
+
+	private int consecutiveVideoFailures;
+
 	public List<string> gifPaths = new List<string>();
 
 	private MainWindow mw;
@@ -500,12 +504,16 @@ public partial class SecondWindow : Grid, IComponentConnector
 			videoWindow.Visibility = Visibility.Hidden;
 			if (path == "")
 			{
-				videoWindow.Source = new Uri(RuntimePaths.ResolveRuntimePath(videoPaths[displayedVideosAmount % videoPaths.Count]));
+				if (videoPaths.Count == 0)
+				{
+					SessionTraceLogger.Error("media-video", "No video paths available for createVideo");
+					return;
+				}
 				path = videoPaths[displayedVideosAmount % videoPaths.Count];
 			}
-			else
+			if (!TrySetVideoWindowSource(path))
 			{
-				videoWindow.Source = new Uri(RuntimePaths.ResolveRuntimePath(path));
+				return;
 			}
 			List<string> list = imageTagger.activeTags(path);
 			double num = 1.0;
@@ -563,6 +571,29 @@ public partial class SecondWindow : Grid, IComponentConnector
 		});
 		previousMedialength = 0;
 		mediasCounter = 1;
+	}
+
+	private bool TrySetVideoWindowSource(string relativePath)
+	{
+		currentVideoRelativePath = relativePath ?? "";
+		try
+		{
+			string fullPath = RuntimePaths.ResolveRuntimePath(currentVideoRelativePath);
+			if (!File.Exists(fullPath))
+			{
+				SessionTraceLogger.Error("media-video", "Video file not found relative=" + currentVideoRelativePath + " full=" + fullPath);
+				return false;
+			}
+			SessionTraceLogger.Info("media-video", "load relative=" + currentVideoRelativePath + " full=" + fullPath);
+			videoWindow.Source = new Uri(fullPath, UriKind.Absolute);
+			return true;
+		}
+		catch (Exception ex)
+		{
+			SessionTraceLogger.Error("media-video", "Failed to set video source relative=" + currentVideoRelativePath, ex);
+			videoWindow.Source = null;
+			return false;
+		}
 	}
 
 	private void removeTextOverlay()
@@ -1169,8 +1200,22 @@ public partial class SecondWindow : Grid, IComponentConnector
 		eventHandeler.OnButtonKeyDown(sender, e);
 	}
 
+	private void videoWindow_MediaFailed(object sender, ExceptionRoutedEventArgs e)
+	{
+		SessionTraceLogger.Error("media-video", "MediaElement failed relative=" + currentVideoRelativePath + " source=" + (videoWindow.Source?.LocalPath ?? ""), e.ErrorException);
+		videoWindow.Stop();
+		videoWindow.Source = null;
+		videoWindow.Visibility = Visibility.Hidden;
+		consecutiveVideoFailures++;
+		if (videoPaths.Count > 1 && consecutiveVideoFailures < videoPaths.Count)
+		{
+			mediaScreen(8);
+		}
+	}
+
 	private void videoWindow_MediaOpened(object sender, RoutedEventArgs e)
 	{
+		consecutiveVideoFailures = 0;
 		if (videoWindow.NaturalDuration.HasTimeSpan && !fromBeginning)
 		{
 			double totalSeconds = videoWindow.NaturalDuration.TimeSpan.TotalSeconds;
@@ -1233,7 +1278,8 @@ public partial class SecondWindow : Grid, IComponentConnector
 
 	private void videoWindow_MediaEnded(object sender, RoutedEventArgs e)
 	{
-		if (imgLocked || videoWindow.NaturalDuration.TimeSpan.TotalSeconds < 8.0 || (videoLoops && videoWindow.NaturalDuration.HasTimeSpan))
+		bool shortVideo = videoWindow.NaturalDuration.HasTimeSpan && videoWindow.NaturalDuration.TimeSpan.TotalSeconds < 8.0;
+		if (imgLocked || shortVideo || (videoLoops && videoWindow.NaturalDuration.HasTimeSpan))
 		{
 			videoWindow.Position = TimeSpan.Zero;
 		}
