@@ -457,11 +457,17 @@ public partial class MainWindow : Page, IComponentConnector
 		{
 			currentScript.setFlag("failedSessionEnd");
 		}
-		setVar("sessionLength", (sessionLength - (int)sessionTimer.Elapsed.TotalSeconds).ToString() ?? "");
+		int remainingSessionSeconds = Math.Max(0, sessionLength - (int)sessionTimer.Elapsed.TotalSeconds);
+		setVar("sessionLength", remainingSessionSeconds.ToString() ?? "");
 		setVar("totalTimeOnEdge", totalTimeOnEdge.ToString() ?? "");
 		setVar("strokeAmount", strokeAmount.ToString() ?? "");
 		setVar("edgesDone", edgesDone.ToString() ?? "");
 		removeSpecialButtons("Please...", 6);
+		if (sessionTimer.Elapsed.TotalSeconds >= (double)sessionLength && !IsSessionEndingScriptActive())
+		{
+			SelectSessionEndingScript();
+			return;
+		}
 		if (random.Next(10) > 7 && getTFlag("kneel"))
 		{
 			currentScript = new OpenEdge.scripts.KneelNo(this, currentScript);
@@ -501,22 +507,33 @@ public partial class MainWindow : Page, IComponentConnector
 		}
 		else if (sessionTimer.Elapsed.TotalSeconds >= (double)sessionLength)
 		{
-			if (getTFlag("petPlay"))
-			{
-				currentScript = new PetPlayOff(this);
-			}
-			else if (!isSettingEnabled("wearingChastity"))
-			{
-				currentScript = new Ending(this);
-			}
-			else
-			{
-				currentScript = new ChastitySessionEnd(this);
-			}
+			SelectSessionEndingScript();
 		}
 		else
 		{
 			methodPicker();
+		}
+	}
+
+	private bool IsSessionEndingScriptActive()
+	{
+		return currentScript is Ending || currentScript is ChastitySessionEnd || currentScript is PetPlayOff;
+	}
+
+	private void SelectSessionEndingScript()
+	{
+		SessionTraceLogger.Info("session", "session time expired elapsed=" + sessionTimer.Elapsed.TotalSeconds + " target=" + sessionLength + " currentScript=" + currentScript?.GetType().Name);
+		if (getTFlag("petPlay"))
+		{
+			currentScript = new PetPlayOff(this);
+		}
+		else if (!isSettingEnabled("wearingChastity"))
+		{
+			currentScript = new Ending(this);
+		}
+		else
+		{
+			currentScript = new ChastitySessionEnd(this);
 		}
 	}
 
