@@ -10,9 +10,12 @@ $ErrorActionPreference = 'Stop'
 $repoRoot = Resolve-Path (Join-Path $PSScriptRoot '..\..')
 $projectPath = Join-Path $repoRoot 'src\OpenEdge\OpenEdge.csproj'
 $artifactsRoot = Join-Path $repoRoot 'artifacts'
-$publishRoot = Join-Path $artifactsRoot 'publish\OpenEdge'
-$stageRoot = Join-Path $artifactsRoot 'release\OpenEdge'
-$zipPath = Join-Path $artifactsRoot ("OpenEdge-$Version-win-x86.zip")
+$releaseName = "OpenEdge-$Version-win-x86"
+$releaseRoot = Join-Path $artifactsRoot ("releases\$releaseName")
+$workRoot = Join-Path $releaseRoot '.work'
+$publishRoot = Join-Path $workRoot 'publish'
+$stageRoot = Join-Path $workRoot 'package\OpenEdge'
+$zipPath = Join-Path $releaseRoot ("$releaseName.zip")
 
 $forbiddenRelativePaths = @(
     'options.txt',
@@ -64,12 +67,9 @@ function Copy-IfExists([string]$Source, [string]$Destination) {
 
 Write-Host "Packaging OpenEdge $Version ($Configuration)..."
 Write-Host "Repository: $repoRoot"
+Write-Host "Release folder: $releaseRoot"
 
-Remove-IfExists $publishRoot
-Remove-IfExists $stageRoot
-if (Test-Path $zipPath) {
-    Remove-Item -Path $zipPath -Force
-}
+Remove-IfExists $releaseRoot
 New-Item -ItemType Directory -Path $publishRoot | Out-Null
 New-Item -ItemType Directory -Path $stageRoot | Out-Null
 
@@ -98,6 +98,8 @@ Assert-NoForbiddenPayload $stageRoot
 Write-Host "Creating zip..."
 Compress-Archive -Path (Join-Path $stageRoot '*') -DestinationPath $zipPath -Force
 
+Remove-IfExists $workRoot
+
 Write-Host "Release package created: $zipPath"
-Write-Host "Contents are staged at: $stageRoot"
+Write-Host "Temporary publish/package files were removed."
 Write-Host "User data is intentionally excluded. Users can extract this zip over an existing OpenEdge folder to update."

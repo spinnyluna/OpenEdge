@@ -122,10 +122,10 @@ Create a release zip from a clean, allowlisted payload with:
 powershell -ExecutionPolicy Bypass -File docs/release/package-release.ps1 -Version 0.1.0
 ```
 
-The script publishes the app, stages only release-safe files, blocks user-state files, and writes:
+The script publishes the app, stages only release-safe files, blocks user-state files, and leaves only the final zip in the versioned release folder:
 
 ```text
-artifacts/OpenEdge-<version>-win-x86.zip
+artifacts/releases/OpenEdge-<version>-win-x86/OpenEdge-<version>-win-x86.zip
 ```
 
 Release zips intentionally exclude user data such as `options.txt`, `tasks.txt`, `flags/`, `media-sources.json`, and `media-tag-index.json`.
