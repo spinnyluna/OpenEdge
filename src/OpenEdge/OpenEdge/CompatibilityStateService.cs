@@ -148,15 +148,22 @@ public sealed class CompatibilityStateService
 			{
 				CreateBackupSnapshot();
 			}
+			List<string> exportWarnings = new List<string>();
 			CompatibilityTransferPackage compatibilityTransferPackage = new CompatibilityTransferPackage
 			{
-				PersistentEntries = new Dictionary<string, string>(state.PersistentEntries, StringComparer.OrdinalIgnoreCase),
-				OptionsContent = ReadOptionalText(RuntimePaths.OptionsFile),
-				TaskLines = ReadOptionalLines(RuntimePaths.TasksFile),
-				LegacyTagLines = ReadOptionalLines(RuntimePaths.TagsFile),
-				MediaSources = ReadOptionalJson<List<MediaSourceDefinition>>(sourcesFilePath) ?? new List<MediaSourceDefinition>(),
-				MediaIdentityStore = ReadOptionalJson<MediaIdentityStore>(identityFilePath) ?? new MediaIdentityStore()
+				PersistentEntries = CopyPersistentEntriesIgnoreCase(state.PersistentEntries),
+				OptionsContent = ReadOptionalText(RuntimePaths.OptionsFile, exportWarnings),
+				TaskLines = ReadOptionalLines(RuntimePaths.TasksFile, exportWarnings),
+				LegacyTagLines = ReadOptionalLines(RuntimePaths.TagsFile, exportWarnings),
+				MediaSources = ReadOptionalJson<List<MediaSourceDefinition>>(sourcesFilePath, exportWarnings) ?? new List<MediaSourceDefinition>(),
+				MediaIdentityStore = ReadOptionalJson<MediaIdentityStore>(identityFilePath, exportWarnings) ?? new MediaIdentityStore(),
+				ExportWarnings = exportWarnings
 			};
+			string directoryName = Path.GetDirectoryName(filePath);
+			if (!string.IsNullOrWhiteSpace(directoryName))
+			{
+				Directory.CreateDirectory(directoryName);
+			}
 			File.WriteAllText(filePath, JsonSerializer.Serialize(compatibilityTransferPackage, jsonOptions));
 		}
 	}
@@ -180,7 +187,7 @@ public sealed class CompatibilityStateService
 				SchemaVersion = compatibilityTransferPackage.SchemaVersion,
 				CreatedAtUtc = DateTime.UtcNow,
 				LastLegacyImportUtc = DateTime.UtcNow,
-				PersistentEntries = new Dictionary<string, string>(compatibilityTransferPackage.PersistentEntries ?? new Dictionary<string, string>(), StringComparer.OrdinalIgnoreCase)
+				PersistentEntries = CopyPersistentEntriesIgnoreCase(compatibilityTransferPackage.PersistentEntries)
 			};
 			SaveStateToDisk();
 			MirrorPersistentEntriesToLegacyFiles();
@@ -279,7 +286,12 @@ public sealed class CompatibilityStateService
 		{
 			return null;
 		}
-		return JsonSerializer.Deserialize<CompatibilityStateStore>(File.ReadAllText(stateFilePath));
+		CompatibilityStateStore loadedState = JsonSerializer.Deserialize<CompatibilityStateStore>(File.ReadAllText(stateFilePath));
+		if (loadedState != null)
+		{
+			loadedState.PersistentEntries = CopyPersistentEntriesIgnoreCase(loadedState.PersistentEntries);
+		}
+		return loadedState;
 	}
 
 	private CompatibilityStateStore BuildStateFromLegacyFiles()
@@ -317,7 +329,22 @@ public sealed class CompatibilityStateService
 
 	private void SaveStateToDisk()
 	{
+		state.PersistentEntries = CopyPersistentEntriesIgnoreCase(state.PersistentEntries);
 		File.WriteAllText(stateFilePath, JsonSerializer.Serialize(state, jsonOptions));
+	}
+
+	private static Dictionary<string, string> CopyPersistentEntriesIgnoreCase(IDictionary<string, string> source)
+	{
+		Dictionary<string, string> result = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+		if (source == null)
+		{
+			return result;
+		}
+		foreach (KeyValuePair<string, string> entry in source)
+		{
+			result[entry.Key] = entry.Value ?? "";
+		}
+		return result;
 	}
 
 	private void CreateBackupSnapshot()
@@ -366,31 +393,62 @@ public sealed class CompatibilityStateService
 		return false;
 	}
 
-	private static string ReadOptionalText(string path)
+	private static string ReadOptionalText(string path, List<string> warnings = null)
 	{
-		if (File.Exists(path))
+		if (!File.Exists(path))
 		{
-			return File.ReadAllText(path);
+			return "";
 		}
-		return "";
+		try
+		{
+			return ReadAllTextShared(path);
+		}
+		catch (Exception ex)
+		{
+			warnings?.Add("Skipped " + Path.GetFileName(path) + ": " + ex.Message);
+			return "";
+		}
 	}
 
-	private static string[] ReadOptionalLines(string path)
+	private static string[] ReadOptionalLines(string path, List<string> warnings = null)
 	{
-		if (File.Exists(path))
+		if (!File.Exists(path))
 		{
-			return File.ReadAllLines(path);
+			return Array.Empty<string>();
 		}
-		return Array.Empty<string>();
+		try
+		{
+			return ReadAllTextShared(path).Split(new[] { "\r\n", "\n" }, StringSplitOptions.None);
+		}
+		catch (Exception ex)
+		{
+			warnings?.Add("Skipped " + Path.GetFileName(path) + ": " + ex.Message);
+			return Array.Empty<string>();
+		}
 	}
 
-	private T ReadOptionalJson<T>(string path) where T : class
+	private T ReadOptionalJson<T>(string path, List<string> warnings = null) where T : class
 	{
 		if (!File.Exists(path))
 		{
 			return null;
 		}
-		return JsonSerializer.Deserialize<T>(File.ReadAllText(path));
+		try
+		{
+			return JsonSerializer.Deserialize<T>(ReadAllTextShared(path));
+		}
+		catch (Exception ex)
+		{
+			warnings?.Add("Skipped " + Path.GetFileName(path) + ": " + ex.Message);
+			return null;
+		}
+	}
+
+	private static string ReadAllTextShared(string path)
+	{
+		using FileStream fileStream = File.Open(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite | FileShare.Delete);
+		using StreamReader reader = new StreamReader(fileStream, Encoding.UTF8, detectEncodingFromByteOrderMarks: true);
+		return reader.ReadToEnd();
 	}
 
 	private void WriteOptionalJson<T>(string path, T value) where T : class

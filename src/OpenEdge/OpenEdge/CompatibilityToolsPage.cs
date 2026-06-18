@@ -153,9 +153,18 @@ public partial class CompatibilityToolsPage : Page, IComponentConnector
 		};
 		if (saveFileDialog.ShowDialog() == true)
 		{
-			compatibilityStateService.ExportTransferPackage(saveFileDialog.FileName, createBackup: false);
-			RefreshSummary();
-			MessageBox.Show("User data exported successfully.", "OpenEdge", MessageBoxButton.OK, MessageBoxImage.Information);
+			try
+			{
+				compatibilityStateService.ExportTransferPackage(saveFileDialog.FileName, createBackup: false);
+				RefreshSummary();
+				SessionTraceLogger.Info("compatibility-export", "user data exported path=" + saveFileDialog.FileName);
+				MessageBox.Show("User data exported successfully.\n\n" + saveFileDialog.FileName, "OpenEdge", MessageBoxButton.OK, MessageBoxImage.Information);
+			}
+			catch (Exception ex)
+			{
+				SessionTraceLogger.Error("compatibility-export", "user data export failed path=" + saveFileDialog.FileName, ex);
+				MessageBox.Show("User data export failed:\n" + ex.Message, "OpenEdge", MessageBoxButton.OK, MessageBoxImage.Error);
+			}
 		}
 	}
 
